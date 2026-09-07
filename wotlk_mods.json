@@ -1,0 +1,34 @@
+[
+  {
+    "id": "wow-optimize",
+    "type": "external-launcher",
+    "installation": "user_opt_in",
+    "name": "wow_optimize",
+    "description": "Engine-level optimization DLL for WoW 3.3.5a (allocator, Lua VM fast paths, file I/O, combat-log fix). Not for Warmane (ban risk); WoWCircle needs No Client Patches mode.",
+    "repo_url": "https://github.com/suprepupre/wow-optimize",
+    "source": {
+      "kind": "github_release",
+      "owner": "suprepupre",
+      "repo": "wow-optimize",
+      "asset_pattern": "Release.zip",
+      "prefer_no": null,
+      "extract_map": {
+        "version.dll": "version.dll",
+        "wow_optimize.dll": "wow_optimize.dll",
+        "wow_optimize_launcher.exe": "wow_optimize_launcher.exe"
+      }
+    },
+    "register_dll": [
+      "wow_optimize.dll"
+    ],
+    "installed_files": [
+      "version.dll",
+      "wow_optimize.dll",
+      "wow_optimize_launcher.exe"
+    ],
+    "executable": "wow_optimize_launcher.exe",
+    "clientVersions": [
+      "3.3.5a"
+    ]
+  }
+]
