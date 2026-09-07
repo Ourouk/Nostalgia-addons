@@ -1,0 +1,1648 @@
+[
+  {
+    "name": "Aegis-Courier",
+    "git": "https://github.com/Torchlite-bit/Aegis_Courier.git",
+    "branch": "main",
+    "description": "Mailbox companion for the ClassicAPI stack",
+    "id": "aegis-courier",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "Aegis-Exchange",
+    "git": "https://github.com/Torchlite-bit/Aegis_Exchange.git",
+    "branch": "main",
+    "description": "Auction House helper for the ClassicAPI stack",
+    "id": "aegis-exchange",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "Aegis-RallyPower",
+    "git": "https://github.com/Torchlite-bit/Aegis_RallyPower.git",
+    "branch": "main",
+    "description": "ClassicAPI-aware raid utility",
+    "id": "aegis-rallypower",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "Aegis-SingleButtonRotation",
+    "git": "https://github.com/Torchlite-bit/Aegis_SBR.git",
+    "branch": "main",
+    "description": "ClassicAPI-native single-button rotation addon",
+    "id": "aegis-singlebuttonrotation",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "AI_VoiceOver",
+    "owner": "Alukarho",
+    "git": "https://github.com/Alukarho/AI_VoiceOver.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "VoiceOver Turtle -|cFF00FF00mDarkneo|r",
+      "Notes": "Adds AI-generated voice acting to NPC quest and gossip dialogue",
+      "Version": "1.4.3",
+      "SavedVariables": "VoiceOverDB",
+      "X-Part-Of": "VoiceOver"
+    },
+    "description": "Adds AI-generated voice acting to NPC quest and gossip dialogue",
+    "lastUpdated": "2025-04-15T02:14:32Z",
+    "stars": 1,
+    "id": "ai-voiceover"
+  },
+  {
+    "name": "ArcHUD2",
+    "owner": "McPewPew",
+    "git": "https://github.com/McPewPew/ArcHUD2.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "ArcHUD |cff7fff7f -Ace2-|r",
+      "Notes": "Combat HUD showing health and power as arcs around your character",
+      "Author": "Uruloke",
+      "SavedVariables": "ArcHUDDB",
+      "Version": "2.0",
+      "X-Date": "$Date: 2006-09-16 08:32:57 -0400 (Sat, 16 Sep 2006) $",
+      "X-Category": "Interface Enhancements",
+      "X-RelSite-Curse": "3153",
+      "X-RelSite-UI.WoW": "1950",
+      "X-AceForum": "1896",
+      "OptionalDeps": "Ace2, FuBar, FuBarPlugin-2.0, CompostLib, DewDropLib, MetrognomeLib, TabletLib",
+      "X-Embeds": "Ace2, FuBarPlugin-2.0, CompostLib, DewDropLib, MetrognomeLib, TabletLib"
+    },
+    "description": "Combat HUD showing health and power as arcs around your character",
+    "lastUpdated": "2025-11-18T05:34:38Z",
+    "stars": 3,
+    "id": "archud2"
+  },
+  {
+    "name": "Atlas-CFM",
+    "owner": "byCFM2",
+    "git": "https://github.com/byCFM2/Atlas-TW.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Atlas-CFM",
+      "Notes": "instance map browser; shows possible boss loot and instance quests.",
+      "Notes-deDE": "Instanzkarten-Browser; zeigt die mögliche Beute der Bosse und die Quests der Instanz.",
+      "Notes-esES": "navegador de mapas de mazmorras; muestra el botín posible de los jefes y las misiones de la mazmorra.",
+      "Notes-ptBR": "navegador de mapas de masmorras; mostra o saque possível dos chefes e as missões da masmorra.",
+      "Notes-zhCN": "副本地图浏览器; 显示首领可能掉落的战利品以及该副本的任务。",
+      "Version": "1.60",
+      "Author": "CFM, etc",
+      "SavedVariables": "AtlasCFMOptions",
+      "SavedVariablesPerCharacter": "AtlasCFMCharDB",
+      "OptionalDeps": "EquipCompare, EQCompare, pfQuest, pfUI"
+    },
+    "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
+    "lastUpdated": "2026-05-19T21:01:10Z",
+    "stars": 29,
+    "id": "atlas-cfm"
+  },
+  {
+    "name": "AtlasLoot",
+    "owner": "shaga",
+    "git": "https://octowow.st/git/shaga/AtlasLoot.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "AtlasLoot |cff7fff7f TurtleWOW|r",
+      "Notes": "Loot browser for every dungeon and raid, including the custom OctoWoW instances (Windhorn Canyon, Dragonmaw Retreat, and more)",
+      "Author": "Otari (overhaul/revamp, menu changes, bugfixes/updates), Lexie (Turtle WoW fixes/updates), Pepopo, MarcelineVQ (Kara40 loot), Shagu",
+      "LegacyAuthor": "Daviesh, Pompa (Turtle WoW World Bosses), Xerron (Turtle WoW World Bosses), Gurky (Turtle WoW 1.16/1.16.1 Dungeons)",
+      "Version": "3.4.6",
+      "SavedVariablesPerCharacter": "AtlasLootCharDB",
+      "OptionalDeps": "Alphamap, AtlasLoader, LootLink, ItemSync, HewdropLib, Ace2, EquipCompare, EQCompare"
+    },
+    "description": "Loot browser for every dungeon and raid, including the custom OctoWoW instances (Windhorn Canyon, Dragonmaw Retreat, and more)",
+    "id": "atlasloot"
+  },
+  {
+    "name": "AttackBar",
+    "owner": "Siventt",
+    "git": "https://github.com/Siventt/AttackBar.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "AttackBar |cff7fff7f TurtleWOW|r",
+      "Version": "5.0.7",
+      "Author": "Sivent",
+      "LegacyAuthor": "Udokus",
+      "X-Credits": "Roablock for cleanup",
+      "Notes": "Displays a progress bar for autoattacks",
+      "SavedVariables": "AttackBarDB"
+    },
+    "id": "attackbar"
+  },
+  {
+    "name": "AuldLangSyne",
+    "owner": "Road-block",
+    "git": "https://github.com/Road-block/AuldLangSyne.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "AuldLangSyne |cff7fff7f -Ace2-|r",
+      "Notes": "Adds personal notes to friends, ignore, and guild lists, remembered while offline",
+      "Notes-esES": "Te permite anyadir notas personalizadas en tu lista de amigos.",
+      "Version": "1.1.20556",
+      "Author": "Kemayo",
+      "X-Website": "https://github.com/Road-block/Select_AddOns",
+      "X-Category": "Interface Enhancements",
+      "X-Date": "$Date: 2018-06-04 12:21:01 -0500 (Mon, 04 Jun 2018) $",
+      "X-Credits": "Roadblock: Fubar and minor fixes for private servers.",
+      "OptionalDeps": "Ace2, Babble-2.2, FuBar, FuBarPlugin-2.0, Deformat, TabletLib, DewdropLib",
+      "SavedVariables": "AuldLangSyneDB"
+    },
+    "description": "Adds personal notes to friends, ignore, and guild lists, remembered while offline",
+    "lastUpdated": "2018-06-04T18:53:19Z",
+    "stars": 4,
+    "id": "auldlangsyne"
+  },
+  {
+    "name": "AutoLFM",
+    "owner": "FSuhas",
+    "git": "https://github.com/FSuhas/AutoLFM.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Auto|cff0070ddL|r|cffffffffF|cffff0000M|r",
+      "Notes": "Automated \"Looking For More\" broadcaster for Turtle WoW dungeons and raids",
+      "Author": "Gondoleon, NSO73",
+      "SavedVariables": "V3_Settings, V3_Presets",
+      "OptionalDeps": "pfQuest, ShaguTweaks",
+      "Version": "3.15"
+    },
+    "description": "Automated \"Looking For More\" broadcaster for Turtle WoW dungeons and raids",
+    "lastUpdated": "2026-04-09T00:35:17Z",
+    "stars": 6,
+    "id": "autolfm"
+  },
+  {
+    "name": "aux-addon",
+    "owner": "shirsig",
+    "git": "https://github.com/shirsig/aux-addon-vanilla.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Author": "shirsig",
+      "OptionalDeps": "ShaguTweaks",
+      "Title": "aux",
+      "Notes": "Auction House replacement with advanced filtering and search",
+      "SavedVariables": "aux"
+    },
+    "description": "Auction House replacement with advanced filtering and search",
+    "lastUpdated": "2023-12-21T09:10:04Z",
+    "stars": 40,
+    "id": "aux-addon"
+  },
+  {
+    "name": "Bagshui",
+    "owner": "absir",
+    "git": "https://github.com/absir/Bagshui.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Bagshui",
+      "Notes": "All-in-one autosorting inventory",
+      "Author": "veechs",
+      "Version": "1.0.5",
+      "OptionalDeps": "AtlasLoot, ItemRack, Outfitter, pfUI",
+      "SavedVariables": "BagshuiData"
+    },
+    "description": "All-in-one auto-categorizing and sorting inventory addon with customizable layout and rules for Vanilla WoW 1.12 (and Turtle WoW)",
+    "lastUpdated": "2025-01-01T04:38:06Z",
+    "stars": 4,
+    "id": "bagshui"
+  },
+  {
+    "name": "BetterCharacterStats",
+    "owner": "pepopo978",
+    "git": "https://github.com/pepopo978/BetterCharacterStats.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "BetterCharacterStats 1.15.3",
+      "Author": "moh, Bennylava, Lexie, Spit, Pepopo, MarcelineVQ",
+      "Version": "1.15.3",
+      "Notes": "Improved character statistics inside Character Info panel.",
+      "SavedVariablesPerCharacter": "BCSConfig"
+    },
+    "description": "More useful character statistics AddOn for World of Warcraft 1.12",
+    "lastUpdated": "2026-03-26T15:40:20Z",
+    "stars": 25,
+    "id": "bettercharacterstats"
+  },
+  {
+    "name": "BigWigs",
+    "owner": "pepopo978",
+    "git": "https://github.com/pepopo978/BigWigs.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "X-Revision": "30139",
+      "X-Fork": "Pepo",
+      "Title": "|cFFFF8080Pepopo|r Big Wigs |cff7fff7f30139|r |cffabd473Turtle-WoW|r",
+      "Title-zhCN": "|cffabd473Turtle-WoW|r Big Wigs",
+      "Notes": "Boss Mods with Timer bars.",
+      "Notes-esES": "Módulos para Jefes con barras temporizadoras.",
+      "Notes-zhCN": "团队首领战信息提示插件，带有计时条。",
+      "Notes-zhTW": "團隊首領戰訊息提示插件，帶有計時條。",
+      "Author": "Relar, Balake, Pepopo, Bethy, Tekkub Stoutwrithe, Ammo, Shyva, Rabbit, LYQ, Dorann, Hosq & Others",
+      "Version": "2.0.0",
+      "X-Website": "https://github.com/pepopo978/BigWigs/",
+      "X-Category": "Raid",
+      "X-RelSite-WoWI": "5086",
+      "X-RelSite-Curse": "4356",
+      "X-AceForum": "1222",
+      "X-FlySpray": "1",
+      "OptionalDeps": "Ace2, FuBar, FuBarPlugin-2.0, Babble-2.2, CandyBar, CompostLib, DewdropLib, PaintChipsLib, TabletLib, SurfaceLib, Surfaces, MikScrollingBattleText, sct, SpellStatusLib, SpellCacheLib, GratuityLib, Deformat, SpecialEventsEmbed, RosterLib",
+      "X-Embeds": "Ace2, FuBarPlugin-2.0, Babble-2.2, CandyBar, CompostLib, DewdropLib, PaintChipsLib, TabletLib, SurfaceLib",
+      "SavedVariables": "BigWigsDB, BigWigsFubarDB, BigWigsCommonAurasDB, BigWigsZombieFoodDB, BigWigsRespawnTimersDB, BigWigsContributeFlag",
+      "SavedVariablesPerCharacter": "BigWigsDBPerChar, BigWigsBarClick"
+    },
+    "description": "additions by balake/relar/pepopo",
+    "lastUpdated": "2026-04-17T05:49:56Z",
+    "stars": 23,
+    "id": "bigwigs"
+  },
+  {
+    "name": "BitesCookBook",
+    "owner": "DBFBlackbull",
+    "git": "https://github.com/DBFBlackbull/BitesCookBook.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Bites",
+      "Notes": "Tracks which items are used in cooking and what they create",
+      "Version": "1.0",
+      "Description": "Shows which items are used in cooking and what they are used for.",
+      "DefaultState": "enabled",
+      "SavedVariablesPerCharacter": "BitesCookBook_SavedVariables"
+    },
+    "description": "Tracks which items are used in cooking and what they create",
+    "lastUpdated": "2026-01-17T10:53:37Z",
+    "stars": 0,
+    "id": "bitescookbook"
+  },
+  {
+    "name": "BlizzPlates",
+    "owner": "brotalnia",
+    "git": "https://github.com/brotalnia/BlizzPlates.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff135cd3Blizzard|cffffffffPlates",
+      "Author": "Shagu, brotalnia",
+      "Notes": "Adds castbars, debuffs, and class icons to the default Blizzard nameplates",
+      "Version": "3.0",
+      "SavedVariables": "pfNameplates_config"
+    },
+    "description": "Adds castbars, debuffs, and class icons to the default Blizzard nameplates",
+    "lastUpdated": "2018-07-13T12:19:27Z",
+    "stars": 21,
+    "id": "blizzplates"
+  },
+  {
+    "name": "CallOfElements",
+    "owner": "MDGitHubRepo",
+    "git": "https://github.com/MDGitHubRepo/CallOfElements.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Call Of Elements",
+      "Notes": "All-in-one Shaman totem bar and totem/healing manager",
+      "OptionalDeps": "",
+      "Dependencies": "Chronos",
+      "SavedVariables": "COE_Saved",
+      "SavedVariablesPerCharacter": "COE_SavedTotemSets, COE_CustomTotemSets, COE_DisplayedTotems, COE_TotemBars"
+    },
+    "description": "All-in-one Shaman totem bar and totem/healing manager",
+    "lastUpdated": "2025-01-02T15:18:18Z",
+    "stars": 3,
+    "id": "callofelements"
+  },
+  {
+    "name": "ClassicAPI",
+    "git": "https://github.com/brues-code/ClassicAPI.git",
+    "branch": "main",
+    "description": "Client DLL adding modern Blizzard Lua APIs to WoW 1.12.1",
+    "id": "classicapi",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "CleveRoidMacros",
+    "git": "https://github.com/brues-code/SuperCleveRoidMacros.git",
+    "branch": "main",
+    "description": "ClassicAPI/Nampower/UnitXP enhanced macro system",
+    "id": "cleveroidmacros",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "ConsumesManager",
+    "owner": "Cinecom",
+    "git": "https://github.com/Cinecom/ConsumesManager.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff00ff00Consumes Manager|r |cff808080[Horyoshi]|r",
+      "Notes": "Tracks consumables and food buffs across alts, bank, and mail",
+      "Author": "Horyoshi",
+      "Version": "2.2.0",
+      "SavedVariables": "ConsumesManager_Options, ConsumesManager_SelectedItems, ConsumesManager_Data, ConsumesManager_Presets"
+    },
+    "description": "Tracks consumables and food buffs across alts, bank, and mail",
+    "lastUpdated": "2026-03-15T16:13:57Z",
+    "stars": 12,
+    "id": "consumesmanager"
+  },
+  {
+    "name": "Cursive-Raid",
+    "owner": "Kirchlive",
+    "git": "https://github.com/Kirchlive/cursive-raid.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Cursive Raid v4.1.4",
+      "Title-zhCN": "Cursive Raid v4.1.4",
+      "Author": "Kirchlive, Teto",
+      "Notes": "Raid debuff tracker with profiles and multi-curse assist (SuperWoW)",
+      "Version": "4.1.4",
+      "SavedVariablesPerCharacter": "CursiveDB",
+      "SavedVariables": "CursiveProfiles",
+      "X-Embeds": "Ace2, FuBarPlugin-2.0, CompostLib, DewDropLib, TabletLib"
+    },
+    "description": "Raid debuff tracker with profiles and multi-curse assist (SuperWoW)",
+    "lastUpdated": "2026-04-17T20:25:18Z",
+    "stars": 5,
+    "id": "cursive-raid"
+  },
+  {
+    "name": "Decursive",
+    "owner": "Zerf",
+    "git": "https://github.com/Zerf/Decursive.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Decursive 1.9.8.3.1",
+      "DefaultState": "enabled",
+      "Notes": "Raid/party debuff-cleaning helper that dispels whoever needs it",
+      "SavedVariablesPerCharacter": "Dcr_Saved, DCR_REMOTE_DEBUG",
+      "Author": "Archarodim (Originally coded by Quu)",
+      "eMail": "Archarodim _(AT)_ Teaser _(DOT)_ FR",
+      "URL": "http://www.2072productions.com/?to=decursive.php"
+    },
+    "description": "Raid/party debuff-cleaning helper that dispels whoever needs it",
+    "lastUpdated": "2017-11-12T21:44:57Z",
+    "stars": 15,
+    "id": "decursive"
+  },
+  {
+    "name": "DifficultBulletinBoard",
+    "owner": "DeterminedPanda",
+    "git": "https://github.com/DeterminedPanda/DifficultBulletinBoard.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cffaaa7ccDifficult|cffffffffBulletinBoard",
+      "Author": "akzkak, DeterminedPanda",
+      "Notes": "Organizes LFG, profession, and hardcore chat announcements into a bulletin board",
+      "Version": "3.00",
+      "SavedVariablesPerCharacter": "DBB2_Config"
+    },
+    "description": "Organizes LFG, profession, and hardcore chat announcements into a bulletin board",
+    "lastUpdated": "2026-08-25T17:05:44Z",
+    "stars": 21,
+    "id": "difficultbulletinboard"
+  },
+  {
+    "name": "DoiteAuras",
+    "owner": "Player-Doite",
+    "git": "https://github.com/Player-Doite/DoiteAuras.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff6FA8DC[DoiteAuras]|r",
+      "Notes": "WeakAuras-light addon for vanilla by Doite.",
+      "Author": "Doite",
+      "Version": "1.8.7",
+      "SavedVariablesPerCharacter": "DoiteAurasDB"
+    },
+    "description": "Ability, buff, debuff & item tracker for Vanilla WoW.",
+    "lastUpdated": "2026-04-18T11:31:57Z",
+    "stars": 47,
+    "id": "doiteauras"
+  },
+  {
+    "name": "DragonflightUI-Reforged",
+    "owner": "Stormhand-dev",
+    "git": "https://github.com/Stormhand-dev/DragonflightUI-Reforged.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Dragonflight UI |cFFFF0000Reforged|r",
+      "Notes": "Dragonflight UI for Turtle WoW",
+      "Version": "1.3.5",
+      "Author": "Guzruul - Reforged by Stormhand",
+      "SavedVariables": "DFRL_PROFILES, DFRL_DB_SETUP",
+      "SavedVariablesPerCharacter": "DFRL_CUR_PROFILE, DFRL_FRAMEPOS"
+    },
+    "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
+    "lastUpdated": "2026-04-25T01:11:18Z",
+    "stars": 20,
+    "id": "dragonflightui-reforged"
+  },
+  {
+    "name": "ExtraResourceBars",
+    "owner": "Fiurs-Hearth",
+    "git": "https://github.com/Fiurs-Hearth/ExtraResourceBars.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Extra Resource Bars",
+      "Notes": "Adds extra resource bars (mana, energy, rage) to the UI",
+      "SavedVariablesPerCharacter": "ERB_options",
+      "LoadOnDemand": "0",
+      "Author": "Fiur#8658"
+    },
+    "description": "Adds extra resource bars (mana, energy, rage) to the UI",
+    "lastUpdated": "2025-05-13T21:35:21Z",
+    "stars": 7,
+    "id": "extraresourcebars"
+  },
+  {
+    "name": "FishingBuddy",
+    "owner": "SeVeN7000",
+    "git": "https://github.com/SeVeN7000/FishingBuddy.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Fishing Buddy",
+      "Version": "0.8.8e",
+      "Notes": "Auto-equips fishing gear and tracks catches, fish, and zone info",
+      "Notes-ruRU": "Отслеживает какую рыбу и где вы поймали и помогает управлять вашим рыболовским снарежением.",
+      "Notes-deDE": "Erleichtert das Angeln - Ausr\\195\\188stung und Fish-Infos",
+      "Notes-frFR": "Vous facilite la vie de pecheur. Informations sur les poissons, changement d'habits, etc.",
+      "Notes-esES": "Ayude con las tareas relacionadas pesca -- ropa, informaci\\195\\179n de los pescados",
+      "Author": "Sutorix=AT=hotmail.com",
+      "OptionalDeps": "FBEnEspagnol, OutfitDisplayFrame, Outfitter, myAddOns, FuBar, Titan, InfoBar, Gatherer, FuBar, ButtonHole",
+      "SavedVariables": "FishingBuddy_Info",
+      "SavedVariablesPerCharacter": "FishingBuddy_Player"
+    },
+    "description": "Auto-equips fishing gear and tracks catches, fish, and zone info",
+    "lastUpdated": "2023-04-07T02:07:19Z",
+    "stars": 3,
+    "id": "fishingbuddy"
+  },
+  {
+    "name": "FlightTracker",
+    "owner": "tilare",
+    "git": "https://github.com/tilare/FlightTracker.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cffffcc00Flight|cffffffffTracker",
+      "Notes": "Tracks flight path times and flying-related statistics",
+      "Author": "tilr",
+      "Version": "1.3",
+      "SavedVariables": "FlightTrackerDB"
+    },
+    "description": "Flight timer addon for 1.12.1",
+    "lastUpdated": "2026-03-25T06:26:15Z",
+    "stars": 11,
+    "id": "flighttracker"
+  },
+  {
+    "name": "Flyout",
+    "owner": "lookino",
+    "git": "https://github.com/lookino/Flyout.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Flyout |cff808080by lookino",
+      "Author": "lookino",
+      "Notes": "Allows the player to create a flyout action bar button.",
+      "Version": "1.1.6",
+      "SavedVariablesPerCharacter": "Flyout_Config",
+      "OptionalDeps": "SuperMacro"
+    },
+    "description": "Flyout is a legacy World of Warcraft add-on that allows players to create an expandable action button.",
+    "lastUpdated": "2026-03-26T19:34:03Z",
+    "stars": 5,
+    "id": "flyout"
+  },
+  {
+    "name": "GetHead",
+    "owner": "trumpetx",
+    "git": "https://github.com/trumpetx/GetHead.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Get Head",
+      "Author": "|c013220ffTrumpetX|r",
+      "Version": "1.0.0",
+      "Notes": "Recovers Onyxia and Nefarian heads from disenchant grief",
+      "SavedVariables": "GetHeadLogoutDisabled GetHeadBroadcastDisabled"
+    },
+    "description": "Recovers Onyxia and Nefarian heads from disenchant grief",
+    "lastUpdated": "2024-10-13T19:17:18Z",
+    "stars": 0,
+    "id": "gethead"
+  },
+  {
+    "name": "GNS",
+    "owner": "zanthor",
+    "git": "https://github.com/zanthor/GNS.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "GNS - Goblin Naming System",
+      "Notes": "Custom naming for Goblin Brainwashing Device specializations",
+      "Author": "Tankmedady",
+      "Version": "1.1",
+      "SavedVariables": "GNS_SpecNames"
+    },
+    "description": "Custom naming for Goblin Brainwashing Device specializations",
+    "lastUpdated": "2025-12-09T19:53:05Z",
+    "stars": 0,
+    "id": "gns"
+  },
+  {
+    "name": "GreedMeter",
+    "git": "https://github.com/iGreed1993/GreedMeter.git",
+    "branch": "main",
+    "description": "GUID-based damage and threat meter using SuperWoW raw combat log",
+    "id": "greedmeter"
+  },
+  {
+    "name": "Guda",
+    "owner": "vatichild",
+    "git": "https://github.com/vatichild/guda.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Guda",
+      "Notes": "All-in-one bag and bank addon for World of Warcraft 1.12.1 (Turtle WoW)",
+      "Author": "Vati",
+      "Version": "2.3.2",
+      "SavedVariables": "Guda_DB",
+      "SavedVariablesPerCharacter": "Guda_CharDB",
+      "OptionalDeps": "pfUI"
+    },
+    "lastUpdated": "2026-08-24T08:00:15Z",
+    "stars": 25,
+    "id": "guda"
+  },
+  {
+    "name": "GudaPlates",
+    "owner": "vatichild",
+    "git": "https://github.com/vatichild/GudaPlates.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "GudaPlates",
+      "Notes": "Nameplates addon for World of Warcraft 1.12.1 (Turtle WoW)",
+      "Author": "Vati",
+      "Version": "1.3.5",
+      "SavedVariables": "GudaPlatesDB"
+    },
+    "lastUpdated": "2026-04-17T22:52:19Z",
+    "stars": 18,
+    "id": "gudaplates"
+  },
+  {
+    "name": "HCDeaths",
+    "owner": "andresuarezschou",
+    "git": "https://github.com/andresuarezschou/HCDeaths.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "HCDeaths",
+      "Author": "Grylls",
+      "Notes": "Displays and logs hardcore deaths",
+      "Version": "GIT",
+      "SavedVariables": "HCDeaths_Settings, HCDeaths, HCDeaths_LastWords"
+    },
+    "description": "Hardcore Death Logging Addon for Turtle WoW",
+    "lastUpdated": "2025-10-17T20:17:17Z",
+    "stars": 0,
+    "id": "hcdeaths"
+  },
+  {
+    "name": "InstanceJournal",
+    "owner": "Arthur-Helias",
+    "git": "https://github.com/Arthur-Helias/InstanceJournal.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Instance Journal (|cffabd473TurtleWoW|r)",
+      "Title-deDE": "Instanzjournal (|cffabd473TurtleWoW|r)",
+      "Title-esES": "Diario de Instancia (|cffabd473TurtleWoW|r)",
+      "Title-frFR": "Journal d'Instance (|cffabd473TurtleWoW|r)",
+      "Title-ptBR": "Diário de Instância (|cffabd473TurtleWoW|r)",
+      "Title-ruRU": "Журнал Подземелий (|cffabd473TurtleWoW|r)",
+      "Title-zhCN": "|cFF33AAFF[辅助]|r副本手册 (|cffabd473TurtleWoW|r)",
+      "Version": "1.4.2",
+      "Author": "Walter Bennet",
+      "Notes": "Encounter Journal reimagined for Turtle WoW",
+      "Notes-deDE": "Eine Neuinterpretation des originalen Begegnungsjournals von World of Warcraft, entwickelt für |cffabd473TurtleWoW|r!",
+      "Notes-esES": "¡Una reimaginación del Diario de Encuentros original de World of Warcraft, creado para |cffabd473TurtleWoW|r!",
+      "Notes-frFR": "Une réimagination du Journal des Rencontres original de World of Warcraft, conçu pour |cffabd473TurtleWoW|r !",
+      "Notes-ptBR": "Uma reimaginação do Diário de Encontros original de World of Warcraft, criado para |cffabd473TurtleWoW|r!",
+      "Notes-ruRU": "Переосмысление оригинального Журнала встреч World of Warcraft, созданное для |cffabd473TurtleWoW|r!",
+      "Notes-zhCN": "对《魔兽世界》原版副本手册的重新制作，专为 |cffabd473TurtleWoW|r 打造！",
+      "SavedVariablesPerCharacter": "IJ_FirstTimeBindingDone IJ_CompletedQuestIds IJ_QuestHistoryQueried, IJ_SortingMode, IJ_FilterClass",
+      "X-URL": "https://github.com/Arthur-Helias/InstanceJournal"
+    },
+    "description": "Encounter Journal reimagined for Turtle WoW",
+    "lastUpdated": "2026-06-16T10:10:52Z",
+    "stars": 25,
+    "id": "instancejournal"
+  },
+  {
+    "name": "ItemRack",
+    "owner": "Einherjarn",
+    "git": "https://github.com/Einherjarn/ItemRack.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "ItemRack",
+      "Notes": "Item set manager with quick-swap menus for inventory",
+      "SavedVariables": "ItemRack_Users, ItemRack_Settings, ItemRack_Events, Rack_User",
+      "OptionalDeps": "IsMounted, ButtonHole"
+    },
+    "description": "Item set manager with quick-swap menus for inventory",
+    "lastUpdated": "2018-10-27T17:16:50Z",
+    "stars": 4,
+    "id": "itemrack"
+  },
+  {
+    "name": "_LazyPig",
+    "owner": "CosminPOP",
+    "git": "https://github.com/CosminPOP/_LazyPig.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "[|cff3fcf26K|r] LazyPig",
+      "Version": "5.32",
+      "Notes": "Auto-dismount, auto-accept, auto-roll, and chat spam filter. /lp to configure",
+      "Author": "Ogrisch and mrmr",
+      "SavedVariables": "LPCONFIG, LPMULTIBOX"
+    },
+    "description": "Auto-dismount, auto-accept, auto-roll, and chat spam filter. /lp to configure",
+    "lastUpdated": "2022-06-30T16:19:52Z",
+    "stars": 1,
+    "id": "lazypig"
+  },
+  {
+    "name": "LevelRange-Turtle",
+    "owner": "Spartelfant",
+    "git": "https://github.com/Spartelfant/LevelRange-Turtle.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "LevelRange [|cff3fcf26Turtle|r]",
+      "Version": "2.2.0",
+      "Author": "Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant.",
+      "Notes": "Shows the zone level range on the World Map. Now with 100% more turtles!",
+      "Notes-esES": "Muestra el rango de niveles de zona en el mapa mundial. ¡Ahora con un 100 % más de tortugas!",
+      "Notes-ptBR": "Mostra a faixa de níveis das zonas no Mapa Mundial. Agora com 100% mais tartarugas!",
+      "Notes-deDE": "Zeigt die Levelbereiche der Zonen auf der Weltkarte. Jetzt mit 100 % mehr Schildkröten!",
+      "Notes-zhCN": "在世界地图上显示区域等级范围。现在有 100% 更多的海龟!",
+      "Notes-ruRU": "Показывает диапазон уровней зон на карте мира. Теперь на 100% больше черепах!",
+      "Notes-frFR": "Shows the zone level range on the World Map. Now with 100% more turtles!",
+      "URL": "https://github.com/Spartelfant/LevelRange-Turtle",
+      "OptionalDeps": "myAddOns",
+      "SavedVariables": "LevelRangeSettings"
+    },
+    "description": "Shows the zone level range on the World Map. Now with 100% more turtles!",
+    "lastUpdated": "2025-09-12T19:21:32Z",
+    "stars": 20,
+    "id": "levelrange-turtle"
+  },
+  {
+    "name": "LifeSafer_LowHealthWarning",
+    "owner": "shaga",
+    "git": "https://octowow.st/git/shaga/LifeSafer_LowHealthWarning.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cFFB700B7Li|cFFFF00FFfe|cFFFF50FFSa|cFFFF99FFf|cFFFFC4FFe|cFFFFFFFFr|cFFFFC4FFLO|cFFFF99FFw|cFFFF50FFHea|cFFFF00FFlth |cFFB700B7Wa|cFFFFFFFFrn|cFF7FFF7Fing|r 🦇🦇",
+      "Author": "|cFF9482C9Silent|r ported and merged by tamara09🦇🦇",
+      "Version": "0.7a",
+      "Notes": "Low health and mana fullscreen flash warnings with heartbeat sound; re-enables the hidden Blizzard alert effect",
+      "SavedVariablesPerCharacter": "LifeSafer_LowHealth_Thresholds, LifeSafer_LowHealth_Enabled, LifeSafer_LowHealth_SoundCombatOnly, LifeSafer_LowHealth_HealthCombatOnly, LifeSafer_LowHealth_ManaCombatOnly, LifeSafer_LowHealth_SoundEnabled, LifeSafer_LowHealth_HealthEnabled, LifeSafer_LowHealth_ManaEnabled, LifeSafer_LowHealth_HealthSync, LifeSafer_LowHealth_ManaSync, LifeSafer_LowHealth_HealthEmote, LifeSafer_LowHealth_ManaEmote, LifeSafer_LowHealth_UseAltTextures, LifeSafer_Nightfall_Enabled, LifeSafer_Nightfall_ShardEnabled, LifeSafer_Nightfall_UseLargeEffect,"
+    },
+    "description": "Low health and mana fullscreen flash warnings with heartbeat sound; re-enables the hidden Blizzard alert effect",
+    "lastUpdated": "2026-06-29T04:38:25Z",
+    "stars": 1,
+    "id": "lifesafer-lowhealthwarning"
+  },
+  {
+    "name": "MessageBox",
+    "owner": "tilare",
+    "git": "https://github.com/tilare/MessageBox.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff3cb7f0Message|cffffffffBox",
+      "Author": "tilr",
+      "Version": "2.5",
+      "Notes": "A modern messenger-style addon replacement for the WoW whisper system.",
+      "SavedVariablesPerCharacter": "MessageBoxDB, MessageBoxSettings"
+    },
+    "description": "Stores and displays whisper conversation history",
+    "lastUpdated": "2026-03-27T04:26:53Z",
+    "stars": 11,
+    "id": "messagebox"
+  },
+  {
+    "name": "MikScrollingBattleText",
+    "git": "https://github.com/roby-brok/MikScrollingBattleText.git",
+    "branch": "octo",
+    "description": "OctoWoW build of MSBT with combat-log, parser, and icon-cache fixes",
+    "id": "mikscrollingbattletext"
+  },
+  {
+    "name": "ModernMapMarkers",
+    "owner": "tilare",
+    "git": "https://github.com/tilare/ModernMapMarkers.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff7fff7fModern|cffffffffMapMarkers",
+      "Author": "tilr & Heallios",
+      "Notes": "Shows dungeons, raids, world bosses, and travel routes on the world map",
+      "Version": "2.4",
+      "OptionalDeps": "pfUI, pfQuest, InstanceJournal",
+      "SavedVariables": "ModernMapMarkersDB"
+    },
+    "description": "Shows dungeons, raids, world bosses, and travel routes on the world map",
+    "lastUpdated": "2026-03-25T08:32:16Z",
+    "stars": 27,
+    "id": "modernmapmarkers"
+  },
+  {
+    "name": "ModernSpellBook",
+    "owner": "vegeta1k95",
+    "git": "https://github.com/vegeta1k95/ModernSpellBook.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Modern Spellbook",
+      "Notes": "Retail-style spellbook UI for vanilla",
+      "Notes-frFR": "Modifie le livre de sorts pour un look plus moderne inspiré de la version commerciale.",
+      "Notes-deDE": "Ändert das Zauberbuch zu einem moderneren Aussehen, inspiriert von der Einzelhandelsversion.",
+      "Notes-esES": "Cambia el libro de hechizos a un aspecto más moderno inspirado en la versión comercial.",
+      "Version": "1.5.4-TW",
+      "DefaultState": "enabled",
+      "SavedVariablesPerCharacter": "ModernSpellBook_DB"
+    },
+    "description": "Retail-style spellbook UI for vanilla",
+    "lastUpdated": "2026-04-01T10:42:40Z",
+    "stars": 11,
+    "id": "modernspellbook"
+  },
+  {
+    "name": "ModifiedPowerAuras",
+    "owner": "tdymel",
+    "git": "https://github.com/tdymel/ModifiedPowerAuras.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "MPOWA |cFFFF8080-Shino-|r",
+      "Title-deDE": "MPOWA |cFFFF8080-Shino-|r",
+      "Title-enGB": "MPOWA |cFFFF8080-Shino-|r",
+      "Notes": "Advanced version of Sinesther's Power Auras",
+      "Notes-ruRU": "Modified Power Auras - это расширенная версия оригинальных Power Auras от Sinesther.",
+      "Notes-deDE": "Modified Power Auras ist eine erweitetere Version von Power Auras von Sinesther.",
+      "Notes-enGB": "Modified Power Auras is an advanced version of the original Power Auras from Sinesther.",
+      "Author": "Shino <Synced> - Kronos",
+      "SavedVariables": "MPOWA_PROFILE",
+      "SavedVariablesPerCharacter": "MPOWA_SAVE",
+      "Version": "1.5"
+    },
+    "description": "Advanced version of Sinesther's Power Auras",
+    "lastUpdated": "2024-05-11T20:36:02Z",
+    "stars": 51,
+    "id": "modifiedpowerauras"
+  },
+  {
+    "name": "MovementTracker",
+    "owner": "tilare",
+    "git": "https://github.com/tilare/MovementTracker.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cFFFF8080Movement|cffffffffTracker",
+      "Author": "tilr",
+      "Notes": "Tracks time and distance spent running on foot and while mounted.",
+      "Version": "1.0",
+      "SavedVariablesPerCharacter": "MovementTracker_DB"
+    },
+    "description": "Tracks time and distance spent running on foot and while mounted.",
+    "lastUpdated": "2026-03-25T08:31:52Z",
+    "stars": 0,
+    "id": "movementtracker"
+  },
+  {
+    "name": "NampowerSettings",
+    "owner": "Dusk-92",
+    "git": "https://github.com/Dusk-92/NampowerSettings.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Nampower Settings",
+      "Notes": "Settings panel for the Nampower spellqueue addon",
+      "Title-zhCN": "|cFFEE7600[模组增强]|r |cff00ffffNampower设置|r|cffff1450[需Nampower模组]",
+      "Notes-zhCN": "Nampower模组配套的设置工具，能够根据自己的网络和需要设置该模组内部的各种参数。",
+      "SavedVariablesPerCharacter": "NampowerSettingsDB",
+      "X-Embeds": "Ace2, FuBarPlugin-2.0, CompostLib, DewDropLib, TabletLib"
+    },
+    "description": "Settings panel for the Nampower spellqueue addon",
+    "lastUpdated": "2026-05-31T09:17:50Z",
+    "stars": 0,
+    "id": "nampowersettings"
+  },
+  {
+    "name": "Necrosis",
+    "owner": "BlackHobbiT",
+    "git": "https://github.com/BlackHobbiT/necrosis-twow.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cFFB700B7N|cFFFF00FFe|cFFFF50FFc|cFFFF99FFr|cFFFFC4FFo|cFFFFFFFFs|cFFFFC4FFi|cFFFF99FFs |cFFFF50FFL|cFFFF00FFd|cFFB700B7C",
+      "Notes": "Warlock helper: pets, soul shards, summoning, demon timers",
+      "OptionalDeps": "",
+      "Dependencies": "",
+      "DefaultState": "",
+      "SavedVariables": "",
+      "SavedVariablesPerCharacter": "NecrosisConfig"
+    },
+    "description": "Warlock helper: pets, soul shards, summoning, demon timers",
+    "lastUpdated": "2025-02-09T03:31:31Z",
+    "stars": 4,
+    "id": "necrosis"
+  },
+  {
+    "name": "notgrid",
+    "owner": "gnwl",
+    "git": "https://github.com/gnwl/NotGrid.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "NotGrid |cff7fff7f -Ace2-|r",
+      "Notes": "Grid-like compact party/raid frames with buff/debuff, aggro, and proximity tracking",
+      "Notes-ruRU": "Это не Grid",
+      "SavedVariablesPerCharacter": "NotGridOptions"
+    },
+    "description": "Grid-like compact party/raid frames with buff/debuff, aggro, and proximity tracking",
+    "lastUpdated": "2024-08-09T23:31:19Z",
+    "stars": 27,
+    "id": "notgrid"
+  },
+  {
+    "name": "OctoCVars",
+    "git": "https://github.com/roby-brok/OctoCVars.git",
+    "branch": "main",
+    "description": "CVar browser for the ClassicAPI/Nampower/SuperWoW stack",
+    "id": "octocvars",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "OctoItemMacroIcons",
+    "git": "https://github.com/brues-code/OctoItemMacroIcons.git",
+    "branch": "main",
+    "description": "ClassicAPI addon exposing all available item icons in the macro icon picker",
+    "id": "octoitemmacroicons",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "OG-RaidHelper",
+    "owner": "zanthor",
+    "git": "https://github.com/zanthor/OG-RaidHelper.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "OG-RaidHelper",
+      "Author": "Gnuzmas",
+      "Version": "2.1.15",
+      "Notes": "Raid management: roles, trade distribution, soft-reserve validation",
+      "SavedVariables": "OGRH_SV, OGRH_ConsumeHelper_SV, OGAAL_SV",
+      "OptionalDeps": "_OGAddonMsg, _OGST, _OGAALogger",
+      "Phase 0": "Compatibility & External Libraries",
+      "Phase 1": "Core System - Namespace & Utilities",
+      "Phase 2": "Infrastructure - Communication & Sync",
+      "Phase 3": "Configuration - Consumables",
+      "Phase 4": "Raid - Encounters & Roles",
+      "Phase 5": "Administration - Guild & Validation",
+      "Phase 6": "UI - Main Interface",
+      "Phase 7": "Modules - Encounter-Specific",
+      "Phase 8": "Tests (Debug Mode Only)"
+    },
+    "description": "Raid management: roles, trade distribution, soft-reserve validation",
+    "lastUpdated": "2026-02-25T23:27:19Z",
+    "stars": 5,
+    "id": "og-raidhelper"
+  },
+  {
+    "name": "Outfitter",
+    "owner": "sica42",
+    "git": "https://github.com/sica42/Outfitter.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Notes": "Equipment set manager to save and quickly swap gear outfits, with Turtle mount fixes",
+      "Author": "|cff5BCEFAL|cffF5A9B8e|cffFFFFFFx|cffF5A9B8i|cff5BCEFAe|r",
+      "Version": "1.5.3",
+      "OptionalDeps": "TankPoints, Ace2",
+      "RequiredDeps": "",
+      "SavedVariablesPerCharacter": "gOutfitter_Settings"
+    },
+    "description": "Equipment set manager to save and quickly swap gear outfits, with Turtle mount fixes",
+    "lastUpdated": "2025-09-01T23:33:48Z",
+    "stars": 2,
+    "id": "outfitter"
+  },
+  {
+    "name": "PallyPower",
+    "owner": "CosminPOP",
+    "git": "https://github.com/CosminPOP/PallyPower.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "PallyPower",
+      "Author": "Aznamir",
+      "DefaultState": "Enabled",
+      "LoadOnDemand": "0",
+      "SavedVariablesPerCharacter": "PP_PerUser,PallyPower_Assignments",
+      "Notes": "Paladin buff and assignment manager for raids and parties"
+    },
+    "description": "Paladin buff and assignment manager for raids and parties",
+    "lastUpdated": "2024-11-08T09:46:24Z",
+    "stars": 0,
+    "id": "pallypower"
+  },
+  {
+    "name": "Puppeteer",
+    "git": "https://github.com/OldManAlpha/Puppeteer",
+    "branch": "main",
+    "description": "Healer-oriented unit frames addon for WoW Vanilla 1.12 (formerly HealersMate) with mouse/key bindings, incoming healing, role assignment and raid frames.",
+    "id": "puppeteer"
+  },
+  {
+    "name": "pfExtend",
+    "owner": "Cliencer",
+    "git": "https://github.com/Cliencer/pfExtend.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff33ffccpf|cffffffffExtend",
+      "Author": "Cliencer",
+      "Version": "1.0.5",
+      "Notes": "pfQuest extension showing all monster drops and quest chains. /pfex",
+      "Title-zhCN": "|cFF33AAFF[辅助]|rpfQuest扩展",
+      "Notes-zhCN": "显示怪物全部掉落，任务链查询|N命令：/pfex",
+      "Dependencies": "pfQuest",
+      "OptionalDeps": "pfUI",
+      "SavedVariables": "PfExtend_Database, PfExtend_Config"
+    },
+    "description": "pfQuest extension showing all monster drops and quest chains. /pfex",
+    "lastUpdated": "2026-03-27T08:03:06Z",
+    "stars": 17,
+    "id": "pfextend"
+  },
+  {
+    "name": "pfQuest",
+    "owner": "shagu",
+    "git": "https://github.com/shagu/pfQuest.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff33ffccpf|cffffffffQuest",
+      "Author": "Shagu",
+      "Notes": "A Questhelper and Database",
+      "Notes-ruRU": "Облегченный помощник заданий и база данных",
+      "Version": "7.0.1",
+      "OptionalDeps": "pfUI",
+      "SavedVariables": "pfQuest_questcache",
+      "SavedVariablesPerCharacter": "pfQuest_config, pfBrowser_fav, pfQuest_history, pfQuest_colors, pfQuest_server, pfQuest_track"
+    },
+    "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla & TBC",
+    "lastUpdated": "2025-08-25T20:26:06Z",
+    "stars": 273,
+    "id": "pfquest"
+  },
+  {
+    "name": "pfQuest",
+    "git": "https://github.com/roby-brok/pfQuest-classicAPI.git",
+    "branch": "octo",
+    "description": "pfQuest ClassicAPI Edition with OctoWoW fixes",
+    "id": "pfquest-classicapi",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "pfQuest-turtle",
+    "owner": "shagu",
+    "git": "https://github.com/shagu/pfQuest-turtle.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff33ffccpf|cffffffffQuest |cffcccccc[TurtleWoW DB]",
+      "Author": "Shagu",
+      "Contributors": "Gurky, Antealis, HumbleKagu, KasVital, Haaxor1689, IcemanHHW, fatpowaranga",
+      "Notes": "A TurtleWoW DB extension for pfQuest",
+      "Version": "GIT",
+      "Dependencies": "pfQuest",
+      "SavedVariables": "pfQuest_turtlecount"
+    },
+    "description": "A TurtleWoW DB extension for pfQuest",
+    "lastUpdated": "2025-08-27T15:20:01Z",
+    "stars": 124,
+    "id": "pfquest-turtle"
+  },
+  {
+    "name": "pfUI",
+    "owner": "shagu",
+    "git": "https://github.com/shagu/pfUI.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff33ffccpf|cffffffffUI",
+      "Author": "Shagu",
+      "Notes": "A complete user interface replacement.",
+      "Notes-ruRU": "Полная замена пользовательского интерфейса.",
+      "Version": "5.5.4",
+      "SavedVariables": "pfUI_profiles, pfUI_addon_profiles, pfUI_cache",
+      "SavedVariablesPerCharacter": "pfUI_config, pfUI_init, pfUI_playerDB"
+    },
+    "description": "A User Interface Replacement for World of Warcraft: Vanilla & TBC",
+    "lastUpdated": "2025-08-28T10:10:44Z",
+    "stars": 407,
+    "id": "pfui"
+  },
+  {
+    "name": "pfUI-addonskinner",
+    "owner": "jrc13245",
+    "git": "https://github.com/jrc13245/pfUI-addonskinner.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff33ffccpf|cffffffffUI|cffaaaaaa [Addon Skinner]",
+      "Author": "dein0s and RoadBlock",
+      "Notes": "pfUI module that re-skins other addons to match the pfUI theme",
+      "Version": "0.4",
+      "Dependencies": "pfUI",
+      "X-LocalName": "Addon Skinner"
+    },
+    "description": "pfUI module that re-skins other addons to match the pfUI theme",
+    "lastUpdated": "2026-03-27T00:55:57Z",
+    "stars": 10,
+    "id": "pfui-addonskinner"
+  },
+  {
+    "name": "pfUI-addonskinner",
+    "git": "https://github.com/roby-brok/pfUI-addonskinner.git",
+    "branch": "main",
+    "description": "pfUI addon skinner with OctoWoW/MSBT options skin",
+    "id": "pfui-addonskinner-classicapi"
+  },
+  {
+    "name": "pfUI-bettertotems",
+    "owner": "Bombg",
+    "git": "https://github.com/Bombg/pfUI-bettertotems.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff33ffccpf|cffffffffUI|cffaaaaaa [Better Totems]",
+      "Author": "Bombg",
+      "Notes": "pfUI module with improved Shaman totem timers",
+      "Version": "1.0",
+      "Dependencies": "pfUI"
+    },
+    "description": "pfUI module with improved Shaman totem timers",
+    "lastUpdated": "2025-08-29T14:16:51Z",
+    "stars": 4,
+    "id": "pfui-bettertotems"
+  },
+  {
+    "name": "pfUI-bettertotems",
+    "git": "https://github.com/roby-brok/pfUI-bettertotems.git",
+    "branch": "main",
+    "description": "pfUI Better Totems for OctoWoW",
+    "id": "pfui-bettertotems-classicapi"
+  },
+  {
+    "name": "pfUI",
+    "git": "https://github.com/roby-brok/pfUI-classicAPI.git",
+    "branch": "octo",
+    "description": "pfUI ClassicAPI Edition with OctoWoW fixes; requires ClassicAPI DLL",
+    "id": "pfui-classicapi",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "pfUI-locplus",
+    "owner": "Arthur-Helias",
+    "git": "https://github.com/Arthur-Helias/pfUI-LocationPlus.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff33ffccpf|cffffffffUI|cffaaaaaa [Location Plus]",
+      "Version": "1.5.7",
+      "Author": "Walter Bennet",
+      "Notes": "Adds a location panel and zone info to pfUI",
+      "Dependencies": "pfUI",
+      "X-URL": "https://github.com/Arthur-Helias/pfUI-LocationPlus"
+    },
+    "description": "Adds a location panel and zone info to pfUI",
+    "lastUpdated": "2026-07-07T11:55:12Z",
+    "stars": 7,
+    "id": "pfui-locplus"
+  },
+  {
+    "name": "PizzaWorldBuffs",
+    "owner": "acid9000",
+    "git": "https://github.com/acid9000/PizzaWorldBuffs.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cffa050ffPizza|cffffffffWorldBuffs",
+      "Author": "Pizzahawaii 1.6.7, edited by Juliette to 2.0.0",
+      "Notes": "Shows tents on the world map, Ony/Nef head despawn timers and DMF location.",
+      "Version": "2.0.0",
+      "SavedVariablesPerCharacter": "PWB_config, PWB_timers, PWB_dmf, PWB_tents"
+    },
+    "description": "Updated timers for 1.18.0 fix",
+    "lastUpdated": "2026-03-14T17:22:24Z",
+    "stars": 5,
+    "id": "pizzaworldbuffs"
+  },
+  {
+    "name": "ProcDoc",
+    "owner": "npfs666",
+    "git": "https://github.com/npfs666/ProcDoc.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "ProcDoc",
+      "Notes": "Visual proc alerts with pulsing images so you never miss them",
+      "Author": "Clempton, Clumpton, Fruiter, Poot",
+      "Version": "2.5.10",
+      "SavedVariables": "ProcDocDB"
+    },
+    "description": "Visual proc alerts with pulsing images so you never miss them",
+    "lastUpdated": "2025-09-06T12:50:13Z",
+    "stars": 2,
+    "id": "procdoc"
+  },
+  {
+    "name": "Quiver",
+    "owner": "SabineWren",
+    "git": "https://github.com/SabineWren/Quiver.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Quiver - |cff00ff00Hunter",
+      "Notes": "A collection of hunter utilities.",
+      "Author": "SabineWren, 2022-2026",
+      "Version": "3.1.5",
+      "SavedVariables": "Quiver_Store"
+    },
+    "description": "Hunter addon for World of Warcraft 1.12.1 ",
+    "lastUpdated": "2026-08-17T00:44:11Z",
+    "stars": 51,
+    "id": "quiver"
+  },
+  {
+    "name": "Rested",
+    "owner": "hazlema",
+    "git": "https://github.com/hazlema/Rested.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11100",
+      "Title": "Rested XP",
+      "Notes": "Progress bar showing your rested XP while resting",
+      "Author": "Quiver",
+      "SavedVariablesPerCharacter": "isAutoStart, refreshTime, isSmartMode"
+    },
+    "description": "Progress bar showing your rested XP while resting",
+    "lastUpdated": "2021-04-25T02:22:29Z",
+    "stars": 7,
+    "id": "rested"
+  },
+  {
+    "name": "Rinse",
+    "owner": "Otari98",
+    "git": "https://github.com/Otari98/Rinse.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Rinse 2.8 |cffc79c6e-Spit-|r",
+      "Author": "Otari",
+      "Version": "2.8",
+      "Notes": "Remove debuffs from your mates with ease",
+      "SavedVariables": "RINSE_CONFIG",
+      "SavedVariablesPerCharacter": "RINSE_CHAR_CONFIG"
+    },
+    "description": "Dispel your mates with ease",
+    "lastUpdated": "2026-07-31T19:49:47Z",
+    "stars": 29,
+    "id": "rinse"
+  },
+  {
+    "name": "SellValue",
+    "owner": "anzz1",
+    "git": "https://github.com/anzz1/SellValue.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Sell Value",
+      "Notes": "Shows item vendor sell value in tooltips when not at a vendor",
+      "SavedVariables": "SellValues",
+      "LoadOnDemand": "0",
+      "Author": "CapnBry & Greenman & kebabstorm"
+    },
+    "description": "Shows item vendor sell value in tooltips when not at a vendor",
+    "lastUpdated": "2023-12-20T11:43:57Z",
+    "stars": 8,
+    "id": "sellvalue"
+  },
+  {
+    "name": "ShaguDPS",
+    "owner": "shagu",
+    "git": "https://github.com/shagu/ShaguDPS.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cffffcc00Shagu|cffffffffDPS",
+      "Author": "Shagu",
+      "Notes": "A simple and lightweight DPS and damage meter.",
+      "Version": "3.0.1",
+      "OptionalDeps": "pfUI",
+      "SavedVariablesPerCharacter": "ShaguDPS_Config"
+    },
+    "description": "A lightweight damage meter for World of Warcraft Vanilla 1.12",
+    "lastUpdated": "2025-07-25T19:04:41Z",
+    "stars": 49,
+    "id": "shagudps"
+  },
+  {
+    "name": "ShaguPlates",
+    "owner": "shagu",
+    "git": "https://github.com/shagu/ShaguPlates.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff33ffccShagu|cffffffffPlates",
+      "Author": "Shagu",
+      "Notes": "Nameplates with castbars and class colors. /splates",
+      "Version": "5.4.21",
+      "SavedVariables": "ShaguPlates_profiles, ShaguPlates_addon_profiles, ShaguPlates_cache",
+      "SavedVariablesPerCharacter": "ShaguPlates_config, ShaguPlates_init, ShaguPlates_playerDB"
+    },
+    "description": "Nameplates with castbars and class colors. /splates",
+    "lastUpdated": "2025-06-05T22:19:23Z",
+    "stars": 51,
+    "id": "shaguplates"
+  },
+  {
+    "name": "ShaguTweaks",
+    "owner": "shagu",
+    "git": "https://github.com/shagu/ShaguTweaks.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cffffcc00Shagu|cffffffffTweaks",
+      "Author": "Shagu",
+      "Notes": "A collection of tweaks and enhancements to the Default UI",
+      "Notes-ruRU": "Коллекция настроек и улучшений для стандартного пользовательского интерфейса.",
+      "Version": "GIT",
+      "SavedVariablesPerCharacter": "ShaguTweaks_config, ShaguTweaks_cache"
+    },
+    "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
+    "lastUpdated": "2025-08-15T14:37:22Z",
+    "stars": 107,
+    "id": "shagutweaks"
+  },
+  {
+    "name": "ShaguTweaks-extras",
+    "owner": "shagu",
+    "git": "https://github.com/shagu/ShaguTweaks-extras.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cffffcc00Shagu|cffffffffTweaks |cffcccccc[Extras]",
+      "Author": "Shagu",
+      "Notes": "Extras module for ShaguTweaks (additional UI tweaks)",
+      "Notes-ruRU": "Коллекция настроек и улучшений для стандартного пользовательского интерфейса.",
+      "Version": "GIT",
+      "Dependencies": "ShaguTweaks"
+    },
+    "description": "Extras module for ShaguTweaks (additional UI tweaks)",
+    "id": "shagutweaks-extras"
+  },
+  {
+    "name": "SimpleActionSets",
+    "owner": "pepopo978",
+    "git": "https://github.com/pepopo978/SimpleActionSets.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Version": "0.47b",
+      "Author": "Brodrick (aka Kirov)",
+      "Title": "SimpleActionSets",
+      "Notes": "Allows all existing actions to be saved to a set which can be changed to later.",
+      "SavedVariables": "SAS_Saved, SAS_BackUp, SAS_POS, SAS_OFFSET"
+    },
+    "id": "simpleactionsets"
+  },
+  {
+    "name": "SuperAPI",
+    "owner": "balakethelock",
+    "git": "https://github.com/balakethelock/SuperAPI.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "SuperAPI |cFFFF8080-balake-|r",
+      "Notes": "Companion compatibility addon bridging the SuperWoW client mod's expanded Lua API",
+      "Author": "balake",
+      "SavedVariablesPerCharacter": "SuperAPIDB",
+      "X-Embeds": "Ace2, FuBarPlugin-2.0, CompostLib, DewDropLib, TabletLib"
+    },
+    "description": "Companion compatibility addon bridging the SuperWoW client mod's expanded Lua API",
+    "id": "superapi"
+  },
+  {
+    "name": "SuperCleveRoidMacros",
+    "git": "https://github.com/brues-code/SuperCleveRoidMacros.git",
+    "branch": "main",
+    "description": "ClassicAPI/Nampower/UnitXP enhanced macros with modern conditionals",
+    "id": "supercleveroidmacros",
+    "depends": [
+      "ClassicAPI"
+    ]
+  },
+  {
+    "name": "SuperMacro",
+    "owner": "jrc13245",
+    "git": "https://github.com/jrc13245/SuperMacro-turtle-SuperWoW.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "SuperMacro - SuperWoW Support",
+      "Notes": "Extended macros with long macros, keybind execution, item links, and a code editor",
+      "Notes-ruRU": "Неограниченные макросы «Супер» могут содержать до 7000 букв. Запуск макросов с привязками клавиш, событиями и другими макросы. Расширеный редактор кода игры. Ссылка на предмет в макрос. Всплывающие подсказки над макросами в области действий. Удобные команды и функции.",
+      "First created": "Mar 2005",
+      "OptionalDeps": "",
+      "SavedVariables": "SM_VARS SM_EXTEND SM_ACTION_SUPER SM_SUPER",
+      "Version": "3.19"
+    },
+    "description": "Extended macros with long macros, keybind execution, item links, and a code editor",
+    "id": "supermacro"
+  },
+  {
+    "name": "T-RestedXP",
+    "owner": "whtmst",
+    "git": "https://github.com/whtmst/T-RestedXP.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "[ |cFFFFFFFFWM|r ] |cFF11A6ECT-RestedXP|r |cFF7FFF7Fv1.18|r",
+      "Author": "Mikhail Palagin (Wht Mst)",
+      "Version": "1.18",
+      "Notes": "Tracks 0% and 100% rested XP thresholds"
+    },
+    "description": "Tracks 0% and 100% rested XP thresholds",
+    "id": "t-restedxp"
+  },
+  {
+    "name": "Tactica",
+    "owner": "Player-Doite",
+    "git": "https://github.com/Player-Doite/Tactica.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cff33ff99[Tactica]|r",
+      "Version": "2.4.2",
+      "Notes": "Auto-build raids: invite/gearcheck, tactics, masterloot, role sync",
+      "Author": "Doite",
+      "SavedVariables": "TacticaDB"
+    },
+    "description": "Auto-build raids: invite/gearcheck, tactics, masterloot, role sync",
+    "id": "tactica"
+  },
+  {
+    "name": "Tmog",
+    "owner": "Otari98",
+    "git": "https://github.com/Otari98/Tmog.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Tmog |cffc79c6e-Spit-|r",
+      "Author": "Otari98",
+      "Version": "4.7",
+      "Notes": "Transmog item browser with collection info in tooltips",
+      "SavedVariablesPerCharacter": "TMOG_CACHE, TMOG_PLAYER_OUTFITS, TMOG_TRANSMOG_STATUS, TMOG_POSITION, TMOG_LOCKED"
+    },
+    "description": "Transmog item browser with collection info in tooltips",
+    "id": "tmog"
+  },
+  {
+    "name": "TurtleCalendar",
+    "owner": "sica42",
+    "git": "https://github.com/sica42/TurtleCalendar.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cffabd473Turtle|cffffffffCalendar|r",
+      "Title-zhCN": "乌龟日历",
+      "Author": "sica",
+      "Version": "1.4.1",
+      "Notes": "In-game calendar that shows raid & instance reset timers",
+      "Notes-zhCN": "游戏内日历，显示副本、团本、战场、暗月马戏团、世界Buffs等重置计时。输入 /turtlecalendar 或 /tc 打开日历，或者在快捷键中指定快捷键，右键打开菜单。",
+      "SavedVariablesPerCharacter": "TurtleCalendarOptions",
+      "SavedVariables": "TurtleCalendarGlobalOptions"
+    },
+    "id": "turtlecalendar"
+  },
+  {
+    "name": "TurtleMail",
+    "owner": "sica42",
+    "git": "https://github.com/sica42/TurtleMail.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cffabd473Turtle|cffffffffMail",
+      "Author": "shirsig/sica",
+      "Version": "1.4.5",
+      "Notes": "Mailbox UI enhancement: bulk send, search, multi-mail",
+      "SavedVariables": "TurtleMail_AutoCompleteNames",
+      "SavedVariablesPerCharacter": "TurtleMail_To TurtleMail_Point TurtleMail_Log"
+    },
+    "description": "Mailbox UI enhancement: bulk send, search, multi-mail",
+    "id": "turtlemail"
+  },
+  {
+    "name": "TurtleRP",
+    "owner": "tempranova",
+    "git": "https://github.com/tempranova/turtlerp.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "TurtleRP - |cffabd473TTRP",
+      "Author": "tempranova / Drixi / Vee",
+      "Version": "1.1.0",
+      "Notes": "RP Addon custom made for Turtle WoW",
+      "SavedVariables": "TurtleRPSettings, TurtleRPCharacters, TurtleRPQueryablePlayers",
+      "SavedVariablesPerCharacter": "TurtleRPCharacterInfo"
+    },
+    "id": "turtlerp"
+  },
+  {
+    "name": "TWThreat",
+    "owner": "CosminPOP",
+    "git": "https://github.com/CosminPOP/TWThreat.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "|cffabd473TW Threatmeter |cff58ff00v1.2.3",
+      "Author": "Xerron/Er",
+      "Version": "1.2.3",
+      "Notes": "Turtle WoW's own Threatmeter !",
+      "SavedVariablesPerCharacter": "TWT_CONFIG"
+    },
+    "id": "twthreat"
+  },
+  {
+    "name": "unitscan-turtle-hc",
+    "owner": "RetroCro",
+    "git": "https://github.com/RetroCro/unitscan-turtle-hc.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Author": "RetroCro",
+      "Title": "unitscan|cff00ff98Turtle-HC",
+      "Version": "1.0.5",
+      "Notes": "Hardcore unitscan fork for Turtle WoW that alerts on rares, elites, and dangerous mobs",
+      "SavedVariables": "unitscan_targets"
+    },
+    "description": "Hardcore unitscan fork for Turtle WoW that alerts on rares, elites, and dangerous mobs",
+    "id": "unitscan-turtle-hc"
+  },
+  {
+    "name": "UnitXP_SP3_Addon",
+    "owner": "whtmst",
+    "git": "https://github.com/whtmst/UnitXP_SP3_Addon.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "UnitXP SP3 Lua Addon",
+      "Notes": "Settings UI for the UnitXP SuperWoW client patch",
+      "Author": "allfox and thankful community",
+      "DefaultState": "enabled",
+      "OptionalDeps": "none",
+      "SavedVariables": "UnitXP_SP3_Addon, UnitXP_SP3_Icon"
+    },
+    "description": "Settings UI for the UnitXP SuperWoW client patch",
+    "id": "unitxp-sp3-addon"
+  },
+  {
+    "name": "VCB",
+    "owner": "tdymel",
+    "git": "https://github.com/tdymel/VCB.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "VCB |cFFFF8080-Shino-|r",
+      "Title-deDE": "VCB |cFFFF8080-Shino-|r",
+      "Title-enGB": "VCB |cFFFF8080-Shino-|r",
+      "Notes": "Smart consolidated buff frames with extensive customization",
+      "Notes-deDE": "Vanilla Consolidate Buff-Frames (VCB) ist ein intelligentes Aura-Verwaltungs-System. Es verfügt über zahlreichen Funktionen, um das Modul nach eigenen Wünschen zu gestalten. Hauptsächlich verbessert es aber die Übersicht, was auch sein Hauptzweck ist.",
+      "Notes-enGB": "Vanilla Consolidate Buff-Frames (VCB) is a smart system to manage your auras. The AddOn provides a lot functions to customize it to your tastes and adds a lot of helpful functions for a better overview, which is its purpose in the first place anyway.",
+      "Author": "Shino <Synced> - Kronos",
+      "SavedVariables": "VCB_Profile, VCB_Profile_Name",
+      "SavedVariablesPerCharacter": "Consolidated_Buffs, Banned_Buffs, VCB_BF_LOCKED, VCB_SAVE, VCB_CUR_PROFILE, VCB_WP_POSX, VCB_WP_POSY, VCB_WP_POINT, VCB_ICON_POINT, VCB_ICON_POSX, VCB_ICON_POSY, VCB_MM_ICON",
+      "Version": "3.0"
+    },
+    "description": "Smart consolidated buff frames with extensive customization",
+    "id": "vcb"
+  },
+  {
+    "name": "WIIIUI",
+    "owner": "Fiurs-Hearth",
+    "git": "https://github.com/Fiurs-Hearth/WIIIUI.git",
+    "branch": "main",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Warcraft III - UI",
+      "Version": "1.0",
+      "Notes": "Compact custom UI replacement for Turtle WoW",
+      "DefaultState": "Enabled",
+      "LoadOnDemand": "0",
+      "SavedVariablesPerCharacter": "wc3UI_Options"
+    },
+    "description": "Compact custom UI replacement for Turtle WoW",
+    "id": "wiiiui"
+  },
+  {
+    "name": "WIM",
+    "owner": "refaim",
+    "git": "https://github.com/refaim/WIM.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "WIM",
+      "Author": "Pazza (Bronzebeard)",
+      "X-Maintainer": "Refaim",
+      "Version": "1.3.12",
+      "Notes": "Give whispers an instant messenger feel.",
+      "Notes-deDE": "Verleiht Flüstern ein Instant-Messenger-Gefühl.",
+      "Notes-enUS": "Give whispers an instant messenger feel.",
+      "Notes-esES": "Dale a los susurros un aspecto de mensajería instantánea.",
+      "Notes-frFR": "Donne aux chuchotements une apparence de messagerie instantanée.",
+      "Notes-koKR": "귓속말에 인스턴트 메신저 느낌을 줍니다.",
+      "Notes-ptBR": "Dê aos sussurros uma sensação de mensageiro instantâneo.",
+      "Notes-ruRU": "Придаёт шёпоту вид мессенджера.",
+      "Notes-zhCN": "让密语拥有即时通讯的感觉。",
+      "Notes-zhTW": "讓密語擁有即時通訊的感覺。",
+      "DefaultState": "Enabled",
+      "OptionalDeps": "Titan",
+      "SavedVariables": "WIM_Data, WIM_Alias, WIM_Filters, WIM_History"
+    },
+    "id": "wim"
+  },
+  {
+    "name": "ZonesLevel",
+    "owner": "Arthur-Helias",
+    "git": "https://github.com/Arthur-Helias/ZonesLevel.git",
+    "branch": "master",
+    "toc": {
+      "Interface": "11200",
+      "Title": "Zones Level",
+      "Version": "1.0",
+      "Author": "Walter Bennet",
+      "Notes": "Shows zone level range under the title on the world map",
+      "URL": "https://github.com/Arthur-Helias/ZonesLevel"
+    },
+    "description": "Shows zone level range under the title on the world map",
+    "id": "zoneslevel"
+  }
+]

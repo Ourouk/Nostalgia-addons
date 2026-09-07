@@ -1,0 +1,3353 @@
+[
+  {
+    "name": "Ackis Recipe List",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Ackis Recipe List is an AddOn which will scan your trade skills and provide information on how to obtain recipes.",
+    "id": "ackis-recipe-list",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/AckisRecipeList.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AckisRecipeList.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AckisRecipeList.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/arl"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Ackis Recipe List",
+      "Notes": "Ackis Recipe List is an AddOn which will scan your trade skills and provide information on how to obtain recipes."
+    }
+  },
+  {
+    "name": "Action Bar Saver 2",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Quick little mod, allows you to setup different profiles for your action bars. Mainly this is for hybrid classes that want to be able to respec without spending 10-20 minutes setting their action bars up. All you do is type /abs save name and it'll save the location of all your spells, macros and items and /abs restore name to get them.",
+    "id": "action-bar-saver-2",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ActionBarSaver.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ActionButtonSaver2.gif",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ActionButtonSaver2.gif"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/action-bar-saver/files/all?page=1&pageSize=20&version=3.2.0"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Action Bar Saver 2",
+      "Notes": "Quick little mod, allows you to setup different profiles for your action bars. Mainly this is for hybrid classes that wa"
+    }
+  },
+  {
+    "name": "AddEmote",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Ever wished World of Warcraft had more emotes? Or wanted to create your own emotes that you could use like the regular ones? Well, now you can! AddEmote lets you easily create new /command emotes for all your characters. **use /addemote** for the configuration interface.",
+    "id": "addemote",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/addemote.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/addemote.jpeg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/addemote.jpeg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warperia",
+        "url": "https://warperia.com/addon-wotlk/add-emote/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AddEmote",
+      "Notes": "Ever wished World of Warcraft had more emotes? Or wanted to create your own emotes that you could use like the regular o"
+    }
+  },
+  {
+    "name": "AddFriend",
+    "git": "https://github.com/NoM0Re/AddFriend-3.3.5a.git",
+    "branch": "main",
+    "description": "AddFriend is a simple addon that adds an Add Friend or Add Guild option to the context menu of player options.",
+    "id": "addfriend",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/AddFriend-3.3.5a/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AddFriend.jpeg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AddFriend.jpeg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/addfriend"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AddFriend",
+      "Notes": "AddFriend is a simple addon that adds an Add Friend or Add Guild option to the context menu of player options."
+    }
+  },
+  {
+    "name": "Addon Control Panel",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Stop logging out of the game just to change your addons! ACP adds the \"Addons\" button to the game's main menu to disable/enable Addons.",
+    "id": "addon-control-panel",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ACP.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ACP.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ACP.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/acp/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Addon Control Panel",
+      "Notes": "Stop logging out of the game just to change your addons! ACP adds the \"Addons\" button to the game's main menu to disable"
+    }
+  },
+  {
+    "name": "AdiBags",
+    "git": "https://github.com/Sattva-108/AdiBags-WoTLK-3.3.5.git",
+    "branch": "main",
+    "description": "AdiBags is a addon that displays the contents of your bags in single view, distributed into several sections using smart filters.",
+    "id": "adibags",
+    "owner": "Sattva-108",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/AdiBags.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AdiBags.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AdiBags.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/Sattva-108/AdiBags-WoTLK-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AdiBags",
+      "Notes": "AdiBags is a addon that displays the contents of your bags in single view, distributed into several sections using smart"
+    }
+  },
+  {
+    "name": "Afflicted",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Afflicted is an enemy spell timer mod for PvP (mainly arenas). This is for people who just want useful information, such as an interrupt is on cool down and you're safe to cast a heal or that Blessing of Freedom is going to be back up for an enemy Paladin soon.",
+    "id": "afflicted",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Afflicted.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Afflicted.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Afflicted.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "RisingGods",
+        "url": "https://addons.rising-gods.de/addons/afflicted-3"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Afflicted",
+      "Notes": "Afflicted is an enemy spell timer mod for PvP (mainly arenas). This is for people who just want useful information, such"
+    }
+  },
+  {
+    "name": "AllStats",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "This addon moves the functionality of the stat dropdowns to a panel on the right side of the paperdoll, so that you can see all of your stats at once.",
+    "id": "allstats",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/AllStats.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AllStats.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AllStats.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warperia",
+        "url": "https://warperia.com/addon-wotlk/all-stats"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AllStats",
+      "Notes": "This addon moves the functionality of the stat dropdowns to a panel on the right side of the paperdoll, so that you can "
+    }
+  },
+  {
+    "name": "Altoholic",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Altoholic features search functionality, which allows users to search their alts bags or loot tables in an Auction-House-like frame.",
+    "id": "altoholic",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Altoholic.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Altoholic.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Altoholic.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "RisingGods",
+        "url": "https://addons.rising-gods.de/addons/altoholic"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Altoholic",
+      "Notes": "Altoholic features search functionality, which allows users to search their alts bags or loot tables in an Auction-House"
+    }
+  },
+  {
+    "name": "AmILockedOut",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "AmILockedOut Little addon which saves me quite some time with all my twinks. Rembers which of your chars are saved to which instance.",
+    "id": "amilockedout",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/AmILockedOut.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Ailo.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Ailo.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/ailo/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AmILockedOut",
+      "Notes": "AmILockedOut Little addon which saves me quite some time with all my twinks. Rembers which of your chars are saved to wh"
+    }
+  },
+  {
+    "name": "Atlas",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Atlas is an add-on for World of Warcraft that provides maps for each instance, along with tips for bosses and information on their loot drops in the game.",
+    "id": "atlas",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Atlas.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Atlas.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Atlas.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Rising Gods",
+        "url": "https://addons.rising-gods.de/addons/atlas"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Atlas",
+      "Notes": "Atlas is an add-on for World of Warcraft that provides maps for each instance, along with tips for bosses and informatio"
+    }
+  },
+  {
+    "name": "AtlasLoot Enhanced",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "AtlasLoot Enhanced is an UI mod allowing for loot tables of bosses to be browsed whenever needed within the game.",
+    "id": "atlasloot-enhanced",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/AtlasLoot.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Atlasloot.jpeg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Atlasloot.jpeg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/atlasloot-enhanced/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AtlasLoot Enhanced",
+      "Notes": "AtlasLoot Enhanced is an UI mod allowing for loot tables of bosses to be browsed whenever needed within the game."
+    }
+  },
+  {
+    "name": "Auctionator",
+    "git": "https://github.com/alchem1ster/WotLK-Auctionator.git",
+    "branch": "main",
+    "description": "Auctionator is designed for casual everyday auction house users. Auctionator makes the auction house easier to use, by presenting auction house listings clearly and succinctly, and by eliminating the tedium involved in posting and managing auctions.\n\nThis Version is using abit less memory than the MoP version.",
+    "id": "auctionator",
+    "owner": "alchem1ster",
+    "wotlk_primary_download": "https://github.com/alchem1ster/WotLK-Auctionator/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Auctionator.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Auctionator.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/alchem1ster/WotLK-Auctionator"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Auctionator",
+      "Notes": "Auctionator is designed for casual everyday auction house users. Auctionator makes the auction house easier to use, by p"
+    }
+  },
+  {
+    "name": "AutoFlood",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "AutoFlood periodically sends a single-line message in a chat channel. It's designed for advertisement for guild recruitment, crafting, in-game events...",
+    "id": "autoflood",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/autoflood.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/autoflood.PNG",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/autoflood.PNG"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/autoflood"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AutoFlood",
+      "Notes": "AutoFlood periodically sends a single-line message in a chat channel. It's designed for advertisement for guild recruitm"
+    }
+  },
+  {
+    "name": "AutoInvite",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Used to Automatically Invite players into a group/raid based on what and where they say certain \"trigger\" keywords.\n\nTo open the interface, type /ai or /autoinvite",
+    "id": "autoinvite",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/AutoInvite.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/autoinvite.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/autoinvite.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WowAce",
+        "url": "https://www.wowace.com/projects/autoinvite-martag/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AutoInvite",
+      "Notes": "Used to Automatically Invite players into a group/raid based on what and where they say certain \"trigger\" keywords.\n\nTo "
+    }
+  },
+  {
+    "name": "AutomaticWeaponRemoval",
+    "git": "https://github.com/SecretX33/AutomaticWeaponRemoval.git",
+    "branch": "main",
+    "description": "This addon remove (swap) your weapons automatically if you are melee and get mind controlled by a variety of bosses, like Lady Deathwhisper, and a lot more, like removing Paladin's RF buff if you are not a tank.\n\nConfigs are done via interface or slash commands like **/awr**.",
+    "id": "automaticweaponremoval",
+    "owner": "SecretX33",
+    "wotlk_primary_download": "https://github.com/SecretX33/AutomaticWeaponRemoval/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AutomaticWeaponRemoval.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/AutomaticWeaponRemoval.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/SecretX33/AutomaticWeaponRemoval/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AutomaticWeaponRemoval",
+      "Notes": "This addon remove (swap) your weapons automatically if you are melee and get mind controlled by a variety of bosses, lik"
+    }
+  },
+  {
+    "name": "AutoRepair",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Automaticaly repairs all items when a merchant window is opened.",
+    "id": "autorepair",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/autorepair.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/autorepair.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/autorepair.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warperia",
+        "url": "https://warperia.com/addon-wotlk/autorepair/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AutoRepair",
+      "Notes": "Automaticaly repairs all items when a merchant window is opened."
+    }
+  },
+  {
+    "name": "Bagnon Backport with Search and Sort Functionality",
+    "git": "https://github.com/RichSteini/Bagnon-3.3.5.git",
+    "branch": "main",
+    "description": "Bagnon is the most popular replacement of the bag interface, designed to help the player find items as quickly and easily as possible.",
+    "id": "bagnon-backport-with-search-and-sort-functionality",
+    "owner": "RichSteini",
+    "wotlk_primary_download": "https://github.com/RichSteini/Bagnon-3.3.5/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bagnon.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bagnon.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/RichSteini/Bagnon-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Bagnon Backport with Search and Sort Functionality",
+      "Notes": "Bagnon is the most popular replacement of the bag interface, designed to help the player find items as quickly and easil"
+    }
+  },
+  {
+    "name": "Bartender4",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Bartender4 is a full ActionBar replacement mod. It provides you with all the features needed to fully customization most aspects of your action and related bars.",
+    "id": "bartender4",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Bartender4.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bartender4.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bartender4.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/bartender4/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Bartender4",
+      "Notes": "Bartender4 is a full ActionBar replacement mod. It provides you with all the features needed to fully customization most"
+    }
+  },
+  {
+    "name": "BindPad",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "BindPad is an addon to make KeyBindings for spells, items, and macros.\nYou no longer need actionbar slots just to make Key bindings for your macros etc.\nBindPad addon provides many icon slots in its frame.  You can drag and drop\nanything into one of these slots, and click the slot to set KeyBindings.",
+    "id": "bindpad",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/BindPad.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bindpad.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bindpad.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/bind-pad"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "BindPad",
+      "Notes": "BindPad is an addon to make KeyBindings for spells, items, and macros.\nYou no longer need actionbar slots just to make K"
+    }
+  },
+  {
+    "name": "BlizzMove",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "This addon makes the Blizzard windows movable.",
+    "id": "blizzmove",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/BlizzMove.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/BlizzMove.gif",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/BlizzMove.gif"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/blizzmove"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "BlizzMove",
+      "Notes": "This addon makes the Blizzard windows movable."
+    }
+  },
+  {
+    "name": "BLT",
+    "git": "https://github.com/freix1/BLT_WotLK.git",
+    "branch": "main",
+    "description": "BLT Raid Cooldowns tracks raid cooldowns (offensive and defensive), announces casts and availability, and provides a report on CD usage after boss fights. My version can show CDs of Trinkets like it was intendent, the Developer of the Addon isnt updating it anymore.",
+    "id": "blt",
+    "owner": "freix1",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/BLT.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/blt.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/blt.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/freix1/BLT_WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "BLT",
+      "Notes": "BLT Raid Cooldowns tracks raid cooldowns (offensive and defensive), announces casts and availability, and provides a rep"
+    }
+  },
+  {
+    "name": "BNetToast",
+    "git": "https://github.com/crumdidlyumshis/BNetToast.git",
+    "branch": "main",
+    "description": "BattleNET style Online/Offline Indicator for your friend/guild mates.",
+    "id": "bnettoast",
+    "owner": "crumdidlyumshis",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/BNetToast.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/BNetToast.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/BNetToast.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/crumdidlyumshis/BNetToast"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "BNetToast",
+      "Notes": "BattleNET style Online/Offline Indicator for your friend/guild mates."
+    }
+  },
+  {
+    "name": "BugSack",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "BugSack eases the process of viewing bugs. It displays Lua errors that occurred during your play session, including the full debug stack.\n\nIt aims to be invaluable to developers, and a useful tool for players.",
+    "id": "bugsack",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/BugSack.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/BugSack.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/BugSack.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/bugsack"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "BugSack",
+      "Notes": "BugSack eases the process of viewing bugs. It displays Lua errors that occurred during your play session, including the "
+    }
+  },
+  {
+    "name": "Carbonite (Maps - QuestHelper)",
+    "git": "https://github.com/anzz1/Carbonite-3.3.5.git",
+    "branch": "master",
+    "description": "Carbonite is a google style map replacement and Questhelper for the world of World of Warcraft.",
+    "id": "carbonite-maps-questhelper",
+    "owner": "anzz1",
+    "wotlk_primary_download": "https://github.com/anzz1/Carbonite-3.3.5/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Carbonite.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Carbonite.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/anzz1/Carbonite-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Carbonite (Maps / QuestHelper)",
+      "Notes": "Carbonite is a google style map replacement and Questhelper for the world of World of Warcraft."
+    }
+  },
+  {
+    "name": "Cartographer",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Cartographer is a modular, lightweight, and efficient framework for manipulation of the world map.",
+    "id": "cartographer",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Cartographer.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Cartographer.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Cartographer.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WoWAce",
+        "url": "https://www.wowace.com/projects/cartographer"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Cartographer",
+      "Notes": "Cartographer is a modular, lightweight, and efficient framework for manipulation of the world map."
+    }
+  },
+  {
+    "name": "CartoMapper",
+    "git": "https://github.com/Zendevve/CartoMapper.git",
+    "branch": "main",
+    "description": "The Ultimate Map Enhancement Addon for Wrath of the Lich King 3.3.5a.",
+    "id": "cartomapper",
+    "owner": "Zendevve",
+    "wotlk_primary_download": "https://github.com/Zendevve/CartoMapper",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/CartoMapper.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/CartoMapper.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Zendevve/CartoMapper"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "CartoMapper",
+      "Notes": "The Ultimate Map Enhancement Addon for Wrath of the Lich King 3.3.5a."
+    }
+  },
+  {
+    "name": "ChatFilter (project abandoned)",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "simple addon just for myself to make Icecrown's /global chat more readable. It turned out quite good and helpful for me, so i decided to share it with community.\n\nIf you are tired of being recruited to Persian guilds, get frustrated from endless /y Il No'throma N O O O O L N Zaga maza'rotha Nogah mog NO o A spam.\n\nThis addon allows you completely skip messages, containing words from the blacklist. You can edit this list right in the game. Filters are applyed on /y, /s and global channels.",
+    "id": "chatfilter-project-abandoned",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ChatFilter.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Chatfilter.PNG",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Chatfilter.PNG"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warmane Forum",
+        "url": "https://forum.warmane.com/showthread.php?t=404523"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ChatFilter (project abandoned)",
+      "Notes": "simple addon just for myself to make Icecrown's /global chat more readable. It turned out quite good and helpful for me,"
+    }
+  },
+  {
+    "name": "Chatter",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Chatter is a comprehensive, lightweight, mega-configurable chat enhancement addon. It supports a whole bunch of stuff including.",
+    "id": "chatter",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Chatter.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Chatter.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Chatter.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/chatter/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Chatter",
+      "Notes": "Chatter is a comprehensive, lightweight, mega-configurable chat enhancement addon. It supports a whole bunch of stuff in"
+    }
+  },
+  {
+    "name": "Cheese",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Cheese simulates the display of procs introduced with Cataclysm.",
+    "id": "cheese",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Cheese.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Cheese.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Cheese.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WotLKAddOns",
+        "url": "https://wotlkaddons.com/addon/cheese"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Cheese",
+      "Notes": "Cheese simulates the display of procs introduced with Cataclysm."
+    }
+  },
+  {
+    "name": "ClassLoot",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "This addon is an in-game representation of Class Loot Lists as tooltip. Kaliban's Class Loot List provides ratings for all raid loot with respect to it's suitability for different class/spec combinations.",
+    "id": "classloot",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ClassLoot.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Classloot.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Classloot.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WoWAce",
+        "url": "https://www.wowace.com/projects/classloot/files/439152"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ClassLoot",
+      "Notes": "This addon is an in-game representation of Class Loot Lists as tooltip. Kaliban's Class Loot List provides ratings for a"
+    }
+  },
+  {
+    "name": "CleanerChat",
+    "git": "https://github.com/migwynkriid/CleanerChat-WotLK.git",
+    "branch": "master",
+    "description": "A World of Warcraft 3.3.5a addon that filters chat message clutter and replaces the default chat frame with an immersive, modern chat UI.",
+    "id": "cleanerchat",
+    "owner": "migwynkriid",
+    "wotlk_primary_download": "https://github.com/migwynkriid/CleanerChat-WotLK/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/CleanerChat.gif",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/CleanerChat.gif"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/migwynkriid/CleanerChat-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "CleanerChat",
+      "Notes": "A World of Warcraft 3.3.5a addon that filters chat message clutter and replaces the default chat frame with an immersive"
+    }
+  },
+  {
+    "name": "CleanMinimap",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "A clean square or round minimap that replaces the default minimap.",
+    "id": "cleanminimap",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/CleanMinimap.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/CMM.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/CMM.jpg",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/CMM2.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/cleanminimap"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "CleanMinimap",
+      "Notes": "A clean square or round minimap that replaces the default minimap."
+    }
+  },
+  {
+    "name": "Clique",
+    "git": "https://gitlab.com/Tsoukie/clique-3.3.5.git",
+    "branch": "main",
+    "description": "Clique is a simple addon that enables powerful click-casting and hover-casting on your unit frames and in the 3D game world. You can bind virtually any mouse or keyboard combination to a spell or macro. In it's normal configuration this enables you to use the bindings over your unit frames in order to cast spells directly on that unit. This allows you to more quickly select both the spell to cast, and the target of the spell without requiring an extra click.",
+    "id": "clique",
+    "owner": "Tsoukie",
+    "wotlk_primary_download": "https://gitlab.com/Tsoukie/clique-3.3.5/-/archive/main/clique-3.3.5-main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Clique.jpeg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Clique.jpeg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Gitlab",
+        "url": "https://gitlab.com/Tsoukie/clique-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Clique",
+      "Notes": "Clique is a simple addon that enables powerful click-casting and hover-casting on your unit frames and in the 3D game wo"
+    }
+  },
+  {
+    "name": "Collectinator",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Collectinator is a Addon to identify missing mini-pets and mounts, along with their locations for acquisition.\n\nOpen up your companion window (pets or mounts) and click the scan button.",
+    "id": "collectinator",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Collectinator.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Collectinator.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Collectinator.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/collectinator"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Collectinator",
+      "Notes": "Collectinator is a Addon to identify missing mini-pets and mounts, along with their locations for acquisition.\n\nOpen up "
+    }
+  },
+  {
+    "name": "Color Picker Advanced",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Color Picker Advanced for a better version of the WoW color picker that includes class color templates and a copy and paste function.",
+    "id": "color-picker-advanced",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ColorPickerAdvanced.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ColorPickerAdvanced.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ColorPickerAdvanced.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Google Drive",
+        "url": "https://drive.google.com/file/d/1ymNYizWp2TxIS1a6hLg7bT9YoJ3E-8Na/view"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Color Picker Advanced",
+      "Notes": "Color Picker Advanced for a better version of the WoW color picker that includes class color templates and a copy and pa"
+    }
+  },
+  {
+    "name": "Cooldowns",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "A World of Warcraft add-on that displays numeric cooldown counters on all buttons that are 28 pixels or wider.",
+    "id": "cooldowns",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/cooldowns.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/cooldowns.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/cooldowns.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warperia",
+        "url": "https://warperia.com/addon-wotlk/cooldowns/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Cooldowns",
+      "Notes": "A World of Warcraft add-on that displays numeric cooldown counters on all buttons that are 28 pixels or wider."
+    }
+  },
+  {
+    "name": "Critline",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Critline is an addon that will remember your highest hits and crits (including heals and pet attacks), and display them in a fairly simple tooltip. It sports many features by default, including advanced filtering, a standalone frame, splash on new record and more.",
+    "id": "critline",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Critline.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Critline.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Critline.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/critline"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Critline",
+      "Notes": "Critline is an addon that will remember your highest hits and crits (including heals and pet attacks), and display them "
+    }
+  },
+  {
+    "name": "Cromulent",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Displays ZoneInfo on the world map in a perfectly cromulent manner, à la Cartographer.",
+    "id": "cromulent",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Cromulent.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Cromulent.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Cromulent.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WoWAce",
+        "url": "https://www.wowace.com/projects/cromulent"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Cromulent",
+      "Notes": "Displays ZoneInfo on the world map in a perfectly cromulent manner, à la Cartographer."
+    }
+  },
+  {
+    "name": "DalaranAH",
+    "git": "https://github.com/NoM0Re/DalaranAH.git",
+    "branch": "main",
+    "description": "DalaranAH is a lightweight World of Warcraft addon that simplifies interactions with the Auctionhouse NPC in Dalaran by providing a customizable button on your screen, allowing you to target, set focus and mark the AH-Bot.\nAlso it opens the Auctionhouse instant, instead of clicking manually on the Gossip.",
+    "id": "dalaranah",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/DalaranAH/releases/latest/download/DalaranAH.zip",
+    "wotlk_primary_image": "https://i.ibb.co/WzPWxH1/Dalaran-AH2.png",
+    "wotlk_image_urls": [
+      "https://i.ibb.co/WzPWxH1/Dalaran-AH2.png",
+      "https://i.ibb.co/JKZmkjP/Dalaran-AH.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/NoM0Re/DalaranAH/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DalaranAH",
+      "Notes": "DalaranAH is a lightweight World of Warcraft addon that simplifies interactions with the Auctionhouse NPC in Dalaran by "
+    }
+  },
+  {
+    "name": "DBM Deadly Boss Mods Warmane",
+    "git": "https://github.com/Zidras/DBM-Warmane.git",
+    "branch": "main",
+    "description": "Deadly Boss Mods (DBM) is a popular addon that assists players in tracking and reacting to the many boss mechanics one might encounter during a dungeon or raid.",
+    "id": "dbm-deadly-boss-mods-warmane",
+    "owner": "Zidras",
+    "wotlk_primary_download": "https://github.com/Zidras/DBM-Warmane/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DBM.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DBM.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "How to install for the first time",
+        "url": "https://github.com/Zidras/DBM-Warmane#how-to-install-for-the-first-time"
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/Zidras/DBM-Warmane"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DBM Deadly Boss Mods Warmane",
+      "Notes": "Deadly Boss Mods (DBM) is a popular addon that assists players in tracking and reacting to the many boss mechanics one m"
+    }
+  },
+  {
+    "name": "Decursive",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Decursive is a cleansing mod intended to make affliction removal easy, effective and fun for all the classes having this ability.",
+    "id": "decursive",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Decursive.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Decursive.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Decursive.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/decursive/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Decursive",
+      "Notes": "Decursive is a cleansing mod intended to make affliction removal easy, effective and fun for all the classes having this"
+    }
+  },
+  {
+    "name": "DialogUI",
+    "git": "https://github.com/ghbset/DialogUI-WotLK.git",
+    "branch": "main",
+    "description": "An immersive quest / gossip / book dialog UI for World of Warcraft 3.3.5a.",
+    "id": "dialogui",
+    "owner": "ghbset",
+    "wotlk_primary_download": "https://github.com/ghbset/DialogUI-WotLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DialogUI1.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DialogUI1.png",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DialogUI2.png",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DialogUI3.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ghbset/DialogUI-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DialogUI",
+      "Notes": "An immersive quest / gossip / book dialog UI for World of Warcraft 3.3.5a."
+    }
+  },
+  {
+    "name": "DocsCorporeality(IMO better than HalionHelper)",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Assistant for Phase 3 of Halion in the Ruby Sanctum.",
+    "id": "docscorporeality-imo-better-than-halionhelper",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/DocsCorporeality_r3.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DocsCorporeality.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DocsCorporeality.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/docscorporeality"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DocsCorporeality(IMO better than HalionHelper)",
+      "Notes": "Assistant for Phase 3 of Halion in the Ruby Sanctum."
+    }
+  },
+  {
+    "name": "Dominos",
+    "git": "https://github.com/bkader/Dominos.git",
+    "branch": "main",
+    "description": "Dominos is an addon that replaces your main bar with movable parts that offer additional customization. Dominos is used primarily for its action bars.",
+    "id": "dominos",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/Dominos/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/dominos.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/dominos.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/bkader/Dominos"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Dominos",
+      "Notes": "Dominos is an addon that replaces your main bar with movable parts that offer additional customization. Dominos is used "
+    }
+  },
+  {
+    "name": "DragonUI",
+    "git": "https://github.com/NeticSoul/DragonUI.git",
+    "branch": "main",
+    "description": "DragonUI is a modular, retail-inspired UI addon for World of Warcraft 3.3.5a. It includes customizable action bars, unit frames, castbars, XP and reputation bars, chat enhancements, a retail-style minimap, bag sorting, layout presets, editor mode, and profile support.",
+    "id": "dragonui",
+    "owner": "NeticSoul",
+    "wotlk_primary_download": "https://github.com/NeticSoul/DragonUI/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DragonUI.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DragonUI.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/NeticSoul/DragonUI"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DragonUI",
+      "Notes": "DragonUI is a modular, retail-inspired UI addon for World of Warcraft 3.3.5a. It includes customizable action bars, unit"
+    }
+  },
+  {
+    "name": "DrDamage",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "DrDamage displays the calculated damage or healing of abilities with talents, gear and buffs included on your actionbar buttons. The addon also adds various statistics to the tooltips in your spellbook and on the actionbar.",
+    "id": "drdamage",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/DrDamage.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DrDamage.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DrDamage.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WotLKAddOns",
+        "url": "https://wotlkaddons.com/addon/drdamage"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DrDamage",
+      "Notes": "DrDamage displays the calculated damage or healing of abilities with talents, gear and buffs included on your actionbar "
+    }
+  },
+  {
+    "name": "DressMe",
+    "git": "https://github.com/GetLocalPlayer/DressMe.git",
+    "branch": "main",
+    "description": "DressMe is an add-on that allows to preview items appearance, create and save your character looks.",
+    "id": "dressme",
+    "owner": "GetLocalPlayer",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/DressMe.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DressMe.gif",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DressMe.gif"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/GetLocalPlayer/DressMe"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DressMe",
+      "Notes": "DressMe is an add-on that allows to preview items appearance, create and save your character looks."
+    }
+  },
+  {
+    "name": "EclipseBar",
+    "git": "https://github.com/bkader/EclipseBar-WotLK.git",
+    "branch": "main",
+    "description": "Backported Druid EclipseBar but instead of showing power bar, the marker moves with the eclipse's remaining time.",
+    "id": "eclipsebar",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/EclipseBar-WotLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Eclipse.gif",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Eclipse.gif"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/bkader/EclipseBar-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "EclipseBar",
+      "Notes": "Backported Druid EclipseBar but instead of showing power bar, the marker moves with the eclipse's remaining time."
+    }
+  },
+  {
+    "name": "ElvUI",
+    "git": "https://github.com/ElvUI-WotLK/ElvUI.git",
+    "branch": "master",
+    "description": "ElvUI is a complete Blizzard ui replacements. This means that they already have Blizzard frames skinned, unitframes and actionbars premade, etc.",
+    "id": "elvui",
+    "owner": "ElvUI-WotLK",
+    "wotlk_primary_download": "https://github.com/ElvUI-WotLK/ElvUI/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ElvUI.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ElvUI.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Plugins for ElvUI",
+        "url": "https://github.com/ElvUI-WotLK/ElvUI#plugins"
+      },
+      {
+        "label": "MyPlugin List",
+        "url": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Plugins.zip"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ElvUI-WotLK/ElvUI"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ElvUI",
+      "Notes": "ElvUI is a complete Blizzard ui replacements. This means that they already have Blizzard frames skinned, unitframes and "
+    }
+  },
+  {
+    "name": "Emblem of Gold",
+    "git": "https://github.com/Stradios/Emblem-of-Gold.git",
+    "branch": "main",
+    "description": "Emblem of Gold is a simple World of Warcraft addon that shows your gold and emblem counts (Heroism, Valor, Conquest, Triumph, Frost) when you open a vendor.",
+    "id": "emblem-of-gold",
+    "owner": "Stradios",
+    "wotlk_primary_download": "https://github.com/Stradios/Emblem-of-Gold/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/EmblemOfGold.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/EmblemOfGold.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/Stradios/Emblem-of-Gold"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Emblem of Gold",
+      "Notes": "Emblem of Gold is a simple World of Warcraft addon that shows your gold and emblem counts (Heroism, Valor, Conquest, Tri"
+    }
+  },
+  {
+    "name": "EndsidiaFails",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Report raid player fails",
+    "id": "endsidiafails",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/EndsidiaFails.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/EnsidiaFails.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/EnsidiaFails.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "RisingGods",
+        "url": "https://www.curseforge.com/wow/addons/ensidiafails/files/437365"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "EndsidiaFails",
+      "Notes": "Report raid player fails"
+    }
+  },
+  {
+    "name": "Equipence",
+    "git": "https://github.com/s0h2x/Equipence.git",
+    "branch": "master",
+    "description": "Displays gems, enchants, item levels, and quality borders directly in the character and inspection UI. See full gear status at a glance without extra steps. All visual elements can be toggled or adjusted in the options.",
+    "id": "equipence",
+    "owner": "s0h2x",
+    "wotlk_primary_download": "https://github.com/s0h2x/Equipence/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Equipence.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Equipence.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/s0h2x/Equipence"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Equipence",
+      "Notes": "Displays gems, enchants, item levels, and quality borders directly in the character and inspection UI. See full gear sta"
+    }
+  },
+  {
+    "name": "EventHorizon",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "EventHorizon displays all of your class/spec's rotational abilities on a common time scale.\nThis means that instead of seeing a regular percentage-based timer bar, EH shows you exactly what is happening in relation to everything else.\nIf that sounds complicated at all, just look at the screenshots.",
+    "id": "eventhorizon",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/EventHorizon.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/eventhorizon.gif",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/eventhorizon.gif"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/eventhorizon"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "EventHorizon",
+      "Notes": "EventHorizon displays all of your class/spec's rotational abilities on a common time scale.\nThis means that instead of s"
+    }
+  },
+  {
+    "name": "EveryQuest",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "EveryQuest is a Quest History tracker and quest list window.",
+    "id": "everyquest",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/EveryQuest.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/EveryQuest.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/EveryQuest.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WoWAce",
+        "url": "https://www.wowace.com/projects/everyquest"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "EveryQuest",
+      "Notes": "EveryQuest is a Quest History tracker and quest list window."
+    }
+  },
+  {
+    "name": "ForteXorcist",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "ForteXorcist is a Powerful AddOn for Cross-Dotting u keep track of every Dot u applied. It has many more Features for Warlock and Priests.",
+    "id": "fortexorcist",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ForteXorcist.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ForteXorcist.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ForteXorcist.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "RisingGods",
+        "url": "https://addons.rising-gods.de/addons/fortexorcist"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ForteXorcist",
+      "Notes": "ForteXorcist is a Powerful AddOn for Cross-Dotting u keep track of every Dot u applied. It has many more Features for Wa"
+    }
+  },
+  {
+    "name": "Friend & Ignore Share",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Share friends and ignore list account-wide.",
+    "id": "friend-ignore-share",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/FriendShare.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/FriendShare.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/FriendShare.png"
+    ],  
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/friend-ignore-share"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Friend & Ignore Share",
+      "Notes": "Share friends and ignore list account-wide."
+    }
+  },
+  {
+    "name": "Gatherer+",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "The addon does not track like a tracking ability does, rather it \"remembers\" where you have found various items in the past.\n\nIt does this whenever you gather (perform herbalism, mining or opening) on an item, and records the specific map location in its history.\n\nUsage: **/gather**",
+    "id": "gatherer",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Gatherer_Wowhead335.rar",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/gatherer.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/gatherer.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WarmaneForum",
+        "url": "https://forum.warmane.com/showthread.php?t=412904"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Gatherer+",
+      "Notes": "The addon does not track like a tracking ability does, rather it \"remembers\" where you have found various items in the p"
+    }
+  },
+  {
+    "name": "GearScore",
+    "git": "https://github.com/Arcitec/GearScoreLite_Reborn.git",
+    "branch": "main",
+    "description": "Allows you to easily see the calculated Gearscore of yourself and other players.\n\nIt adds a weighted value for each item a player has equipped based on Item Level.\n\n**GearScoreLite: Reborn**\nGearScoreLite: Reborn is the newest version of the Addon and is based on the final official version of GearScoreLite from CurseForge.\n\nIt doesn't have a database has a improved GearScore algorithm, includes several bug fixes, new features, and supports all unit frame addons.",
+    "id": "gearscore",
+    "owner": "Arcitec",
+    "wotlk_primary_download": "https://github.com/Arcitec/GearScoreLite_Reborn/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GearScore.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GearScore.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GearscoreLite: Reborn",
+        "url": "https://github.com/Arcitec/GearScoreLite_Reborn"
+      },
+      {
+        "label": "GearScore Lite Github",
+        "url": "https://github.com/Barsoomx/GearScoreLite"
+      },
+      {
+        "label": "GearScore WotLKAddOns",
+        "url": "https://wotlkaddons.com/addon/gearscore"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "GearScore",
+      "Notes": "Allows you to easily see the calculated Gearscore of yourself and other players.\n\nIt adds a weighted value for each item"
+    }
+  },
+  {
+    "name": "GladiusEx",
+    "git": "https://github.com/ManneN1/GladiusEx-WotLK.git",
+    "branch": "master",
+    "description": "The famous (and imo, far superior) arena frame AddOn GladiusEx. Gladius adds enemy unit frames to arenas for easier targeting and focusing. It is highly configurable and you can disable most features of this addon.",
+    "id": "gladiusex",
+    "owner": "ManneN1",
+    "wotlk_primary_download": "https://github.com/ManneN1/GladiusEx-WotLK/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GladiusEX.PNG",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GladiusEX.PNG"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/ManneN1/GladiusExBackport-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "GladiusEx",
+      "Notes": "The famous (and imo, far superior) arena frame AddOn GladiusEx. Gladius adds enemy unit frames to arenas for easier targ"
+    }
+  },
+  {
+    "name": "Grid2",
+    "git": "https://github.com/bkader/Grid2-WoTLK.git",
+    "branch": "main",
+    "description": "Grid2 is a party/raid unit frame addon.",
+    "id": "grid2",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/Grid2-WoTLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Grid2.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Grid2.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/bkader/Grid2-WoTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Grid2",
+      "Notes": "Grid2 is a party/raid unit frame addon."
+    }
+  },
+  {
+    "name": "GroupBulletinBoard",
+    "git": "https://github.com/fondlez/GroupBulletinBoard.git",
+    "branch": "main",
+    "description": "GroupBulletinBoard (GBB) provides a clear overview of the endless requests in chat channels. It detects all instance requests, sorts them, and presents them in an organized way, with numerous filters to help you find exactly the dungeons you are interested in; sound and chat notifications alert you to new requests. `/gbb` or click the minimap icon",
+    "id": "groupbulletinboard",
+    "owner": "fondlez",
+    "wotlk_primary_download": "https://github.com/fondlez/GroupBulletinBoard/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GroupBulletinBoard.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GroupBulletinBoard.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/fondlez/GroupBulletinBoard"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "GroupBulletinBoard",
+      "Notes": "GroupBulletinBoard (GBB) provides a clear overview of the endless requests in chat channels. It detects all instance req"
+    }
+  },
+  {
+    "name": "GTFO: Stop standing in fire!",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "GTFO provides an audible alert when you're standing in something you're not supposed to be standing in. In some cases, you'll be warned before you start taking damage.\n\nThis mod improves your situational awareness and is recommended for dungeon divers and raiders of all skill levels as even the most seasoned veteran sometimes needs a reminder to GTFO.",
+    "id": "gtfo-stop-standing-in-fire",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/GTFO.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GTFO.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GTFO.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/gtfo"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "GTFO: Stop standing in fire!",
+      "Notes": "GTFO provides an audible alert when you're standing in something you're not supposed to be standing in. In some cases, y"
+    }
+  },
+  {
+    "name": "HalionHelper",
+    "git": "https://github.com/bkader/HalionHelper-WoTLK.git",
+    "branch": "main",
+    "description": "Provides a clearer visual display of the Corporeality buff during phase 3 of the Halion encounter in Ruby Sanctum. Similar to the PVP capture frame, this lets you easily see if you should be DPSing more, less, or the same.",
+    "id": "halionhelper",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/HalionHelper-WoTLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/HalionHelper.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/HalionHelper.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/bkader/HalionHelper-WoTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "HalionHelper",
+      "Notes": "Provides a clearer visual display of the Corporeality buff during phase 3 of the Halion encounter in Ruby Sanctum. Simil"
+    }
+  },
+  {
+    "name": "Healbot",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "A supportive addon for healers, as it can do numerous amounts of helpful little tricks.",
+    "id": "healbot",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/HealBot.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/HealBot.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/HealBot.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WotLKDB",
+        "url": "https://wotlkdb.com/addons/healbot-continued/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Healbot",
+      "Notes": "A supportive addon for healers, as it can do numerous amounts of helpful little tricks."
+    }
+  },
+  {
+    "name": "IgnoreMore",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "IgnoreMore will let you ignore more than 49 players, share the same ignore list, see when someone was ignored, reason for why the person is ignored",
+    "id": "ignoremore",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/IgnoreMore.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/IgnoreMore.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/IgnoreMore.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WoWAce",
+        "url": "https://www.wowace.com/projects/ignore-more/files?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "IgnoreMore",
+      "Notes": "IgnoreMore will let you ignore more than 49 players, share the same ignore list, see when someone was ignored, reason fo"
+    }
+  },
+  {
+    "name": "Immersion",
+    "git": "https://github.com/s0h2x/Immersion-WotLK.git",
+    "branch": "master",
+    "description": "Immersion is a replacement for the dated quest & gossip frames.",
+    "id": "immersion",
+    "owner": "s0h2x",
+    "wotlk_primary_download": "https://github.com/s0h2x/Immersion-WotLK/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Immersion.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Immersion.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/s0h2x/Immersion-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Immersion",
+      "Notes": "Immersion is a replacement for the dated quest & gossip frames."
+    }
+  },
+  {
+    "name": "Improved Profession Capper",
+    "git": "https://github.com/DarkChimu/Improved-Profession-Capper.git",
+    "branch": "master",
+    "description": "Profession Capper is a addon that will show you how to level up your trade skills.\n\nWhen you open your Profession frame, the Profession Capper frame will be opened too, telling you which recipe you'd better to craft next in order to reach next level of that profession.",
+    "id": "improved-profession-capper",
+    "owner": "DarkChimu",
+    "wotlk_primary_download": "https://github.com/DarkChimu/Improved-Profession-Capper/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Improved-Profession-Capper.jpeg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Improved-Profession-Capper.jpeg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/DarkChimu/Improved-Profession-Capper"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Improved Profession Capper",
+      "Notes": "Profession Capper is a addon that will show you how to level up your trade skills.\n\nWhen you open your Profession frame,"
+    }
+  },
+  {
+    "name": "InspectEquip",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "InspectEquip attaches a panel to the inspect window that shows a list of the character's equipment sorted by source (i.e. Raid, Vendor, Crafted...).\n\nThis gives you a quick overview of a character's equipment.",
+    "id": "inspectequip",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/InspectEquip.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/InspectEquip.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/InspectEquip.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WoWAce",
+        "url": "https://www.wowace.com/projects/inspect-equip/files?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "InspectEquip",
+      "Notes": "InspectEquip attaches a panel to the inspect window that shows a list of the character's equipment sorted by source (i.e"
+    }
+  },
+  {
+    "name": "InterruptBar",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "A addon that tracks enemy interrupt abilities on a neat little bar.",
+    "id": "interruptbar",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/InterruptBar.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/InterruptBar.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/InterruptBar.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warperia",
+        "url": "https://warperia.com/addon-wotlk/interruptbar/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "InterruptBar",
+      "Notes": "A addon that tracks enemy interrupt abilities on a neat little bar."
+    }
+  },
+  {
+    "name": "iTargetingFrames",
+    "git": "https://github.com/CH33T4/iTargetingFrames.git",
+    "branch": "main",
+    "description": "Displays nameplate units in a clickable grid.\nRequires a patched client with AwesomeWotlk (https://github.com/FrostAtom/awesome_wotlk).\nIf units are shown more than once, you need the modified DLL-file with fixed nameplate units from this repository.\n**Does not work on servers that do not support AwesomeWotLK features (e.g. Warmane).**\nDoes not work on servers that do not support AwesomeWotLK features (e.g. Warmane).",
+    "id": "itargetingframes",
+    "owner": "CH33T4",
+    "wotlk_primary_download": "https://github.com/CH33T4/iTargetingFrames/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/iTargetingFrames.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/iTargetingFrames.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/CH33T4/iTargetingFrames"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "iTargetingFrames",
+      "Notes": "Displays nameplate units in a clickable grid.\nRequires a patched client with AwesomeWotlk (https://github.com/FrostAtom/"
+    }
+  },
+  {
+    "name": "Key Bind Profiles",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "This addon allows you to save keybind settings into different profiles, these profiles can be loaded and used again later. Each profile can be assigned to a specialization such that it automatically loads upon switching specs. Accessable through /kbp help",
+    "id": "key-bind-profiles",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/KeyBindingsProfiler.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/KeyBindProfiles.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/KeyBindProfiles.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/keybindprofiles"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Key Bind Profiles",
+      "Notes": "This addon allows you to save keybind settings into different profiles, these profiles can be loaded and used again late"
+    }
+  },
+  {
+    "name": "KRT: Kader Raid Tools",
+    "git": "https://github.com/bkader/KRT.git",
+    "branch": "main",
+    "description": "It was mainly made for raid leaders and it offers a lot of useful features to really make raid leading as easy as possible.",
+    "id": "krt-kader-raid-tools",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/KRT/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/KRT.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/KRT.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "More Information",
+        "url": "https://github.com/bkader/KRT"
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/bkader/KRT"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "KRT: Kader Raid Tools",
+      "Notes": "It was mainly made for raid leaders and it offers a lot of useful features to really make raid leading as easy as possib"
+    }
+  },
+  {
+    "name": "KRU - Kader's Raid Utilities",
+    "git": "https://github.com/bkader/KPack.git",
+    "branch": "main",
+    "description": "This addon was part of [KPack](https://github.com/bkader/KPack), it was extracted and made as a standalone addon after few requests, contains 8 very useful modules.",
+    "id": "kru-kader-s-raid-utilities",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/KRU.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/KRU.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/KRU.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "KPack",
+        "url": "https://github.com/bkader/KPack"
+      },
+      {
+        "label": "More Information",
+        "url": "https://github.com/bkader/KRU-WoTLK"
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/bkader/KRU-WoTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "KRU - Kader's Raid Utilities",
+      "Notes": "This addon was part of [KPack](https://github.com/bkader/KPack), it was extracted and made as a standalone addon after f"
+    }
+  },
+  {
+    "name": "LoseControl",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "LoseControl makes it easy to see the duration of crowd control spells by displaying them in a dedicated icon onscreen.",
+    "id": "losecontrol",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/LoseControl.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/LoseControl.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/LoseControl.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/losecontrol/files/all?filter-game-version=2020709689%3A82"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "LoseControl",
+      "Notes": "LoseControl makes it easy to see the duration of crowd control spells by displaying them in a dedicated icon onscreen."
+    }
+  },
+  {
+    "name": "Ludwig",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Ludwig is an World of Warcraft item database addon that allows you to search for any item ingame.\n\nIt presents all ingame items sorted by their proprieties, and allows you to filter them as well.",
+    "id": "ludwig",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Ludwig.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Ludwig.jpeg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Ludwig.jpeg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/ludwig"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Ludwig",
+      "Notes": "Ludwig is an World of Warcraft item database addon that allows you to search for any item ingame.\n\nIt presents all ingam"
+    }
+  },
+  {
+    "name": "MacroBank",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "MacroBank is an addon that allows you to easily create, organize, and save macros for future use without needing to first create them in the game's default macro window. It offers features like categorizing macros, editing text and icons, loading and replacing macros, and even sending macros to other MacroBank users.",
+    "id": "macrobank",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/MacroBank.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MacroBank.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MacroBank.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WoWAce",
+        "url": "https://www.wowace.com/projects/macro-bank"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "MacroBank",
+      "Notes": "MacroBank is an addon that allows you to easily create, organize, and save macros for future use without needing to firs"
+    }
+  },
+  {
+    "name": "Mage Nuggets",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Mage Nuggets is a utility with many useful nuggets to make the lives of mages easier.",
+    "id": "mage-nuggets",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/MageNuggets.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Mage%20Nuggets.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Mage%20Nuggets.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/mage-nuggets/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Mage Nuggets",
+      "Notes": "Mage Nuggets is a utility with many useful nuggets to make the lives of mages easier."
+    }
+  },
+  {
+    "name": "Mapster",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Mapster is a very simple world map enhacement addon, which was designed to work in conjunction with all other map addons out there.",
+    "id": "mapster",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Mapster.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Mapster.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Mapster.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/mapster"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Mapster",
+      "Notes": "Mapster is a very simple world map enhacement addon, which was designed to work in conjunction with all other map addons"
+    }
+  },
+  {
+    "name": "Method Raid Tools (MRT)",
+    "git": "https://github.com/ExoJdi/Method-Raid-Tools-3.3.5a.git",
+    "branch": "main",
+    "description": "Helpful addon for raiders, especially for raid leaders and officers. Modules: Raid Cooldowns, Notes, Reminders, Visual Notes, Battle Resurrection icon, Fight/combat log, Raid Inspect Viewer, Raid Check, Invite Tools, Timers, Raid Attendance, Encounters Statistics, Saving log (autologging), Marks Bar, Permanent Marks, Loot to chat, Who pulled, WeakAuras checker, Raid Groups Saver",
+    "id": "method-raid-tools-mrt",
+    "owner": "ExoJdi",
+    "wotlk_primary_download": "https://github.com/ExoJdi/Method-Raid-Tools-3.3.5a/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MRT.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MRT.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/ExoJdi/Method-Raid-Tools-3.3.5a"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Method Raid Tools (MRT)",
+      "Notes": "Helpful addon for raiders, especially for raid leaders and officers. Modules: Raid Cooldowns, Notes, Reminders, Visual N"
+    }
+  },
+  {
+    "name": "MikScrollingBattleText(MSBT)",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "MSBT is designed to be an extremely lightweight, efficient, and highly configurable mod that makes it easier to see combat information by scrolling the information on the screen in separate, dynamically creatable scroll areas. It is a replacement for Blizzard's Floating Combat Text and Damage output.",
+    "id": "mikscrollingbattletext-msbt",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/MikScrollingBattleText.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MSBT.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MSBT.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WotLKAddOns",
+        "url": "https://wotlkaddons.com/addon/mik%27s-scrolling-battle-text"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "MikScrollingBattleText(MSBT)",
+      "Notes": "MSBT is designed to be an extremely lightweight, efficient, and highly configurable mod that makes it easier to see comb"
+    }
+  },
+  {
+    "name": "MogIt",
+    "git": "https://github.com/Skrylas/MogIt-WotLK.git",
+    "branch": "main",
+    "description": "MogIt is an in-game catalogue of items with the aim of helping players build their own sets for transmogrification purposes.",
+    "id": "mogit",
+    "owner": "Skrylas",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/MogIt.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/mogit.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/mogit.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Skrylas/MogIt-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "MogIt",
+      "Notes": "MogIt is an in-game catalogue of items with the aim of helping players build their own sets for transmogrification purpo"
+    }
+  },
+  {
+    "name": "Molinari",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Molinari allows the player to easily \"salvage\" items directly from the inventory by holding down the Alt key and clicking on the item in their bags, instead of dealing with the tradeskill UI, spellbook, macros or actions.",
+    "id": "molinari",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Molinari.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Molinari.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Molinari.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/molinari"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Molinari",
+      "Notes": "Molinari allows the player to easily \"salvage\" items directly from the inventory by holding down the Alt key and clickin"
+    }
+  },
+  {
+    "name": "MoP Item Tooltips",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "MoP Item Tooltips is an add-on to modifiy item tooltips so they look like they do in later expansions.",
+    "id": "mop-item-tooltips",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/MoPItemTooltips.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MoPItemTooltips1.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MoPItemTooltips1.png",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MoPItemTooltips2.png",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MoPItemTooltips3.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "EzWoW",
+        "url": "https://ezwow.org/topic/134110-mop-item-tooltips-11/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "MoP Item Tooltips",
+      "Notes": "MoP Item Tooltips is an add-on to modifiy item tooltips so they look like they do in later expansions."
+    }
+  },
+  {
+    "name": "MoveAnything",
+    "git": "https://github.com/sirus-addons/MoveAnything.git",
+    "branch": "master",
+    "description": "MoveAnything enables you to move, scale, hide and adjust transparency of just about any screen element in WoW, offering tools to help you customize your UI.",
+    "id": "moveanything",
+    "owner": "sirus-addons",
+    "wotlk_primary_download": "https://github.com/sirus-addons/MoveAnything/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MoveAnything.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MoveAnything.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/sirus-addons/MoveAnything"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "MoveAnything",
+      "Notes": "MoveAnything enables you to move, scale, hide and adjust transparency of just about any screen element in WoW, offering "
+    }
+  },
+  {
+    "name": "NeedToKnow",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "NeedToKnow lets you monitor specific buffs, debuffs, cooldowns, and totems as timer bars that always appear in a consistent place on your screen.",
+    "id": "needtoknow",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/NeedToKnow.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/needtoknow.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/needtoknow.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/need-to-know/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "NeedToKnow",
+      "Notes": "NeedToKnow lets you monitor specific buffs, debuffs, cooldowns, and totems as timer bars that always appear in a consist"
+    }
+  },
+  {
+    "name": "NotPlater",
+    "git": "https://github.com/RichSteini/NotPlater.git",
+    "branch": "main",
+    "description": "Feature rich nameplate addon for that was designed based on the modern Plater addon.\n\nThe main purpose is to provide extensive threat information on nameplates with fully configurable options.\n\nYou can either access them over the minimap button or with the slash commands /np or /notplater.",
+    "id": "notplater",
+    "owner": "RichSteini",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/NotPlater-3.3.5.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/NotPlater.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/NotPlater.png",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/NotPlater1.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/RichSteini/NotPlater"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "NotPlater",
+      "Notes": "Feature rich nameplate addon for that was designed based on the modern Plater addon.\n\nThe main purpose is to provide ext"
+    }
+  },
+  {
+    "name": "Omen Thread Meter",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Omen is a threat meter. Basically, enemies in WoW decide who to attack by deciding who is the most threatening based on the abilities you use.",
+    "id": "omen-thread-meter",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Omen.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Omen.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Omen.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WotLKAddOns",
+        "url": "https://wotlkaddons.com/addon/omen"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Omen Thread Meter",
+      "Notes": "Omen is a threat meter. Basically, enemies in WoW decide who to attack by deciding who is the most threatening based on "
+    }
+  },
+  {
+    "name": "OmniCC",
+    "git": "https://github.com/NoM0Re/OmniCC-WotLK.git",
+    "branch": "main",
+    "description": "Adds numeric cooldown timers to spells, abilities, and items, turning the default analog cooldown swirl into clear digital countdown text. Works with the default UI and most addons. Use /omnicc or /occ to open the options.",
+    "id": "omnicc",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/OmniCC-WotLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/OmniCC.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/OmniCC.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/NoM0Re/OmniCC-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "OmniCC",
+      "Notes": "Adds numeric cooldown timers to spells, abilities, and items, turning the default analog cooldown swirl into clear digit"
+    }
+  },
+  {
+    "name": "OPie",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "OPie is a radial action-binding addon for World of Warcraft. It lets you group actions into rings, which appear when you hold down a keyboard or mouse binding.\nWhen you release the binding, OPie will perform an action based on where your mouse cursor is.",
+    "id": "opie",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/OPie.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Opie.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Opie.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WotLKAddOns",
+        "url": "https://wotlkaddons.com/addon/opie"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "OPie",
+      "Notes": "OPie is a radial action-binding addon for World of Warcraft. It lets you group actions into rings, which appear when you"
+    }
+  },
+  {
+    "name": "Outfitter",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Lets you switch between equipment sets easily, works with DBM weaponswitch.",
+    "id": "outfitter",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Outfitter.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Outiftter.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Outiftter.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WotLKAddOns",
+        "url": "https://wotlkaddons.com/addon/outfitter"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Outfitter",
+      "Notes": "Lets you switch between equipment sets easily, works with DBM weaponswitch."
+    }
+  },
+  {
+    "name": "Overachiever",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Overachiever provides tools and tweaks to make the lives of players seeking achievements a little bit easier.",
+    "id": "overachiever",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Overachiever.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Overachiever3.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Overachiever3.jpg",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Overachiever.jpg",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Overachiever2.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/overachiever"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Overachiever",
+      "Notes": "Overachiever provides tools and tweaks to make the lives of players seeking achievements a little bit easier."
+    }
+  },
+  {
+    "name": "PallyPower Improved",
+    "git": "https://github.com/NoM0Re/PallyPower-Improved-3.3.5.git",
+    "branch": "main",
+    "description": "Pally Power the must have for a Paladin, provides an interactive and easy to use interface that allows you to set your own blessings (Righteous Fury, Aura, Seal and Blessings) and automatically checks for missing buffs with an easy to read indicator.",
+    "id": "pallypower-improved",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/PallyPower-Improved-3.3.5/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/pallypower.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/pallypower.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/NoM0Re/PallyPower-Improved-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "PallyPower Improved",
+      "Notes": "Pally Power the must have for a Paladin, provides an interactive and easy to use interface that allows you to set your o"
+    }
+  },
+  {
+    "name": "PhoenixStyle",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "PhoenixStyle is a famous WoW addon that tracks many fails, and other useful and interesting information on boss fights and has some interesting thing for raid leaders",
+    "id": "phoenixstyle",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/PhoenixStyle.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/phoenixstyle.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/phoenixstyle.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "RisingGods",
+        "url": "https://addons.rising-gods.de/addons/phoenix-style"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "PhoenixStyle",
+      "Notes": "PhoenixStyle is a famous WoW addon that tracks many fails, and other useful and interesting information on boss fights a"
+    }
+  },
+  {
+    "name": "PlateBuffs",
+    "git": "https://github.com/KhalGH/PlateBuffs-WoTLK.git",
+    "branch": "main",
+    "description": "PlateBuffs displays people's buffs above their nameplates.",
+    "id": "platebuffs",
+    "owner": "KhalGH",
+    "wotlk_primary_download": "https://github.com/KhalGH/PlateBuffs-WoTLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/PlateBuffs.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/PlateBuffs.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/KhalGH/PlateBuffs-WoTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "PlateBuffs",
+      "Notes": "PlateBuffs displays people's buffs above their nameplates."
+    }
+  },
+  {
+    "name": "pMinimap",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "pMinimap is a very lightweight and streamlined Minimap addon.",
+    "id": "pminimap",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/pMinimap.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/pMinimap.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/pMinimap.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Felbite",
+        "url": "https://felbite.com/addon/4552-pminimap/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "pMinimap",
+      "Notes": "pMinimap is a very lightweight and streamlined Minimap addon."
+    }
+  },
+  {
+    "name": "Postal+",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Postal offers enhanced mailbox support by providing allot of features.\n\nEnhanced by BlueAo adding new features.",
+    "id": "postal",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Postal.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Postal.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Postal.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warmane Forum",
+        "url": "https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Postal+",
+      "Notes": "Postal offers enhanced mailbox support by providing allot of features.\n\nEnhanced by BlueAo adding new features."
+    }
+  },
+  {
+    "name": "pretty_minimap",
+    "git": "https://github.com/s0h2x/pretty_minimap.git",
+    "branch": "master",
+    "description": "Lightweight Minimap addon like Dragonflight style.",
+    "id": "pretty-minimap",
+    "owner": "s0h2x",
+    "wotlk_primary_download": "https://github.com/s0h2x/pretty_minimap/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/pretty_minimap.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/pretty_minimap.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/s0h2x/pretty_minimap/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "pretty_minimap",
+      "Notes": "Lightweight Minimap addon like Dragonflight style."
+    }
+  },
+  {
+    "name": "Quartz",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Quartz is a modular approach to a casting bar addon.",
+    "id": "quartz",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Quartz.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/quartz.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/quartz.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "RisingGodsAddons",
+        "url": "https://addons.rising-gods.de/addons/quartz"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Quartz",
+      "Notes": "Quartz is a modular approach to a casting bar addon."
+    }
+  },
+  {
+    "name": "Questhelper",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Questhelper tells you how to finish your quests in the easiest, fastest manner. It includes a database of quests, monsters, and items, telling you the exact location of that dang Perfect Satyr Horn you can't find. It also computes the fastest path to complete all your quests - and gain experience - as quickly as possible.",
+    "id": "questhelper",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/QuestHelper.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/QuestHelper.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/QuestHelper.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/quest-helper/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Questhelper",
+      "Notes": "Questhelper tells you how to finish your quests in the easiest, fastest manner. It includes a database of quests, monste"
+    }
+  },
+  {
+    "name": "Questie",
+    "git": "https://github.com/Aldori15/Questie.git",
+    "branch": "335",
+    "description": "Questie is a popular World of Warcraft addon that enhances the questing experience for players. It provides an intuitive and user-friendly interface for tracking quests, displaying quest objectives on the map, and offering helpful tooltips for quest-related NPCs and items. Questie streamlines the questing process by reducing the need for players to constantly consult external guides or references, making it easier to navigate the expansive world of Azeroth and complete quests efficiently. Whether you're a seasoned veteran or a newcomer to WoW, Questie is a valuable tool for enhancing your gameplay experience and maximizing your questing efficiency.",
+    "id": "questie",
+    "owner": "Aldori15",
+    "wotlk_primary_download": "https://github.com/Aldori15/Questie/archive/refs/heads/335.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Questie.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Questie.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/Aldori15/Questie"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Questie",
+      "Notes": "Questie is a popular World of Warcraft addon that enhances the questing experience for players. It provides an intuitive"
+    }
+  },
+  {
+    "name": "Raeli's Unit Frames",
+    "git": "https://github.com/bkader/RUF-WoTLK.git",
+    "branch": "main",
+    "description": "RUF is a configurable Unit Frame addon using oUF. It isn't as fully featured as some unit frames",
+    "id": "raeli-s-unit-frames",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/RUF-WoTLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Raeli's%20Unit%20Frames.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Raeli's%20Unit%20Frames.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/bkader/RUF-WoTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Raeli's Unit Frames",
+      "Notes": "RUF is a configurable Unit Frame addon using oUF. It isn't as fully featured as some unit frames"
+    }
+  },
+  {
+    "name": "Raelis Spell Announcer",
+    "git": "https://github.com/alchem1ster/WotLK-RSA.git",
+    "branch": "main",
+    "description": "RSA is an addon that can announce spell casts to various chat channels. There is a large selection of abilities for each class that RSA can announce, such as interrupts, defensive cooldowns, and utility spells e.g Soulstone.",
+    "id": "raelis-spell-announcer",
+    "owner": "alchem1ster",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/RSA.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RSA.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RSA.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/alchem1ster/WotLK-RSA"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Raelis Spell Announcer",
+      "Notes": "RSA is an addon that can announce spell casts to various chat channels. There is a large selection of abilities for each"
+    }
+  },
+  {
+    "name": "Raid Roll",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Raid Roll is an addon that can be used to perform a raid roll. A raid roll lists all players with an ID beside their name. Then it performs a roll and announces who the winner is (based on the ID). You can also track rolls made by players on any loot that drops.",
+    "id": "raid-roll",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/RaidRoll.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidRoll.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidRoll.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://legacy.curseforge.com/wow/addons/raid-roll/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Raid Roll",
+      "Notes": "Raid Roll is an addon that can be used to perform a raid roll. A raid roll lists all players with an ID beside their nam"
+    }
+  },
+  {
+    "name": "RaidBrowser for Warmane",
+    "git": "https://github.com/Ostoic/RaidBrowser.git",
+    "branch": "main",
+    "description": "Bringing LFR to Wotlk. This addon replaces the unused (in 3.3.5a) LFR tab in the social menu with a working raid finder. Use **/rb** to open.",
+    "id": "raidbrowser-for-warmane",
+    "owner": "Ostoic",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/RaidBrowser.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/raidbrowser.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/raidbrowser.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Ostoic/RaidBrowser"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "RaidBrowser for Warmane",
+      "Notes": "Bringing LFR to Wotlk. This addon replaces the unused (in 3.3.5a) LFR tab in the social menu with a working raid finder."
+    }
+  },
+  {
+    "name": "RaidBuffStatus",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "RBS reports on a configurable dashboard or to group chat on consumables, buffs, AFK, mana and many many others but in an intelligent automagic way. RBS is the last nail in the coffin of all slacking level max-level raiders.",
+    "id": "raidbuffstatus",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/RaidBuffStatus.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidBuffStatus.PNG",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidBuffStatus.PNG"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/raidbuffstatus/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "RaidBuffStatus",
+      "Notes": "RBS reports on a configurable dashboard or to group chat on consumables, buffs, AFK, mana and many many others but in an"
+    }
+  },
+  {
+    "name": "RaidComp",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Raid composition is an important aspect of WoW PvE. RC also helps raid leaders by giving an overview of the different buff and debuff categories. It won't do all the thinking for you, raid optimization is complex, however it should be able to do most of the grunt work and highlight some of the categories and abilities you need to look closer at.",
+    "id": "raidcomp",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/RaidComp.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidComp.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidComp.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/arc/files/all?filter-game-version=2020709689%3A93"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "RaidComp",
+      "Notes": "Raid composition is an important aspect of WoW PvE. RC also helps raid leaders by giving an overview of the different bu"
+    }
+  },
+  {
+    "name": "RaidSlackCheck",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "RSC is a separate stand-alone addon of PhoenixStyle. Shows who uses potions in a raid and who doesn't, shows who has no flask or food buff, check buffs in combat after rebirth.",
+    "id": "raidslackcheck",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/RaidSlackCheck.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidSlackCheck.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidSlackCheck.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warperia",
+        "url": "https://warperia.com/addon-wotlk/raidslackcheck/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "RaidSlackCheck",
+      "Notes": "RSC is a separate stand-alone addon of PhoenixStyle. Shows who uses potions in a raid and who doesn't, shows who has no "
+    }
+  },
+  {
+    "name": "RatingBuster",
+    "git": "https://github.com/Einherjarn/RatingBuster-3.3.5.git",
+    "branch": "main",
+    "description": "This addon is an in-game representation of Class Loot Lists as tooltip. Kaliban's Class Loot List provides ratings for all raid loot with respect to it's suitability for different class/spec combinations.",
+    "id": "ratingbuster",
+    "owner": "Einherjarn",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/RatingBuster.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaitingBuster.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaitingBuster.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/Einherjarn/RatingBuster-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "RatingBuster",
+      "Notes": "This addon is an in-game representation of Class Loot Lists as tooltip. Kaliban's Class Loot List provides ratings for a"
+    }
+  },
+  {
+    "name": "Redeemer",
+    "git": "https://github.com/Lightball-TFK/Redeemer-3.3.5a.git",
+    "branch": "main",
+    "description": "This AddOn makes you say humorous messages whenever you cast a resurrection spell and serves purely to entertain you and annoy others.",
+    "id": "redeemer",
+    "owner": "Lightball-TFK",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Redeemer.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Reedemer.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Reedemer.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/Lightball-TFK/Redeemer-3.3.5a"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Redeemer",
+      "Notes": "This AddOn makes you say humorous messages whenever you cast a resurrection spell and serves purely to entertain you and"
+    }
+  },
+  {
+    "name": "SexyCooldown",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "SexyCooldown is a single consolidated timer bar for all your spell, pet's spell, item, and proc cooldowns, as well as buffs, debuffs, and totem timers. It's very flexible, and can be customized to fit into your UI as best you see fit.",
+    "id": "sexycooldown",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/SexyCooldown.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SexyCooldown.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SexyCooldown.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/sexycooldown/files?version=3.3.3"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SexyCooldown",
+      "Notes": "SexyCooldown is a single consolidated timer bar for all your spell, pet's spell, item, and proc cooldowns, as well as bu"
+    }
+  },
+  {
+    "name": "SexyMap",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "SexyMap completely redesigns your mini-map to give it a more “sexy” look. You can choose from a couple of pre-defined styles.",
+    "id": "sexymap",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/SexyMap.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SexyMap.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SexyMap.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warperia",
+        "url": "https://warperia.com/addon-wotlk/sexymap"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SexyMap",
+      "Notes": "SexyMap completely redesigns your mini-map to give it a more “sexy” look. You can choose from a couple of pre-defined st"
+    }
+  },
+  {
+    "name": "Shadowed Unit Frames",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "SFU offers you a modified interface that can show you, for example, which players are currently out of range or which of them have negative (or positive) auras.\n\nAdditionally, it allows you to move the individual character windows to where it works best for you.",
+    "id": "shadowed-unit-frames",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ShadowedUnitFrames.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SUF1.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SUF1.png",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SUF2.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/shadowed-unit-frames/files/all?page=1&pageSize=20&version=3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Shadowed Unit Frames",
+      "Notes": "SFU offers you a modified interface that can show you, for example, which players are currently out of range or which of"
+    }
+  },
+  {
+    "name": "SharedMedia AddOns",
+    "git": "https://github.com/bkader/SharedMedia.git",
+    "branch": "main",
+    "description": "Inserts media(fonts, bars, borders, etc) into LibSharedMedia's storage. They can then be selected by any addon that supports LibSharedMedia.\n**bKader Shared Media** for more bar, textures, fonts, sounds(popular version), with alot custom stuff added.\n\n**SharedMedia Retail** for more bar textures, fonts (retail version).\n\n**SharedMediaAdditionalFonts** for more fonts.\n\n**MerfinPlus** adds predefined tts, sounds, statusbar, fonts and more.",
+    "id": "sharedmedia-addons",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/SharedMedia/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SharedMedia.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SharedMedia.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/bkader/SharedMedia"
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/NoM0Re/SharedMedia"
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/NoM0Re/SharedMediaAdditionalFonts"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SharedMedia AddOns",
+      "Notes": "Inserts media(fonts, bars, borders, etc) into LibSharedMedia's storage. They can then be selected by any addon that supp"
+    }
+  },
+  {
+    "name": "Skada vs. Details!",
+    "git": "https://github.com/bkader/Skada-WoTLK.git",
+    "branch": "main",
+    "description": "Skada and Details! are both popular damage meters in World of Warcraft, showcasing distinctive features.\n\nSkada boasts a modular design, is more efficient and has more additional modules than Details!.\n\nDetails! Damage Meter stands out with its user-friendly interface and a comprehensive set of tracking modules and graphs, enhancing combat data analysis for players.\n\n**Skada** is way to go for better performance.\n\n**Please use only one damage meter.**",
+    "id": "skada-vs-details",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/Skada-WoTLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/skadaxdetails.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/skadaxdetails.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Skada Github",
+        "url": "https://github.com/bkader/Skada-WoTLK"
+      },
+      {
+        "label": "Details! Github",
+        "url": "https://github.com/Bunny67/Details-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Skada vs. Details!",
+      "Notes": "Skada and Details! are both popular damage meters in World of Warcraft, showcasing distinctive features.\n\nSkada boasts a"
+    }
+  },
+  {
+    "name": "SmartTrack",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Smart automatic tracking for hunters only with Improved tracking talent. Whenever you enter combat this addon will check your target's type (if any) and automatically change your tracking accordingly. If you change the target during combat your tracking will change too (if your new target is of different type and you can track it).",
+    "id": "smarttrack",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/SmartTrack.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SmartTrack.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SmartTrack.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/smarttrack/files"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SmartTrack",
+      "Notes": "Smart automatic tracking for hunters only with Improved tracking talent. Whenever you enter combat this addon will check"
+    }
+  },
+  {
+    "name": "SnowfallKeyPress",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "This addon accelerates key bindings so that they are activated by key press rather than key release.\n\n**Do not use it with ElvUI!**",
+    "id": "snowfallkeypress",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/SnowfallKeyPress.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SnowfallKeyPress.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SnowfallKeyPress.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "WoWInterface",
+        "url": "https://web.archive.org/web/20100108081918/http://www.wowinterface.com:80/downloads/info15078-SnowfallKeyPress.html"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SnowfallKeyPress",
+      "Notes": "This addon accelerates key bindings so that they are activated by key press rather than key release.\n\n**Do not use it wi"
+    }
+  },
+  {
+    "name": "SoundAlerter",
+    "git": "https://github.com/Cortes-Jeremy/SoundAlerter.git",
+    "branch": "main",
+    "description": "SoundAlerter for WoW 3.3.5a - The addon announces via sound when the enemy uses important CDs, abilities, controls, defs, trinkets. In general, all important actions of yours are used in PvP",
+    "id": "soundalerter",
+    "owner": "Cortes-Jeremy",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/SoundAlerter.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Soundalerter.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Soundalerter.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Cortes-Jeremy/SoundAlerter"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SoundAlerter",
+      "Notes": "SoundAlerter for WoW 3.3.5a - The addon announces via sound when the enemy uses important CDs, abilities, controls, defs"
+    }
+  },
+  {
+    "name": "SpellID",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "Adds IDs to the ingame tooltips.",
+    "id": "spellid",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/SpellID.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SpellID.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SpellID.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/idtip"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SpellID",
+      "Notes": "Adds IDs to the ingame tooltips."
+    }
+  },
+  {
+    "name": "SpellReplay",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "SpellReplay is a AddOn that was originally made for Sbkzor in order to backport a retail addon widely used by streamers called TrufiGCD.\nThe AddOn scrolls smoothly and speeds up when multiple spells are used at the same time, making it easier to highlight good plays.",
+    "id": "spellreplay",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/SpellReplay.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SpellReplay.gif",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SpellReplay.gif"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warperia",
+        "url": "https://warperia.com/addon-wotlk/spellreplay/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SpellReplay",
+      "Notes": "SpellReplay is a AddOn that was originally made for Sbkzor in order to backport a retail addon widely used by streamers "
+    }
+  },
+  {
+    "name": "Spy",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "The Spy addon scans the combat log for actions performed by enemy players and announces their presence when they are detected. By warning you about nearby enemy players you can prepare for possible PvP combat. If an enemy player is detected Spy will attempt to determine their class, race and level based on the ability that was used. It will then sound an alert and add the enemy player to the Nearby List.",
+    "id": "spy",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/spy.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/spy.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/spy.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Warperia",
+        "url": "https://warperia.com/addon-wotlk/spy/"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Spy",
+      "Notes": "The Spy addon scans the combat log for actions performed by enemy players and announces their presence when they are det"
+    }
+  },
+  {
+    "name": "STFU: Shut the fuck up, thanks.",
+    "git": "https://github.com/Arcitec/STFU_Chat_Filter.git",
+    "branch": "main",
+    "description": "Efficiently blocks all opposite-faction chat spam in neutral cities (Dalaran, Shattrath, etc) and other neutral areas.\n\nStill shows their messages if you are outside of neutral zones, to preserve situational awareness of nearby enemies.",
+    "id": "stfu-shut-the-fuck-up-thanks",
+    "owner": "Arcitec",
+    "wotlk_primary_download": "https://github.com/Arcitec/STFU_Chat_Filter/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/STFU.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/STFU.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/Arcitec/STFU_Chat_Filter"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "STFU: Shut the fuck up, thanks.",
+      "Notes": "Efficiently blocks all opposite-faction chat spam in neutral cities (Dalaran, Shattrath, etc) and other neutral areas.\n\n"
+    }
+  },
+  {
+    "name": "Storyline",
+    "git": "https://github.com/shadovvs/WotLK-Storyline.git",
+    "branch": "main",
+    "description": "This addon aims to enhance the readability and immersion when questing in World of Warcraft. It adds a brand new quest frame, with animated 3D models and fancy effects.",
+    "id": "storyline",
+    "owner": "shadovvs",
+    "wotlk_primary_download": "https://github.com/shadovvs/WotLK-Storyline/releases/download/v1.0.1/WotLK-Backport-Storyline.7z",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Storyline.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Storyline.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/shadovvs/WotLK-Storyline/tree/v1.0.1"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Storyline",
+      "Notes": "This addon aims to enhance the readability and immersion when questing in World of Warcraft. It adds a brand new quest f"
+    }
+  },
+  {
+    "name": "Talented",
+    "git": "https://github.com/bkader/Talented_WoTLK.git",
+    "branch": "main",
+    "description": "Talented is a replacement to the default Talent UI, with a lot of added features.",
+    "id": "talented",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Talented.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/talented.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/talented.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/bkader/Talented_WoTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Talented",
+      "Notes": "Talented is a replacement to the default Talent UI, with a lot of added features."
+    }
+  },
+  {
+    "name": "TellMeWhen",
+    "git": "https://github.com/bkader/TellMeWhen_3.3.5.git",
+    "branch": "main",
+    "description": "TellMeWhen is a WoW addon that provides visual, auditory, and textual notifications about cooldowns, buffs, and pretty much every other element of combat.",
+    "id": "tellmewhen",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/TellMeWhen_3.3.5/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TellMeWhen.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TellMeWhen.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://github.com/bkader/TellMeWhen_3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "TellMeWhen",
+      "Notes": "TellMeWhen is a WoW addon that provides visual, auditory, and textual notifications about cooldowns, buffs, and pretty m"
+    }
+  },
+  {
+    "name": "Tidy Plates",
+    "git": "https://github.com/bkader/TidyPlates_WoTLK.git",
+    "branch": "main",
+    "description": "Tidy Plates enhances World of Warcraft's nameplates. See Aggro, Life in%, and more on the Nameplates.",
+    "id": "tidy-plates",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/TidyPlates_WoTLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TidyPlates.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TidyPlates.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/bkader/TidyPlates_WoTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Tidy Plates",
+      "Notes": "Tidy Plates enhances World of Warcraft's nameplates. See Aggro, Life in%, and more on the Nameplates."
+    }
+  },
+  {
+    "name": "TipTac",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "TipTac is a tooltip enchancement addon, it allows you to configure various aspects of the tooltip, such as moving where it's shown, the font, the scale of tips, plus a lot more.",
+    "id": "tiptac",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/TipTac.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/tic.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/tic.jpg",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/tic2.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/tip-tac"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "TipTac",
+      "Notes": "TipTac is a tooltip enchancement addon, it allows you to configure various aspects of the tooltip, such as moving where "
+    }
+  },
+  {
+    "name": "TradeSkillMaster v2.8.3",
+    "git": "https://github.com/andrew6180/TradeSkillMaster.git",
+    "branch": "master",
+    "description": "TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making processes. TSM's features include everything from improving the native crafting and auctioning experiences to helping you gather needed materials and sniping that low-hanging auction house fruit!",
+    "id": "tradeskillmaster-v2-8-3",
+    "owner": "andrew6180",
+    "wotlk_primary_download": "https://github.com/andrew6180/TradeSkillMaster/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TSM.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TSM.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/andrew6180/TradeSkillMaster"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "TradeSkillMaster v2.8.3",
+      "Notes": "TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making pro"
+    }
+  },
+  {
+    "name": "TrufiGCD",
+    "git": "https://github.com/BannZay/TrufiGCD.git",
+    "branch": "main",
+    "description": "TrufiGCD a small addon, that shows the last used abilities of party or arena members. Can be also used for streaming to show the lastest used Spell used from you.",
+    "id": "trufigcd",
+    "owner": "BannZay",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/TrufiGCD.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TrufiGCD.gif",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TrufiGCD.gif"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/BannZay/TrufiGCD"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "TrufiGCD",
+      "Notes": "TrufiGCD a small addon, that shows the last used abilities of party or arena members. Can be also used for streaming to "
+    }
+  },
+  {
+    "name": "TurnIn",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "An add-on that automates the clicking of Quests and NPC Gossip dialogues. Automatically turns in repeatable or regular quests, accepts quests, and selects the appropriate options from NPCs. Never have to talk to an NPC again!\n\nTo bring up the Options window, type **/ti window**.",
+    "id": "turnin",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/TurnIn-2.1.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TurnIn.PNG",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TurnIn.PNG"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/turn-in/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "TurnIn",
+      "Notes": "An add-on that automates the clicking of Quests and NPC Gossip dialogues. Automatically turns in repeatable or regular q"
+    }
+  },
+  {
+    "name": "Unified Profile Manager",
+    "git": "https://github.com/NoM0Re/UnifiedProfileManager-WotLK.git",
+    "branch": "master",
+    "description": "Manage all your AceDB-based addon profiles from one single interface.\nOpen it with /profiles or /upm to view, switch, copy, and clean up profiles across addons and characters, all in one compact list.",
+    "id": "unified-profile-manager",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/UnifiedProfileManager-WotLK/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/upm.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/upm.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/NoM0Re/UnifiedProfileManager-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Unified Profile Manager",
+      "Notes": "Manage all your AceDB-based addon profiles from one single interface.\nOpen it with /profiles or /upm to view, switch, co"
+    }
+  },
+  {
+    "name": "Vd-skip",
+    "git": "https://github.com/Stradios/Vd-skip.git",
+    "branch": "main",
+    "description": "Vd-skip is a lightweight addon that streamlines NPC interactions by automatically skipping unnecessary dialogue with vendors and flight masters.",
+    "id": "vd-skip",
+    "owner": "Stradios",
+    "wotlk_primary_download": "https://github.com/Stradios/Vd-skip/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/no-vd-skip.gif",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/no-vd-skip.gif"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/Stradios/Vd-skip"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Vd-skip",
+      "Notes": "Vd-skip is a lightweight addon that streamlines NPC interactions by automatically skipping unnecessary dialogue with ven"
+    }
+  },
+  {
+    "name": "VuhDo",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "VuhDo is a raid monitor built-in raid frames. Basically this is about displaying the health of raid members in form of clearly arranged bars.",
+    "id": "vuhdo",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/VuhDo.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/vuhdo.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/vuhdo.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "RisingGodsAddons",
+        "url": "https://addons.rising-gods.de/addons/vuhdo"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "VuhDo",
+      "Notes": "VuhDo is a raid monitor built-in raid frames. Basically this is about displaying the health of raid members in form of c"
+    }
+  },
+  {
+    "name": "WeakAuras",
+    "git": "https://github.com/NoM0Re/WeakAuras-WotLK.git",
+    "branch": "master",
+    "description": "WeakAuras is a powerful and flexible framework that allows the display of highly customizable graphics on World of Warcraft's user interface to indicate buffs, debuffs, and other relevant information. This addon was created to be a lightweight replacement for Power Auras but has since introduced more functionalities while remaining efficient and easy to use.",
+    "id": "weakauras",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WeakAuras-WotLK/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/WeakAura.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/WeakAura.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub latest",
+        "url": "https://github.com/NoM0Re/WeakAuras-WotLK"
+      },
+      {
+        "label": "GitHub 4.1.2",
+        "url": "https://github.com/NoM0Re/WeakAuras-WotLK/tree/4.1.2"
+      },
+      {
+        "label": "GitHub 4.0.0",
+        "url": "https://github.com/Bunny67/WeakAuras-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "WeakAuras",
+      "Notes": "WeakAuras is a powerful and flexible framework that allows the display of highly customizable graphics on World of Warcr"
+    }
+  },
+  {
+    "name": "WIM (WoW Instant Messenger)",
+    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "branch": "main",
+    "description": "WIM (WoW Instant Messenger) is a World of Warcraft addon which brings an instant messenger feel to communication in game.",
+    "id": "wim-wow-instant-messenger",
+    "owner": "NoM0Re",
+    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/WIM.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/WIM.jpg",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/WIM.jpg"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Curseforge",
+        "url": "https://www.curseforge.com/wow/addons/wim-3/files/all?filter-game-version=2020709689%3A98"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "WIM (WoW Instant Messenger)",
+      "Notes": "WIM (WoW Instant Messenger) is a World of Warcraft addon which brings an instant messenger feel to communication in game"
+    }
+  },
+  {
+    "name": "xCT+",
+    "git": "https://github.com/hypopheria2k/xCT_Plus_wotlk.git",
+    "branch": "master",
+    "description": "xCT+ is a combat text replacement (like MSBT).\nBackported from retail Pandaria, this version compared to other backports offers control over settings in-game and is more minimalistic and anti-spammy than MSBT",
+    "id": "xct",
+    "owner": "hypopheria2k",
+    "wotlk_primary_download": "https://github.com/hypopheria2k/xCT_Plus_wotlk/archive/refs/heads/master.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/xCT.PNG",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/xCT.PNG"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/hypopheria2k/xCT_Plus_wotlk"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "xCT+",
+      "Notes": "xCT+ is a combat text replacement (like MSBT).\nBackported from retail Pandaria, this version compared to other backports"
+    }
+  },
+  {
+    "name": "Zygor Guides",
+    "git": "https://github.com/ErebusAres/ZygorGuidesRemaster-3.3.5a_WOTLK.git",
+    "branch": "main",
+    "description": "Zygor Guides Viewer Remaster is a modernized version of the classic Zygor Guides Viewer, built specifically for World of Warcraft: Wrath of the Lich King (3.3.5a / build 12340) private servers.\nIt preserves the original 3.3.5a guide engine, step system, and waypoint workflow while introducing a cleaner, retail-inspired UI, an improved Guide Manager, updated arrow and objective styling, accessibility options (including colorblind presets), and ongoing compatibility support for WotLK 3.3.5a environments.\nThe addon includes step-by-step leveling guidance, waypoint navigation, structured quest flow, and an integrated Talent Advisor - all packaged in a remastered, streamlined viewer designed for long play sessions.",
+    "id": "zygor-guides",
+    "owner": "ErebusAres",
+    "wotlk_primary_download": "https://github.com/ErebusAres/ZygorGuidesRemaster-3.3.5a_WOTLK/archive/refs/heads/main.zip",
+    "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ZygorGuides.png",
+    "wotlk_image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ZygorGuides.png"
+    ],
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/ErebusAres/ZygorGuidesRemaster-3.3.5a_WOTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Zygor Guides",
+      "Notes": "Zygor Guides Viewer Remaster is a modernized version of the classic Zygor Guides Viewer, built specifically for World of"
+    }
+  }
+]
