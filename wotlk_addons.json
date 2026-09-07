@@ -1,5 +1,25 @@
 [
   {
+    "name": "!LuaBoost",
+    "git": "https://github.com/suprepupre/LuaBoost.git",
+    "branch": "main",
+    "description": "Lua-side companion for WoW 3.3.5a: garbage collection control, loading-screen event suppression, and shared APIs for addon authors. Works standalone or alongside wow_optimize.",
+    "id": "luaboost",
+    "owner": "suprepupre",
+    "wotlk_primary_download": "https://github.com/suprepupre/LuaBoost/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/suprepupre/LuaBoost"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "|cff00ccffLuaBoost|r",
+      "Notes": "Lua runtime optimizer + smart GC manager + SpeedyLoad + UI Thrashing Protection for WoW 3.3.5a."
+    }
+  },
+  {
     "name": "Ackis Recipe List",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "branch": "main",
