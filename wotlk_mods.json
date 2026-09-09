@@ -10,7 +10,7 @@
       "kind": "github_release",
       "owner": "suprepupre",
       "repo": "wow-optimize",
-      "asset_pattern": "Release.zip",
+      "asset_pattern": "Release.7z",
       "prefer_no": null,
       "extract_map": {
         "version.dll": "version.dll",
