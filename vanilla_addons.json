@@ -1049,8 +1049,7 @@
   },
   {
     "name": "pfQuest",
-    "git": "https://github.com/roby-brok/pfQuest-classicAPI.git",
-    "branch": "octo",
+    "git": "https://github.com/brues-code/pfQuest.git",
     "description": "pfQuest ClassicAPI Edition with OctoWoW fixes",
     "id": "pfquest-classicapi",
     "depends": [
@@ -1150,8 +1149,7 @@
   },
   {
     "name": "pfUI",
-    "git": "https://github.com/roby-brok/pfUI-classicAPI.git",
-    "branch": "octo",
+    "git": "https://github.com/brues-code/pfUI.git",
     "description": "pfUI ClassicAPI Edition with OctoWoW fixes; requires ClassicAPI DLL",
     "id": "pfui-classicapi",
     "depends": [
@@ -1482,6 +1480,15 @@
       "SavedVariables": "TurtleCalendarGlobalOptions"
     },
     "id": "turtlecalendar"
+  },
+  {
+    "name": "TurtleGuide",
+    "git": "https://github.com/brues-code/VanillaGuide-Plus.git",
+    "description": "Hybrid leveling guide with race-based routing and TomTom/pfQuest navigation; requires ClassicAPI DLL",
+    "id": "turtleguide",
+    "depends": [
+      "ClassicAPI"
+    ]
   },
   {
     "name": "TurtleMail",
