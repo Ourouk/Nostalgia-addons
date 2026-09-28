@@ -244,7 +244,6 @@
       "X-Revision": "30139",
       "X-Fork": "Pepo",
       "Title": "|cFFFF8080Pepopo|r Big Wigs |cff7fff7f30139|r |cffabd473Turtle-WoW|r",
-      "Title-zhCN": "|cffabd473Turtle-WoW|r Big Wigs",
       "Notes": "Boss Mods with Timer bars.",
       "Author": "Relar, Balake, Pepopo, Bethy, Tekkub Stoutwrithe, Ammo, Shyva, Rabbit, LYQ, Dorann, Hosq & Others",
       "Version": "2.0.0",
@@ -366,7 +365,6 @@
     "toc": {
       "Interface": "11200",
       "Title": "Cursive Raid v4.1.4",
-      "Title-zhCN": "Cursive Raid v4.1.4",
       "Author": "Kirchlive, Teto",
       "Notes": "Raid debuff tracker with profiles and multi-curse assist (SuperWoW)",
       "Version": "4.1.4",
@@ -634,12 +632,6 @@
     "toc": {
       "Interface": "11200",
       "Title": "Instance Journal (|cffabd473TurtleWoW|r)",
-      "Title-deDE": "Instanzjournal (|cffabd473TurtleWoW|r)",
-      "Title-esES": "Diario de Instancia (|cffabd473TurtleWoW|r)",
-      "Title-frFR": "Journal d'Instance (|cffabd473TurtleWoW|r)",
-      "Title-ptBR": "Diário de Instância (|cffabd473TurtleWoW|r)",
-      "Title-ruRU": "Журнал Подземелий (|cffabd473TurtleWoW|r)",
-      "Title-zhCN": "|cFF33AAFF[辅助]|r副本手册 (|cffabd473TurtleWoW|r)",
       "Version": "1.4.2",
       "Author": "Walter Bennet",
       "Notes": "Encounter Journal reimagined for Turtle WoW",
@@ -794,8 +786,6 @@
     "toc": {
       "Interface": "11200",
       "Title": "MPOWA |cFFFF8080-Shino-|r",
-      "Title-deDE": "MPOWA |cFFFF8080-Shino-|r",
-      "Title-enGB": "MPOWA |cFFFF8080-Shino-|r",
       "Notes": "Advanced version of Sinesther's Power Auras",
       "Author": "Shino <Synced> - Kronos",
       "SavedVariables": "MPOWA_PROFILE",
@@ -834,7 +824,6 @@
       "Interface": "11200",
       "Title": "Nampower Settings",
       "Notes": "Settings panel for the Nampower spellqueue addon",
-      "Title-zhCN": "|cFFEE7600[模组增强]|r |cff00ffffNampower设置|r|cffff1450[需Nampower模组]",
       "SavedVariablesPerCharacter": "NampowerSettingsDB",
       "X-Embeds": "Ace2, FuBarPlugin-2.0, CompostLib, DewDropLib, TabletLib"
     },
@@ -983,7 +972,6 @@
       "Author": "Cliencer",
       "Version": "1.0.5",
       "Notes": "pfQuest extension showing all monster drops and quest chains. /pfex",
-      "Title-zhCN": "|cFF33AAFF[辅助]|rpfQuest扩展",
       "Dependencies": "pfQuest",
       "OptionalDeps": "pfUI",
       "SavedVariables": "PfExtend_Database, PfExtend_Config"
@@ -1433,7 +1421,6 @@
     "toc": {
       "Interface": "11200",
       "Title": "|cffabd473Turtle|cffffffffCalendar|r",
-      "Title-zhCN": "乌龟日历",
       "Author": "sica",
       "Version": "1.4.1",
       "Notes": "In-game calendar that shows raid & instance reset timers",
@@ -1540,8 +1527,6 @@
     "toc": {
       "Interface": "11200",
       "Title": "VCB |cFFFF8080-Shino-|r",
-      "Title-deDE": "VCB |cFFFF8080-Shino-|r",
-      "Title-enGB": "VCB |cFFFF8080-Shino-|r",
       "Notes": "Smart consolidated buff frames with extensive customization",
       "Author": "Shino <Synced> - Kronos",
       "SavedVariables": "VCB_Profile, VCB_Profile_Name",
