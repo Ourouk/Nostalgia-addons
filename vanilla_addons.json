@@ -435,9 +435,8 @@
   },
   {
     "name": "DragonflightUI-Reforged",
-    "owner": "Stormhand-dev",
-    "git": "https://github.com/Stormhand-dev/DragonflightUI-Reforged.git",
-    "branch": "main",
+    "owner": "Hippoom",
+    "git": "https://github.com/Hippoom/DragonflightUI-Reforged.git",
     "toc": {
       "Interface": "11200",
       "Title": "Dragonflight UI |cFFFF0000Reforged|r",
