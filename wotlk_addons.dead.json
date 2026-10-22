@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "generated": "2026-10-22T13:14:47Z",
+    "file": "wotlk_addons.json",
+    "checked": 300,
+    "failing_entries": 3
+  },
+  "dead": [
+    {
+      "file": "wotlk_addons.json",
+      "index": 33,
+      "id": "cleanerchat",
+      "name": "CleanerChat",
+      "entry": {
+        "name": "CleanerChat",
+        "git": "https://github.com/migwynkriid/CleanerChat-WotLK.git",
+        "branch": "master",
+        "description": "A World of Warcraft 3.3.5a addon that filters chat message clutter and replaces the default chat frame with an immersive, modern chat UI.",
+        "id": "cleanerchat",
+        "owner": "migwynkriid",
+        "wotlk_primary_download": "https://github.com/migwynkriid/CleanerChat-WotLK/archive/refs/heads/master.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/CleanerChat.gif",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/CleanerChat.gif"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/migwynkriid/CleanerChat-WotLK"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "CleanerChat",
+          "Notes": "A World of Warcraft 3.3.5a addon that filters chat message clutter and replaces the default chat frame with an immersive"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_primary_download",
+          "url": "https://github.com/migwynkriid/CleanerChat-WotLK/archive/refs/heads/master.zip",
+          "checked": "https://github.com/migwynkriid/CleanerChat-WotLK/archive/refs/heads/master.zip",
+          "status": 404,
+          "error": null
+        },
+        {
+          "field": "git",
+          "url": "https://github.com/migwynkriid/CleanerChat-WotLK.git",
+          "checked": "https://github.com/migwynkriid/CleanerChat-WotLK",
+          "status": 404,
+          "error": null
+        },
+        {
+          "field": "wotlk_sources[GitHub]",
+          "url": "https://github.com/migwynkriid/CleanerChat-WotLK.git",
+          "checked": "https://github.com/migwynkriid/CleanerChat-WotLK",
+          "status": 404,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 53,
+      "id": "endsidiafails",
+      "name": "EndsidiaFails",
+      "entry": {
+        "name": "EndsidiaFails",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "Report raid player fails",
+        "id": "endsidiafails",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/EndsidiaFails.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/EnsidiaFails.jpg",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/EnsidiaFails.jpg"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "RisingGods",
+            "url": "https://www.curseforge.com/wow/addons/ensidiafails/files/437365"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "EndsidiaFails",
+          "Notes": "Report raid player fails"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_primary_download",
+          "url": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/EndsidiaFails.zip",
+          "checked": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/EndsidiaFails.zip",
+          "status": 404,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 133,
+      "id": "tradeskillmaster-v2-8-3",
+      "name": "TradeSkillMaster v2.8.3",
+      "entry": {
+        "name": "TradeSkillMaster v2.8.3",
+        "git": "https://github.com/andrew6180/TradeSkillMaster.git",
+        "branch": "master",
+        "description": "TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making processes. TSM's features include everything from improving the native crafting and auctioning experiences to helping you gather needed materials and sniping that low-hanging auction house fruit!",
+        "id": "tradeskillmaster-v2-8-3",
+        "owner": "andrew6180",
+        "wotlk_primary_download": "https://github.com/andrew6180/TradeSkillMaster/archive/refs/heads/master.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TSM.png",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/TSM.png"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "Github",
+            "url": "https://github.com/andrew6180/TradeSkillMaster"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "TradeSkillMaster v2.8.3",
+          "Notes": "TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making pro"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_primary_download",
+          "url": "https://github.com/andrew6180/TradeSkillMaster/archive/refs/heads/master.zip",
+          "checked": "https://github.com/andrew6180/TradeSkillMaster/archive/refs/heads/master.zip",
+          "status": 404,
+          "error": null
+        },
+        {
+          "field": "git",
+          "url": "https://github.com/andrew6180/TradeSkillMaster.git",
+          "checked": "https://github.com/andrew6180/TradeSkillMaster",
+          "status": 404,
+          "error": null
+        },
+        {
+          "field": "wotlk_sources[Github]",
+          "url": "https://github.com/andrew6180/TradeSkillMaster.git",
+          "checked": "https://github.com/andrew6180/TradeSkillMaster",
+          "status": 404,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "file": "wotlk_addons.json",
+      "index": 2,
+      "id": "action-bar-saver-2",
+      "name": "Action Bar Saver 2",
+      "entry": {
+        "name": "Action Bar Saver 2",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "Quick little mod, allows you to setup different profiles for your action bars. Mainly this is for hybrid classes that want to be able to respec without spending 10-20 minutes setting their action bars up. All you do is type /abs save name and it'll save the location of all your spells, macros and items and /abs restore name to get them.",
+        "id": "action-bar-saver-2",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ActionBarSaver.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ActionButtonSaver2.gif",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ActionButtonSaver2.gif"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "Curseforge",
+            "url": "https://www.curseforge.com/wow/addons/action-bar-saver/files/all?page=1&pageSize=20&version=3.2.0"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "Action Bar Saver 2",
+          "Notes": "Quick little mod, allows you to setup different profiles for your action bars. Mainly this is for hybrid classes that wa"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[Curseforge]",
+          "url": "https://www.curseforge.com/wow/addons/action-bar-saver/files/all?page=1&pageSize=20&version=3.2.0",
+          "checked": "https://www.curseforge.com/wow/addons/action-bar-saver/files/all?page=1&pageSize=20&version=3.2.0",
+          "status": 403,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 20,
+      "id": "bartender4",
+      "name": "Bartender4",
+      "entry": {
+        "name": "Bartender4",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "Bartender4 is a full ActionBar replacement mod. It provides you with all the features needed to fully customization most aspects of your action and related bars.",
+        "id": "bartender4",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Bartender4.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bartender4.jpg",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bartender4.jpg"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "Curseforge",
+            "url": "https://www.curseforge.com/wow/addons/bartender4/files/all?filter-game-version=2020709689%3A98"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "Bartender4",
+          "Notes": "Bartender4 is a full ActionBar replacement mod. It provides you with all the features needed to fully customization most"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[Curseforge]",
+          "url": "https://www.curseforge.com/wow/addons/bartender4/files/all?filter-game-version=2020709689%3A98",
+          "checked": "https://www.curseforge.com/wow/addons/bartender4/files/all?filter-game-version=2020709689%3A98",
+          "status": 403,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 31,
+      "id": "cheese",
+      "name": "Cheese",
+      "entry": {
+        "name": "Cheese",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "Cheese simulates the display of procs introduced with Cataclysm.",
+        "id": "cheese",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Cheese.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Cheese.png",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Cheese.png"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "WotLKAddOns",
+            "url": "https://wotlkaddons.com/addon/cheese"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "Cheese",
+          "Notes": "Cheese simulates the display of procs introduced with Cataclysm."
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[WotLKAddOns]",
+          "url": "https://wotlkaddons.com/addon/cheese",
+          "checked": "https://wotlkaddons.com/addon/cheese",
+          "status": null,
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 48,
+      "id": "drdamage",
+      "name": "DrDamage",
+      "entry": {
+        "name": "DrDamage",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "DrDamage displays the calculated damage or healing of abilities with talents, gear and buffs included on your actionbar buttons. The addon also adds various statistics to the tooltips in your spellbook and on the actionbar.",
+        "id": "drdamage",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/DrDamage.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DrDamage.jpg",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/DrDamage.jpg"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "WotLKAddOns",
+            "url": "https://wotlkaddons.com/addon/drdamage"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "DrDamage",
+          "Notes": "DrDamage displays the calculated damage or healing of abilities with talents, gear and buffs included on your actionbar "
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[WotLKAddOns]",
+          "url": "https://wotlkaddons.com/addon/drdamage",
+          "checked": "https://wotlkaddons.com/addon/drdamage",
+          "status": null,
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 60,
+      "id": "gearscore",
+      "name": "GearScore",
+      "entry": {
+        "name": "GearScore",
+        "git": "https://github.com/Arcitec/GearScoreLite_Reborn.git",
+        "branch": "main",
+        "description": "Allows you to easily see the calculated Gearscore of yourself and other players.\n\nIt adds a weighted value for each item a player has equipped based on Item Level.\n\n**GearScoreLite: Reborn**\nGearScoreLite: Reborn is the newest version of the Addon and is based on the final official version of GearScoreLite from CurseForge.\n\nIt doesn't have a database has a improved GearScore algorithm, includes several bug fixes, new features, and supports all unit frame addons.",
+        "id": "gearscore",
+        "owner": "Arcitec",
+        "wotlk_primary_download": "https://github.com/Arcitec/GearScoreLite_Reborn/archive/refs/heads/main.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GearScore.jpg",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/GearScore.jpg"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "GearscoreLite: Reborn",
+            "url": "https://github.com/Arcitec/GearScoreLite_Reborn"
+          },
+          {
+            "label": "GearScore Lite Github",
+            "url": "https://github.com/Barsoomx/GearScoreLite"
+          },
+          {
+            "label": "GearScore WotLKAddOns",
+            "url": "https://wotlkaddons.com/addon/gearscore"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "GearScore",
+          "Notes": "Allows you to easily see the calculated Gearscore of yourself and other players.\n\nIt adds a weighted value for each item"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[GearScore WotLKAddOns]",
+          "url": "https://wotlkaddons.com/addon/gearscore",
+          "checked": "https://wotlkaddons.com/addon/gearscore",
+          "status": null,
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 82,
+      "id": "mikscrollingbattletext-msbt",
+      "name": "MikScrollingBattleText(MSBT)",
+      "entry": {
+        "name": "MikScrollingBattleText(MSBT)",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "MSBT is designed to be an extremely lightweight, efficient, and highly configurable mod that makes it easier to see combat information by scrolling the information on the screen in separate, dynamically creatable scroll areas. It is a replacement for Blizzard's Floating Combat Text and Damage output.",
+        "id": "mikscrollingbattletext-msbt",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/MikScrollingBattleText.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MSBT.png",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/MSBT.png"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "WotLKAddOns",
+            "url": "https://wotlkaddons.com/addon/mik%27s-scrolling-battle-text"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "MikScrollingBattleText(MSBT)",
+          "Notes": "MSBT is designed to be an extremely lightweight, efficient, and highly configurable mod that makes it easier to see comb"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[WotLKAddOns]",
+          "url": "https://wotlkaddons.com/addon/mik%27s-scrolling-battle-text",
+          "checked": "https://wotlkaddons.com/addon/mik%27s-scrolling-battle-text",
+          "status": null,
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 90,
+      "id": "omen-thread-meter",
+      "name": "Omen Thread Meter",
+      "entry": {
+        "name": "Omen Thread Meter",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "Omen is a threat meter. Basically, enemies in WoW decide who to attack by deciding who is the most threatening based on the abilities you use.",
+        "id": "omen-thread-meter",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Omen.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Omen.jpg",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Omen.jpg"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "WotLKAddOns",
+            "url": "https://wotlkaddons.com/addon/omen"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "Omen Thread Meter",
+          "Notes": "Omen is a threat meter. Basically, enemies in WoW decide who to attack by deciding who is the most threatening based on "
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[WotLKAddOns]",
+          "url": "https://wotlkaddons.com/addon/omen",
+          "checked": "https://wotlkaddons.com/addon/omen",
+          "status": null,
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 92,
+      "id": "opie",
+      "name": "OPie",
+      "entry": {
+        "name": "OPie",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "OPie is a radial action-binding addon for World of Warcraft. It lets you group actions into rings, which appear when you hold down a keyboard or mouse binding.\nWhen you release the binding, OPie will perform an action based on where your mouse cursor is.",
+        "id": "opie",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/OPie.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Opie.png",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Opie.png"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "WotLKAddOns",
+            "url": "https://wotlkaddons.com/addon/opie"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "OPie",
+          "Notes": "OPie is a radial action-binding addon for World of Warcraft. It lets you group actions into rings, which appear when you"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[WotLKAddOns]",
+          "url": "https://wotlkaddons.com/addon/opie",
+          "checked": "https://wotlkaddons.com/addon/opie",
+          "status": null,
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 93,
+      "id": "outfitter",
+      "name": "Outfitter",
+      "entry": {
+        "name": "Outfitter",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "Lets you switch between equipment sets easily, works with DBM weaponswitch.",
+        "id": "outfitter",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Outfitter.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Outiftter.png",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Outiftter.png"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "WotLKAddOns",
+            "url": "https://wotlkaddons.com/addon/outfitter"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "Outfitter",
+          "Notes": "Lets you switch between equipment sets easily, works with DBM weaponswitch."
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[WotLKAddOns]",
+          "url": "https://wotlkaddons.com/addon/outfitter",
+          "checked": "https://wotlkaddons.com/addon/outfitter",
+          "status": null,
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 99,
+      "id": "pminimap",
+      "name": "pMinimap",
+      "entry": {
+        "name": "pMinimap",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "branch": "main",
+        "description": "pMinimap is a very lightweight and streamlined Minimap addon.",
+        "id": "pminimap",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/pMinimap.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/pMinimap.png",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/pMinimap.png"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "Felbite",
+            "url": "https://felbite.com/addon/4552-pminimap/"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "pMinimap",
+          "Notes": "pMinimap is a very lightweight and streamlined Minimap addon."
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[Felbite]",
+          "url": "https://felbite.com/addon/4552-pminimap/",
+          "checked": "https://felbite.com/addon/4552-pminimap",
+          "status": 520,
+          "error": null
+        }
+      ]
+    }
+  ]
+}

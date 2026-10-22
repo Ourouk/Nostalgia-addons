@@ -2333,6 +2333,26 @@
     }
   },
   {
+    "name": "pfQuest-Reforged",
+    "git": "https://github.com/stevemcqueenz/pfQuest-Reforged.git",
+    "branch": "main",
+    "description": "pfQuest for WotLK 3.3.5a — quest helper and database browser with a complete Wrath database and modernized UI. Companion to GW2 UI WotLK Reforged.",
+    "id": "pfquest-reforged",
+    "owner": "stevemcqueenz",
+    "wotlk_primary_download": "https://github.com/stevemcqueenz/pfQuest-Reforged/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "Github",
+        "url": "https://github.com/stevemcqueenz/pfQuest-Reforged"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "pfQuest Reforged",
+      "Notes": "A Questhelper and Database -- Reforged UX edition"
+    }
+  },
+  {
     "name": "PhoenixStyle",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "branch": "main",

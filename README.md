@@ -5,6 +5,34 @@ Vanilla 1.12 / WotLK 3.3.5 addon catalogs + Vanilla mods for [Nostalgia Launcher
 - `vanilla_addons.json` — 94 addons (Vanilla 1.12)
 - `wotlk_addons.json` — 137 addons (WotLK 3.3.5)
 - `vanilla_mods.json` — 12 mods
+- `*.dead.json` — dead-link reports, one per catalog (see below)
+
+## Dead links — help fix them
+
+`vanilla_addons.dead.json` / `wotlk_addons.dead.json` list catalog entries
+whose URLs are confirmed gone (HTTP 404/410). Each item embeds the **full
+entry** plus per-field diagnostics (`file`, `index`, `id`, `name`,
+`entry`, `failures[]`), so you can propose a fix without re-running
+anything:
+
+1. Pick an entry in the `.dead.json` file, find a working replacement URL
+   (same addon, ideally same branch; verify the in-game folder name matches
+   the `name` field and the `.toc` `Interface` matches the client).
+2. Open a PR editing the catalog JSON (`git` / `wotlk_primary_download` /
+   `wotlk_sources[].url`) — or just comment the replacement URL on an
+   issue.
+3. A maintainer re-runs `python3 scripts/check_urls.py --write-dead-files`
+   and the fixed entry drops out of the `.dead.json` automatically.
+
+Regenerate the reports with:
+
+```bash
+python3 scripts/check_urls.py --write-dead-files
+```
+
+Uncertain links (bot-blocked 401/403s like CurseForge, rate limits, 5xx)
+are listed under `warnings`, not `dead` — check them by hand before
+proposing a replacement.
 
 ## Raw URLs
 
@@ -23,3 +51,42 @@ Each file is a JSON array of objects with at least `id` and `name`:
 - mods: `id`, `type`, `installation`, `name`, `description`, `source`, `installed_files`, etc.
 
 Edit JSON → commit → raw URL updates immediately.
+
+## Dependencies (`depends`)
+
+Entries may declare install prerequisites in `depends` (currently advisory —
+the launcher does not enforce it yet). Each value is namespaced so the kind
+is explicit:
+
+- `mod:<id>` — requires a client mod/DLL from `*_mods.json`
+  (e.g. `"mod:ClassicAPI"` — the ClassicAPI DLL, *not* an addon).
+- `addon:<id>` — requires another addon entry in the same catalog
+  (e.g. `"addon:pfui"`).
+- `file:<path>` — requires a client-relative file already on disk
+  (e.g. `"file:Interface/AddOns/SomeLib"`).
+
+Bare strings (`"depends": ["pfUI"]`) are legacy: readers should treat them
+as `addon:` for backward compatibility. Always write the namespaced form
+in new entries.
+
+## Scripts
+
+- `scripts/check_urls.py` — dead-link checker for all catalog URLs.
+  Stdlib only, no install needed:
+
+```bash
+python3 scripts/check_urls.py                        # all catalogs
+python3 scripts/check_urls.py vanilla_addons.json    # one file
+python3 scripts/check_urls.py --json-out report.json -q  # URL-level report for scripts
+python3 scripts/check_urls.py --write-dead-files -q  # refresh committed *.dead.json files
+```
+
+`--write-dead-files` writes one `<catalog>.dead.json` next to each catalog
+with dead/warned URLs (committed to the repo — see "Dead links" above; a
+catalog with no failures produces no file, and stale ones are deleted).
+
+Checks addon `git` / `wotlk_*` download URLs and mod `source.url`s with
+cheap ranged GETs (12 parallel workers). `.git` clone URLs are normalized
+before checking. Exit `0` = all alive, `1` = dead links found,
+`2` = only transient warnings (rate limits / 5xx). Mod `repo_url`
+homepages are skipped unless you pass `--include-repo-urls`.

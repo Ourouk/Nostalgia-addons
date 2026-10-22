@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "generated": "2026-10-22T13:14:47Z",
+    "file": "vanilla_addons.json",
+    "checked": 93,
+    "failing_entries": 4
+  },
+  "dead": [
+    {
+      "file": "vanilla_addons.json",
+      "index": 20,
+      "id": "consumesmanager",
+      "name": "ConsumesManager",
+      "entry": {
+        "name": "ConsumesManager",
+        "owner": "Cinecom",
+        "git": "https://github.com/Cinecom/ConsumesManager.git",
+        "branch": "main",
+        "toc": {
+          "Interface": "11200",
+          "Title": "|cff00ff00Consumes Manager|r |cff808080[Horyoshi]|r",
+          "Notes": "Tracks consumables and food buffs across alts, bank, and mail",
+          "Author": "Horyoshi",
+          "Version": "2.2.0",
+          "SavedVariables": "ConsumesManager_Options, ConsumesManager_SelectedItems, ConsumesManager_Data, ConsumesManager_Presets"
+        },
+        "description": "Tracks consumables and food buffs across alts, bank, and mail",
+        "lastUpdated": "2026-03-15T16:13:57Z",
+        "stars": 12,
+        "id": "consumesmanager"
+      },
+      "failures": [
+        {
+          "field": "git",
+          "url": "https://github.com/Cinecom/ConsumesManager.git",
+          "checked": "https://github.com/Cinecom/ConsumesManager",
+          "status": 404,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "vanilla_addons.json",
+      "index": 50,
+      "id": "octocvars",
+      "name": "OctoCVars",
+      "entry": {
+        "name": "OctoCVars",
+        "git": "https://github.com/roby-brok/OctoCVars.git",
+        "branch": "main",
+        "description": "CVar browser for the ClassicAPI/Nampower/SuperWoW stack",
+        "id": "octocvars",
+        "depends": [
+          "ClassicAPI"
+        ]
+      },
+      "failures": [
+        {
+          "field": "git",
+          "url": "https://github.com/roby-brok/OctoCVars.git",
+          "checked": "https://github.com/roby-brok/OctoCVars",
+          "status": 404,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "vanilla_addons.json",
+      "index": 62,
+      "id": "pfui-addonskinner-classicapi",
+      "name": "pfUI-addonskinner",
+      "entry": {
+        "name": "pfUI-addonskinner",
+        "git": "https://github.com/roby-brok/pfUI-addonskinner.git",
+        "branch": "main",
+        "description": "pfUI addon skinner with OctoWoW/MSBT options skin",
+        "id": "pfui-addonskinner-classicapi"
+      },
+      "failures": [
+        {
+          "field": "git",
+          "url": "https://github.com/roby-brok/pfUI-addonskinner.git",
+          "checked": "https://github.com/roby-brok/pfUI-addonskinner",
+          "status": 404,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "vanilla_addons.json",
+      "index": 64,
+      "id": "pfui-bettertotems-classicapi",
+      "name": "pfUI-bettertotems",
+      "entry": {
+        "name": "pfUI-bettertotems",
+        "git": "https://github.com/roby-brok/pfUI-bettertotems.git",
+        "branch": "main",
+        "description": "pfUI Better Totems for OctoWoW",
+        "id": "pfui-bettertotems-classicapi"
+      },
+      "failures": [
+        {
+          "field": "git",
+          "url": "https://github.com/roby-brok/pfUI-bettertotems.git",
+          "checked": "https://github.com/roby-brok/pfUI-bettertotems",
+          "status": 404,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

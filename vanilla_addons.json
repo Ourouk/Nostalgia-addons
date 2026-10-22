@@ -6,7 +6,7 @@
     "description": "Mailbox companion for the ClassicAPI stack",
     "id": "aegis-courier",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -16,7 +16,7 @@
     "description": "Auction House helper for the ClassicAPI stack",
     "id": "aegis-exchange",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -26,7 +26,7 @@
     "description": "ClassicAPI-aware raid utility",
     "id": "aegis-rallypower",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -36,7 +36,7 @@
     "description": "ClassicAPI-native single-button rotation addon",
     "id": "aegis-singlebuttonrotation",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -326,7 +326,7 @@
     "description": "Client DLL adding modern Blizzard Lua APIs to WoW 1.12.1",
     "id": "classicapi",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -336,7 +336,7 @@
     "description": "ClassicAPI/Nampower/UnitXP enhanced macro system",
     "id": "cleveroidmacros",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -736,8 +736,9 @@
   },
   {
     "name": "MikScrollingBattleText",
-    "git": "https://github.com/roby-brok/MikScrollingBattleText.git",
-    "branch": "octo",
+    "owner": "brues-code",
+    "git": "https://github.com/brues-code/Vanilla_MikScrollingBattleText.git",
+    "branch": "master",
     "description": "OctoWoW build of MSBT with combat-log, parser, and icon-cache fixes",
     "id": "mikscrollingbattletext"
   },
@@ -817,8 +818,8 @@
   },
   {
     "name": "NampowerSettings",
-    "owner": "Dusk-92",
-    "git": "https://github.com/Dusk-92/NampowerSettings.git",
+    "owner": "brues-code",
+    "git": "https://github.com/brues-code/NampowerSettings.git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -875,7 +876,7 @@
     "description": "CVar browser for the ClassicAPI/Nampower/SuperWoW stack",
     "id": "octocvars",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -885,7 +886,7 @@
     "description": "ClassicAPI addon exposing all available item icons in the macro icon picker",
     "id": "octoitemmacroicons",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -1003,11 +1004,13 @@
   },
   {
     "name": "pfQuest",
+    "owner": "brues-code",
     "git": "https://github.com/brues-code/pfQuest.git",
+    "branch": "main",
     "description": "pfQuest ClassicAPI Edition with OctoWoW fixes",
     "id": "pfquest-classicapi",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -1102,11 +1105,13 @@
   },
   {
     "name": "pfUI",
+    "owner": "brues-code",
     "git": "https://github.com/brues-code/pfUI.git",
+    "branch": "master",
     "description": "pfUI ClassicAPI Edition with OctoWoW fixes; requires ClassicAPI DLL",
     "id": "pfui-classicapi",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -1346,7 +1351,7 @@
     "description": "ClassicAPI/Nampower/UnitXP enhanced macros with modern conditionals",
     "id": "supercleveroidmacros",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
@@ -1504,8 +1509,8 @@
   },
   {
     "name": "UnitXP_SP3_Addon",
-    "owner": "whtmst",
-    "git": "https://github.com/whtmst/UnitXP_SP3_Addon.git",
+    "owner": "Fostercare5988",
+    "git": "https://github.com/Fostercare5988/UnitXP_SP3_Addon.git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
