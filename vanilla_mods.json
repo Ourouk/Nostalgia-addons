@@ -1,6 +1,7 @@
 [
   {
     "id": "VanillaFixes",
+    "source_type": "direct",
     "type": "external-launcher",
     "installation": "required",
     "name": "VanillaFixes",
@@ -31,6 +32,7 @@
   },
   {
     "id": "ClassicAPI",
+    "source_type": "direct",
     "type": "mod",
     "installation": "required",
     "name": "ClassicAPI",
@@ -56,6 +58,7 @@
   },
   {
     "id": "dxvk",
+    "source_type": "direct",
     "type": "mod",
     "installation": "required",
     "name": "dxvk",
@@ -82,6 +85,7 @@
   },
   {
     "id": "nampower",
+    "source_type": "direct",
     "type": "mod",
     "installation": "required",
     "name": "nampower",
@@ -107,6 +111,7 @@
   },
   {
     "id": "no1600x1200",
+    "source_type": "direct",
     "type": "mod",
     "installation": "user_opt_in",
     "name": "no1600x1200",
@@ -129,6 +134,7 @@
   },
   {
     "id": "PerfBoost",
+    "source_type": "direct",
     "type": "mod",
     "installation": "user_opt_in",
     "name": "PerfBoost",
@@ -151,6 +157,7 @@
   },
   {
     "id": "SuperWoW",
+    "source_type": "direct",
     "type": "mod",
     "installation": "required",
     "name": "SuperWoW",
@@ -179,6 +186,7 @@
   },
   {
     "id": "transmogfix",
+    "source_type": "direct",
     "type": "mod",
     "installation": "required",
     "name": "transmogfix",
@@ -202,6 +210,7 @@
   },
   {
     "id": "weirdutils",
+    "source_type": "direct",
     "type": "mod",
     "installation": "user_opt_in",
     "name": "WeirdUtils",
@@ -225,6 +234,7 @@
   },
   {
     "id": "UnitXP_SP3",
+    "source_type": "direct",
     "type": "mod",
     "installation": "required",
     "name": "UnitXP_SP3",
@@ -252,6 +262,7 @@
   },
   {
     "id": "VanillaHelpers",
+    "source_type": "direct",
     "type": "mod",
     "installation": "required",
     "name": "VanillaHelpers",
@@ -277,6 +288,7 @@
   },
   {
     "id": "VanillaMultiMonitorFix",
+    "source_type": "direct",
     "type": "mod",
     "installation": "user_opt_in",
     "name": "VanillaMultiMonitorFix",

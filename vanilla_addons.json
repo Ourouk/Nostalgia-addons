@@ -2,6 +2,7 @@
   {
     "name": "Aegis-Courier",
     "git": "https://github.com/Torchlite-bit/Aegis_Courier.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Mailbox companion for the ClassicAPI stack",
     "id": "aegis-courier",
@@ -12,6 +13,7 @@
   {
     "name": "Aegis-Exchange",
     "git": "https://github.com/Torchlite-bit/Aegis_Exchange.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Auction House helper for the ClassicAPI stack",
     "id": "aegis-exchange",
@@ -22,6 +24,7 @@
   {
     "name": "Aegis-RallyPower",
     "git": "https://github.com/Torchlite-bit/Aegis_RallyPower.git",
+    "source_type": "git",
     "branch": "main",
     "description": "ClassicAPI-aware raid utility",
     "id": "aegis-rallypower",
@@ -32,6 +35,7 @@
   {
     "name": "Aegis-SingleButtonRotation",
     "git": "https://github.com/Torchlite-bit/Aegis_SBR.git",
+    "source_type": "git",
     "branch": "main",
     "description": "ClassicAPI-native single-button rotation addon",
     "id": "aegis-singlebuttonrotation",
@@ -43,6 +47,7 @@
     "name": "AI_VoiceOver",
     "owner": "Alukarho",
     "git": "https://github.com/Alukarho/AI_VoiceOver.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -61,6 +66,7 @@
     "name": "ArcHUD2",
     "owner": "McPewPew",
     "git": "https://github.com/McPewPew/ArcHUD2.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -86,6 +92,7 @@
     "name": "Atlas-CFM",
     "owner": "byCFM2",
     "git": "https://github.com/byCFM2/Atlas-TW.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -106,6 +113,7 @@
     "name": "AtlasLoot",
     "owner": "shaga",
     "git": "https://octowow.st/git/shaga/AtlasLoot.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -124,6 +132,7 @@
     "name": "AttackBar",
     "owner": "Siventt",
     "git": "https://github.com/Siventt/AttackBar.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -141,6 +150,7 @@
     "name": "AuldLangSyne",
     "owner": "Road-block",
     "git": "https://github.com/Road-block/AuldLangSyne.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -164,6 +174,7 @@
     "name": "AutoLFM",
     "owner": "FSuhas",
     "git": "https://github.com/FSuhas/AutoLFM.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -183,6 +194,7 @@
     "name": "aux-addon",
     "owner": "shirsig",
     "git": "https://github.com/shirsig/aux-addon-vanilla.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -201,6 +213,7 @@
     "name": "Bagshui",
     "owner": "absir",
     "git": "https://github.com/absir/Bagshui.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -220,6 +233,7 @@
     "name": "BetterCharacterStats",
     "owner": "pepopo978",
     "git": "https://github.com/pepopo978/BetterCharacterStats.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -238,6 +252,7 @@
     "name": "BigWigs",
     "owner": "pepopo978",
     "git": "https://github.com/pepopo978/BigWigs.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -267,6 +282,7 @@
     "name": "BitesCookBook",
     "owner": "DBFBlackbull",
     "git": "https://github.com/DBFBlackbull/BitesCookBook.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -286,6 +302,7 @@
     "name": "BlizzPlates",
     "owner": "brotalnia",
     "git": "https://github.com/brotalnia/BlizzPlates.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -304,6 +321,7 @@
     "name": "CallOfElements",
     "owner": "MDGitHubRepo",
     "git": "https://github.com/MDGitHubRepo/CallOfElements.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -322,6 +340,7 @@
   {
     "name": "ClassicAPI",
     "git": "https://github.com/brues-code/ClassicAPI.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Client DLL adding modern Blizzard Lua APIs to WoW 1.12.1",
     "id": "classicapi",
@@ -332,6 +351,7 @@
   {
     "name": "CleveRoidMacros",
     "git": "https://github.com/brues-code/SuperCleveRoidMacros.git",
+    "source_type": "git",
     "branch": "main",
     "description": "ClassicAPI/Nampower/UnitXP enhanced macro system",
     "id": "cleveroidmacros",
@@ -343,6 +363,7 @@
     "name": "ConsumesManager",
     "owner": "Cinecom",
     "git": "https://github.com/Cinecom/ConsumesManager.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -361,6 +382,7 @@
     "name": "Cursive-Raid",
     "owner": "Kirchlive",
     "git": "https://github.com/Kirchlive/cursive-raid.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -381,6 +403,7 @@
     "name": "Decursive",
     "owner": "Zerf",
     "git": "https://github.com/Zerf/Decursive.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -401,6 +424,7 @@
     "name": "DifficultBulletinBoard",
     "owner": "DeterminedPanda",
     "git": "https://github.com/DeterminedPanda/DifficultBulletinBoard.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -419,6 +443,7 @@
     "name": "DoiteAuras",
     "owner": "Player-Doite",
     "git": "https://github.com/Player-Doite/DoiteAuras.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -437,6 +462,7 @@
     "name": "DragonflightUI-Reforged",
     "owner": "Hippoom",
     "git": "https://github.com/Hippoom/DragonflightUI-Reforged.git",
+    "source_type": "git",
     "toc": {
       "Interface": "11200",
       "Title": "Dragonflight UI |cFFFF0000Reforged|r",
@@ -455,6 +481,7 @@
     "name": "ExtraResourceBars",
     "owner": "Fiurs-Hearth",
     "git": "https://github.com/Fiurs-Hearth/ExtraResourceBars.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -473,6 +500,7 @@
     "name": "FishingBuddy",
     "owner": "SeVeN7000",
     "git": "https://github.com/SeVeN7000/FishingBuddy.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -493,6 +521,7 @@
     "name": "FlightTracker",
     "owner": "tilare",
     "git": "https://github.com/tilare/FlightTracker.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -511,6 +540,7 @@
     "name": "Flyout",
     "owner": "lookino",
     "git": "https://github.com/lookino/Flyout.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -530,6 +560,7 @@
     "name": "GetHead",
     "owner": "trumpetx",
     "git": "https://github.com/trumpetx/GetHead.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -548,6 +579,7 @@
     "name": "GNS",
     "owner": "zanthor",
     "git": "https://github.com/zanthor/GNS.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -565,6 +597,7 @@
   {
     "name": "GreedMeter",
     "git": "https://github.com/iGreed1993/GreedMeter.git",
+    "source_type": "git",
     "branch": "main",
     "description": "GUID-based damage and threat meter using SuperWoW raw combat log",
     "id": "greedmeter"
@@ -573,6 +606,7 @@
     "name": "Guda",
     "owner": "vatichild",
     "git": "https://github.com/vatichild/guda.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -592,6 +626,7 @@
     "name": "GudaPlates",
     "owner": "vatichild",
     "git": "https://github.com/vatichild/GudaPlates.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -609,6 +644,7 @@
     "name": "HCDeaths",
     "owner": "andresuarezschou",
     "git": "https://github.com/andresuarezschou/HCDeaths.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -627,6 +663,7 @@
     "name": "InstanceJournal",
     "owner": "Arthur-Helias",
     "git": "https://github.com/Arthur-Helias/InstanceJournal.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -646,6 +683,7 @@
     "name": "ItemRack",
     "owner": "Einherjarn",
     "git": "https://github.com/Einherjarn/ItemRack.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -663,6 +701,7 @@
     "name": "_LazyPig",
     "owner": "CosminPOP",
     "git": "https://github.com/CosminPOP/_LazyPig.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -681,6 +720,7 @@
     "name": "LevelRange-Turtle",
     "owner": "Spartelfant",
     "git": "https://github.com/Spartelfant/LevelRange-Turtle.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -701,6 +741,7 @@
     "name": "LifeSafer_LowHealthWarning",
     "owner": "shaga",
     "git": "https://octowow.st/git/shaga/LifeSafer_LowHealthWarning.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -719,6 +760,7 @@
     "name": "MessageBox",
     "owner": "tilare",
     "git": "https://github.com/tilare/MessageBox.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -737,6 +779,7 @@
     "name": "MikScrollingBattleText",
     "owner": "brues-code",
     "git": "https://github.com/brues-code/Vanilla_MikScrollingBattleText.git",
+    "source_type": "git",
     "branch": "master",
     "description": "OctoWoW build of MSBT with combat-log, parser, and icon-cache fixes",
     "id": "mikscrollingbattletext"
@@ -745,6 +788,7 @@
     "name": "ModernMapMarkers",
     "owner": "tilare",
     "git": "https://github.com/tilare/ModernMapMarkers.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -764,6 +808,7 @@
     "name": "ModernSpellBook",
     "owner": "vegeta1k95",
     "git": "https://github.com/vegeta1k95/ModernSpellBook.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -782,6 +827,7 @@
     "name": "ModifiedPowerAuras",
     "owner": "tdymel",
     "git": "https://github.com/tdymel/ModifiedPowerAuras.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -801,6 +847,7 @@
     "name": "MovementTracker",
     "owner": "tilare",
     "git": "https://github.com/tilare/MovementTracker.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -819,6 +866,7 @@
     "name": "NampowerSettings",
     "owner": "brues-code",
     "git": "https://github.com/brues-code/NampowerSettings.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -836,6 +884,7 @@
     "name": "Necrosis",
     "owner": "BlackHobbiT",
     "git": "https://github.com/BlackHobbiT/necrosis-twow.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -856,6 +905,7 @@
     "name": "notgrid",
     "owner": "gnwl",
     "git": "https://github.com/gnwl/NotGrid.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -871,6 +921,7 @@
   {
     "name": "OctoCVars",
     "git": "https://github.com/roby-brok/OctoCVars.git",
+    "source_type": "git",
     "branch": "main",
     "description": "CVar browser for the ClassicAPI/Nampower/SuperWoW stack",
     "id": "octocvars",
@@ -881,6 +932,7 @@
   {
     "name": "OctoItemMacroIcons",
     "git": "https://github.com/brues-code/OctoItemMacroIcons.git",
+    "source_type": "git",
     "branch": "main",
     "description": "ClassicAPI addon exposing all available item icons in the macro icon picker",
     "id": "octoitemmacroicons",
@@ -892,6 +944,7 @@
     "name": "OG-RaidHelper",
     "owner": "zanthor",
     "git": "https://github.com/zanthor/OG-RaidHelper.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -920,6 +973,7 @@
     "name": "Outfitter",
     "owner": "sica42",
     "git": "https://github.com/sica42/Outfitter.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -939,6 +993,7 @@
     "name": "PallyPower",
     "owner": "CosminPOP",
     "git": "https://github.com/CosminPOP/PallyPower.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -957,6 +1012,7 @@
   {
     "name": "Puppeteer",
     "git": "https://github.com/OldManAlpha/Puppeteer",
+    "source_type": "git",
     "branch": "main",
     "description": "Healer-oriented unit frames addon for WoW Vanilla 1.12 (formerly HealersMate) with mouse/key bindings, incoming healing, role assignment and raid frames.",
     "id": "puppeteer"
@@ -965,6 +1021,7 @@
     "name": "pfExtend",
     "owner": "Cliencer",
     "git": "https://github.com/Cliencer/pfExtend.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -985,6 +1042,7 @@
     "name": "pfQuest",
     "owner": "shagu",
     "git": "https://github.com/shagu/pfQuest.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1005,6 +1063,7 @@
     "name": "pfQuest",
     "owner": "brues-code",
     "git": "https://github.com/brues-code/pfQuest.git",
+    "source_type": "git",
     "branch": "main",
     "description": "pfQuest ClassicAPI Edition with OctoWoW fixes",
     "id": "pfquest-classicapi",
@@ -1016,6 +1075,7 @@
     "name": "pfQuest-turtle",
     "owner": "shagu",
     "git": "https://github.com/shagu/pfQuest-turtle.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1036,6 +1096,7 @@
     "name": "pfUI",
     "owner": "shagu",
     "git": "https://github.com/shagu/pfUI.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1055,6 +1116,7 @@
     "name": "pfUI-addonskinner",
     "owner": "jrc13245",
     "git": "https://github.com/jrc13245/pfUI-addonskinner.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1073,6 +1135,7 @@
   {
     "name": "pfUI-addonskinner",
     "git": "https://github.com/roby-brok/pfUI-addonskinner.git",
+    "source_type": "git",
     "branch": "main",
     "description": "pfUI addon skinner with OctoWoW/MSBT options skin",
     "id": "pfui-addonskinner-classicapi"
@@ -1081,6 +1144,7 @@
     "name": "pfUI-bettertotems",
     "owner": "Bombg",
     "git": "https://github.com/Bombg/pfUI-bettertotems.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1098,6 +1162,7 @@
   {
     "name": "pfUI-bettertotems",
     "git": "https://github.com/roby-brok/pfUI-bettertotems.git",
+    "source_type": "git",
     "branch": "main",
     "description": "pfUI Better Totems for OctoWoW",
     "id": "pfui-bettertotems-classicapi"
@@ -1106,6 +1171,7 @@
     "name": "pfUI",
     "owner": "brues-code",
     "git": "https://github.com/brues-code/pfUI.git",
+    "source_type": "git",
     "branch": "master",
     "description": "pfUI ClassicAPI Edition with OctoWoW fixes; requires ClassicAPI DLL",
     "id": "pfui-classicapi",
@@ -1117,6 +1183,7 @@
     "name": "pfUI-locplus",
     "owner": "Arthur-Helias",
     "git": "https://github.com/Arthur-Helias/pfUI-LocationPlus.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1136,6 +1203,7 @@
     "name": "PizzaWorldBuffs",
     "owner": "acid9000",
     "git": "https://github.com/acid9000/PizzaWorldBuffs.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1154,6 +1222,7 @@
     "name": "ProcDoc",
     "owner": "npfs666",
     "git": "https://github.com/npfs666/ProcDoc.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1172,6 +1241,7 @@
     "name": "Quiver",
     "owner": "SabineWren",
     "git": "https://github.com/SabineWren/Quiver.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1190,6 +1260,7 @@
     "name": "Rested",
     "owner": "hazlema",
     "git": "https://github.com/hazlema/Rested.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11100",
@@ -1207,6 +1278,7 @@
     "name": "Rinse",
     "owner": "Otari98",
     "git": "https://github.com/Otari98/Rinse.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1226,6 +1298,7 @@
     "name": "SellValue",
     "owner": "anzz1",
     "git": "https://github.com/anzz1/SellValue.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1244,6 +1317,7 @@
     "name": "ShaguDPS",
     "owner": "shagu",
     "git": "https://github.com/shagu/ShaguDPS.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1263,6 +1337,7 @@
     "name": "ShaguPlates",
     "owner": "shagu",
     "git": "https://github.com/shagu/ShaguPlates.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1282,6 +1357,7 @@
     "name": "ShaguTweaks",
     "owner": "shagu",
     "git": "https://github.com/shagu/ShaguTweaks.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1300,6 +1376,7 @@
     "name": "ShaguTweaks-extras",
     "owner": "shagu",
     "git": "https://github.com/shagu/ShaguTweaks-extras.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1316,6 +1393,7 @@
     "name": "SimpleActionSets",
     "owner": "pepopo978",
     "git": "https://github.com/pepopo978/SimpleActionSets.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1331,6 +1409,7 @@
     "name": "SuperAPI",
     "owner": "balakethelock",
     "git": "https://github.com/balakethelock/SuperAPI.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1346,6 +1425,7 @@
   {
     "name": "SuperCleveRoidMacros",
     "git": "https://github.com/brues-code/SuperCleveRoidMacros.git",
+    "source_type": "git",
     "branch": "main",
     "description": "ClassicAPI/Nampower/UnitXP enhanced macros with modern conditionals",
     "id": "supercleveroidmacros",
@@ -1357,6 +1437,7 @@
     "name": "SuperMacro",
     "owner": "jrc13245",
     "git": "https://github.com/jrc13245/SuperMacro-turtle-SuperWoW.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1374,6 +1455,7 @@
     "name": "T-RestedXP",
     "owner": "whtmst",
     "git": "https://github.com/whtmst/T-RestedXP.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1389,6 +1471,7 @@
     "name": "Tactica",
     "owner": "Player-Doite",
     "git": "https://github.com/Player-Doite/Tactica.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1405,6 +1488,7 @@
     "name": "Tmog",
     "owner": "Otari98",
     "git": "https://github.com/Otari98/Tmog.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1421,6 +1505,7 @@
     "name": "TurtleCalendar",
     "owner": "sica42",
     "git": "https://github.com/sica42/TurtleCalendar.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1436,6 +1521,7 @@
   {
     "name": "TurtleGuide",
     "git": "https://github.com/brues-code/VanillaGuide-Plus.git",
+    "source_type": "git",
     "description": "Hybrid leveling guide with race-based routing and TomTom/pfQuest navigation; requires ClassicAPI DLL",
     "id": "turtleguide",
     "depends": [
@@ -1446,6 +1532,7 @@
     "name": "TurtleMail",
     "owner": "sica42",
     "git": "https://github.com/sica42/TurtleMail.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1463,6 +1550,7 @@
     "name": "TurtleRP",
     "owner": "tempranova",
     "git": "https://github.com/tempranova/turtlerp.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1479,6 +1567,7 @@
     "name": "TWThreat",
     "owner": "CosminPOP",
     "git": "https://github.com/CosminPOP/TWThreat.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1494,6 +1583,7 @@
     "name": "unitscan-turtle-hc",
     "owner": "RetroCro",
     "git": "https://github.com/RetroCro/unitscan-turtle-hc.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1510,6 +1600,7 @@
     "name": "UnitXP_SP3_Addon",
     "owner": "Fostercare5988",
     "git": "https://github.com/Fostercare5988/UnitXP_SP3_Addon.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1527,6 +1618,7 @@
     "name": "VCB",
     "owner": "tdymel",
     "git": "https://github.com/tdymel/VCB.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1544,6 +1636,7 @@
     "name": "WIIIUI",
     "owner": "Fiurs-Hearth",
     "git": "https://github.com/Fiurs-Hearth/WIIIUI.git",
+    "source_type": "git",
     "branch": "main",
     "toc": {
       "Interface": "11200",
@@ -1561,6 +1654,7 @@
     "name": "WIM",
     "owner": "refaim",
     "git": "https://github.com/refaim/WIM.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",
@@ -1579,6 +1673,7 @@
     "name": "ZonesLevel",
     "owner": "Arthur-Helias",
     "git": "https://github.com/Arthur-Helias/ZonesLevel.git",
+    "source_type": "git",
     "branch": "master",
     "toc": {
       "Interface": "11200",

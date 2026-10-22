@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated": "2026-10-22T13:14:47Z",
+    "generated": "2026-10-22T14:13:37Z",
     "file": "wotlk_addons.json",
-    "checked": 300,
+    "checked": 302,
     "failing_entries": 3
   },
   "dead": [
@@ -14,6 +14,7 @@
       "entry": {
         "name": "CleanerChat",
         "git": "https://github.com/migwynkriid/CleanerChat-WotLK.git",
+        "source_type": "git",
         "branch": "master",
         "description": "A World of Warcraft 3.3.5a addon that filters chat message clutter and replaces the default chat frame with an immersive, modern chat UI.",
         "id": "cleanerchat",
@@ -67,6 +68,7 @@
       "entry": {
         "name": "EndsidiaFails",
         "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
         "branch": "main",
         "description": "Report raid player fails",
         "id": "endsidiafails",
@@ -106,6 +108,7 @@
       "entry": {
         "name": "TradeSkillMaster v2.8.3",
         "git": "https://github.com/andrew6180/TradeSkillMaster.git",
+        "source_type": "git",
         "branch": "master",
         "description": "TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making processes. TSM's features include everything from improving the native crafting and auctioning experiences to helping you gather needed materials and sniping that low-hanging auction house fruit!",
         "id": "tradeskillmaster-v2-8-3",
@@ -155,90 +158,13 @@
   "warnings": [
     {
       "file": "wotlk_addons.json",
-      "index": 2,
-      "id": "action-bar-saver-2",
-      "name": "Action Bar Saver 2",
-      "entry": {
-        "name": "Action Bar Saver 2",
-        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
-        "branch": "main",
-        "description": "Quick little mod, allows you to setup different profiles for your action bars. Mainly this is for hybrid classes that want to be able to respec without spending 10-20 minutes setting their action bars up. All you do is type /abs save name and it'll save the location of all your spells, macros and items and /abs restore name to get them.",
-        "id": "action-bar-saver-2",
-        "owner": "NoM0Re",
-        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ActionBarSaver.zip",
-        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ActionButtonSaver2.gif",
-        "wotlk_image_urls": [
-          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ActionButtonSaver2.gif"
-        ],
-        "wotlk_sources": [
-          {
-            "label": "Curseforge",
-            "url": "https://www.curseforge.com/wow/addons/action-bar-saver/files/all?page=1&pageSize=20&version=3.2.0"
-          }
-        ],
-        "toc": {
-          "Interface": "30300",
-          "Title": "Action Bar Saver 2",
-          "Notes": "Quick little mod, allows you to setup different profiles for your action bars. Mainly this is for hybrid classes that wa"
-        }
-      },
-      "failures": [
-        {
-          "field": "wotlk_sources[Curseforge]",
-          "url": "https://www.curseforge.com/wow/addons/action-bar-saver/files/all?page=1&pageSize=20&version=3.2.0",
-          "checked": "https://www.curseforge.com/wow/addons/action-bar-saver/files/all?page=1&pageSize=20&version=3.2.0",
-          "status": 403,
-          "error": null
-        }
-      ]
-    },
-    {
-      "file": "wotlk_addons.json",
-      "index": 20,
-      "id": "bartender4",
-      "name": "Bartender4",
-      "entry": {
-        "name": "Bartender4",
-        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
-        "branch": "main",
-        "description": "Bartender4 is a full ActionBar replacement mod. It provides you with all the features needed to fully customization most aspects of your action and related bars.",
-        "id": "bartender4",
-        "owner": "NoM0Re",
-        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/Bartender4.zip",
-        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bartender4.jpg",
-        "wotlk_image_urls": [
-          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/Bartender4.jpg"
-        ],
-        "wotlk_sources": [
-          {
-            "label": "Curseforge",
-            "url": "https://www.curseforge.com/wow/addons/bartender4/files/all?filter-game-version=2020709689%3A98"
-          }
-        ],
-        "toc": {
-          "Interface": "30300",
-          "Title": "Bartender4",
-          "Notes": "Bartender4 is a full ActionBar replacement mod. It provides you with all the features needed to fully customization most"
-        }
-      },
-      "failures": [
-        {
-          "field": "wotlk_sources[Curseforge]",
-          "url": "https://www.curseforge.com/wow/addons/bartender4/files/all?filter-game-version=2020709689%3A98",
-          "checked": "https://www.curseforge.com/wow/addons/bartender4/files/all?filter-game-version=2020709689%3A98",
-          "status": 403,
-          "error": null
-        }
-      ]
-    },
-    {
-      "file": "wotlk_addons.json",
       "index": 31,
       "id": "cheese",
       "name": "Cheese",
       "entry": {
         "name": "Cheese",
         "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
         "branch": "main",
         "description": "Cheese simulates the display of procs introduced with Cataclysm.",
         "id": "cheese",
@@ -278,6 +204,7 @@
       "entry": {
         "name": "DrDamage",
         "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
         "branch": "main",
         "description": "DrDamage displays the calculated damage or healing of abilities with talents, gear and buffs included on your actionbar buttons. The addon also adds various statistics to the tooltips in your spellbook and on the actionbar.",
         "id": "drdamage",
@@ -317,6 +244,7 @@
       "entry": {
         "name": "GearScore",
         "git": "https://github.com/Arcitec/GearScoreLite_Reborn.git",
+        "source_type": "git",
         "branch": "main",
         "description": "Allows you to easily see the calculated Gearscore of yourself and other players.\n\nIt adds a weighted value for each item a player has equipped based on Item Level.\n\n**GearScoreLite: Reborn**\nGearScoreLite: Reborn is the newest version of the Addon and is based on the final official version of GearScoreLite from CurseForge.\n\nIt doesn't have a database has a improved GearScore algorithm, includes several bug fixes, new features, and supports all unit frame addons.",
         "id": "gearscore",
@@ -364,6 +292,7 @@
       "entry": {
         "name": "MikScrollingBattleText(MSBT)",
         "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
         "branch": "main",
         "description": "MSBT is designed to be an extremely lightweight, efficient, and highly configurable mod that makes it easier to see combat information by scrolling the information on the screen in separate, dynamically creatable scroll areas. It is a replacement for Blizzard's Floating Combat Text and Damage output.",
         "id": "mikscrollingbattletext-msbt",
@@ -403,6 +332,7 @@
       "entry": {
         "name": "Omen Thread Meter",
         "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
         "branch": "main",
         "description": "Omen is a threat meter. Basically, enemies in WoW decide who to attack by deciding who is the most threatening based on the abilities you use.",
         "id": "omen-thread-meter",
@@ -442,6 +372,7 @@
       "entry": {
         "name": "OPie",
         "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
         "branch": "main",
         "description": "OPie is a radial action-binding addon for World of Warcraft. It lets you group actions into rings, which appear when you hold down a keyboard or mouse binding.\nWhen you release the binding, OPie will perform an action based on where your mouse cursor is.",
         "id": "opie",
@@ -481,6 +412,7 @@
       "entry": {
         "name": "Outfitter",
         "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
         "branch": "main",
         "description": "Lets you switch between equipment sets easily, works with DBM weaponswitch.",
         "id": "outfitter",
@@ -520,6 +452,7 @@
       "entry": {
         "name": "pMinimap",
         "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
         "branch": "main",
         "description": "pMinimap is a very lightweight and streamlined Minimap addon.",
         "id": "pminimap",
@@ -547,6 +480,126 @@
           "url": "https://felbite.com/addon/4552-pminimap/",
           "checked": "https://felbite.com/addon/4552-pminimap",
           "status": 520,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 110,
+      "id": "raidbuffstatus",
+      "name": "RaidBuffStatus",
+      "entry": {
+        "name": "RaidBuffStatus",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
+        "branch": "main",
+        "description": "RBS reports on a configurable dashboard or to group chat on consumables, buffs, AFK, mana and many many others but in an intelligent automagic way. RBS is the last nail in the coffin of all slacking level max-level raiders.",
+        "id": "raidbuffstatus",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/RaidBuffStatus.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidBuffStatus.PNG",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidBuffStatus.PNG"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "Curseforge",
+            "url": "https://www.curseforge.com/wow/addons/raidbuffstatus/files/all?filter-game-version=2020709689%3A98"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "RaidBuffStatus",
+          "Notes": "RBS reports on a configurable dashboard or to group chat on consumables, buffs, AFK, mana and many many others but in an"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[Curseforge]",
+          "url": "https://www.curseforge.com/wow/addons/raidbuffstatus/files/all?filter-game-version=2020709689%3A98",
+          "checked": "https://www.curseforge.com/wow/addons/raidbuffstatus/files/all?filter-game-version=2020709689%3A98",
+          "status": 403,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 111,
+      "id": "raidcomp",
+      "name": "RaidComp",
+      "entry": {
+        "name": "RaidComp",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
+        "branch": "main",
+        "description": "Raid composition is an important aspect of WoW PvE. RC also helps raid leaders by giving an overview of the different buff and debuff categories. It won't do all the thinking for you, raid optimization is complex, however it should be able to do most of the grunt work and highlight some of the categories and abilities you need to look closer at.",
+        "id": "raidcomp",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/RaidComp.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidComp.png",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/RaidComp.png"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "Curseforge",
+            "url": "https://www.curseforge.com/wow/addons/arc/files/all?filter-game-version=2020709689%3A93"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "RaidComp",
+          "Notes": "Raid composition is an important aspect of WoW PvE. RC also helps raid leaders by giving an overview of the different bu"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[Curseforge]",
+          "url": "https://www.curseforge.com/wow/addons/arc/files/all?filter-game-version=2020709689%3A93",
+          "checked": "https://www.curseforge.com/wow/addons/arc/files/all?filter-game-version=2020709689%3A93",
+          "status": 403,
+          "error": null
+        }
+      ]
+    },
+    {
+      "file": "wotlk_addons.json",
+      "index": 121,
+      "id": "smarttrack",
+      "name": "SmartTrack",
+      "entry": {
+        "name": "SmartTrack",
+        "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+        "source_type": "direct",
+        "branch": "main",
+        "description": "Smart automatic tracking for hunters only with Improved tracking talent. Whenever you enter combat this addon will check your target's type (if any) and automatically change your tracking accordingly. If you change the target during combat your tracking will change too (if your new target is of different type and you can track it).",
+        "id": "smarttrack",
+        "owner": "NoM0Re",
+        "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/SmartTrack.zip",
+        "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SmartTrack.png",
+        "wotlk_image_urls": [
+          "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/SmartTrack.png"
+        ],
+        "wotlk_sources": [
+          {
+            "label": "Curseforge",
+            "url": "https://www.curseforge.com/wow/addons/smarttrack/files"
+          }
+        ],
+        "toc": {
+          "Interface": "30300",
+          "Title": "SmartTrack",
+          "Notes": "Smart automatic tracking for hunters only with Improved tracking talent. Whenever you enter combat this addon will check"
+        }
+      },
+      "failures": [
+        {
+          "field": "wotlk_sources[Curseforge]",
+          "url": "https://www.curseforge.com/wow/addons/smarttrack/files",
+          "checked": "https://www.curseforge.com/wow/addons/smarttrack/files",
+          "status": 403,
           "error": null
         }
       ]

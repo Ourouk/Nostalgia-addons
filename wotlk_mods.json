@@ -1,6 +1,7 @@
 [
   {
     "id": "wow-optimize",
+    "source_type": "direct",
     "type": "external-launcher",
     "installation": "user_opt_in",
     "name": "wow_optimize",

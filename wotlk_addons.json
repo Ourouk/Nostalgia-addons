@@ -2,6 +2,7 @@
   {
     "name": "!LuaBoost",
     "git": "https://github.com/suprepupre/LuaBoost.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Lua-side companion for WoW 3.3.5a: garbage collection control, loading-screen event suppression, and shared APIs for addon authors. Works standalone or alongside wow_optimize.",
     "id": "luaboost",
@@ -22,6 +23,7 @@
   {
     "name": "Ackis Recipe List",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Ackis Recipe List is an AddOn which will scan your trade skills and provide information on how to obtain recipes.",
     "id": "ackis-recipe-list",
@@ -46,6 +48,7 @@
   {
     "name": "Action Bar Saver 2",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Quick little mod, allows you to setup different profiles for your action bars. Mainly this is for hybrid classes that want to be able to respec without spending 10-20 minutes setting their action bars up. All you do is type /abs save name and it'll save the location of all your spells, macros and items and /abs restore name to get them.",
     "id": "action-bar-saver-2",
@@ -70,6 +73,7 @@
   {
     "name": "AddEmote",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Ever wished World of Warcraft had more emotes? Or wanted to create your own emotes that you could use like the regular ones? Well, now you can! AddEmote lets you easily create new /command emotes for all your characters. **use /addemote** for the configuration interface.",
     "id": "addemote",
@@ -94,6 +98,7 @@
   {
     "name": "AddFriend",
     "git": "https://github.com/NoM0Re/AddFriend-3.3.5a.git",
+    "source_type": "git",
     "branch": "main",
     "description": "AddFriend is a simple addon that adds an Add Friend or Add Guild option to the context menu of player options.",
     "id": "addfriend",
@@ -117,12 +122,12 @@
   },
   {
     "name": "Addon Control Panel",
-    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
-    "branch": "main",
+    "git": "https://github.com/Legacy-of-Sylvanaar/addon-control-panel.git",
+    "source_type": "git",
     "description": "Stop logging out of the game just to change your addons! ACP adds the \"Addons\" button to the game's main menu to disable/enable Addons.",
     "id": "addon-control-panel",
-    "owner": "NoM0Re",
-    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/ACP.zip",
+    "owner": "Legacy-of-Sylvanaar",
+    "wotlk_primary_download": "https://github.com/Legacy-of-Sylvanaar/addon-control-panel/archive/refs/heads/master.zip",
     "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ACP.jpg",
     "wotlk_image_urls": [
       "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/ACP.jpg"
@@ -142,6 +147,7 @@
   {
     "name": "AdiBags",
     "git": "https://github.com/Sattva-108/AdiBags-WoTLK-3.3.5.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "AdiBags is a addon that displays the contents of your bags in single view, distributed into several sections using smart filters.",
     "id": "adibags",
@@ -166,6 +172,7 @@
   {
     "name": "Afflicted",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Afflicted is an enemy spell timer mod for PvP (mainly arenas). This is for people who just want useful information, such as an interrupt is on cool down and you're safe to cast a heal or that Blessing of Freedom is going to be back up for an enemy Paladin soon.",
     "id": "afflicted",
@@ -190,6 +197,7 @@
   {
     "name": "AllStats",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "This addon moves the functionality of the stat dropdowns to a panel on the right side of the paperdoll, so that you can see all of your stats at once.",
     "id": "allstats",
@@ -214,6 +222,7 @@
   {
     "name": "Altoholic",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Altoholic features search functionality, which allows users to search their alts bags or loot tables in an Auction-House-like frame.",
     "id": "altoholic",
@@ -238,6 +247,7 @@
   {
     "name": "AmILockedOut",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "AmILockedOut Little addon which saves me quite some time with all my twinks. Rembers which of your chars are saved to which instance.",
     "id": "amilockedout",
@@ -262,6 +272,7 @@
   {
     "name": "Atlas",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Atlas is an add-on for World of Warcraft that provides maps for each instance, along with tips for bosses and information on their loot drops in the game.",
     "id": "atlas",
@@ -286,6 +297,7 @@
   {
     "name": "AtlasLoot Enhanced",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "AtlasLoot Enhanced is an UI mod allowing for loot tables of bosses to be browsed whenever needed within the game.",
     "id": "atlasloot-enhanced",
@@ -310,6 +322,7 @@
   {
     "name": "AtlasLoot 3.3.5a",
     "git": "https://github.com/Gescht/AtlasLoot3.3.5a.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Atlas Loot for WoW 3.3.5a",
     "id": "atlasloot3-3-5a",
@@ -330,6 +343,7 @@
   {
     "name": "Auctionator",
     "git": "https://github.com/alchem1ster/WotLK-Auctionator.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Auctionator is designed for casual everyday auction house users. Auctionator makes the auction house easier to use, by presenting auction house listings clearly and succinctly, and by eliminating the tedium involved in posting and managing auctions.\n\nThis Version is using abit less memory than the MoP version.",
     "id": "auctionator",
@@ -354,6 +368,7 @@
   {
     "name": "AutoFlood",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "AutoFlood periodically sends a single-line message in a chat channel. It's designed for advertisement for guild recruitment, crafting, in-game events...",
     "id": "autoflood",
@@ -378,6 +393,7 @@
   {
     "name": "AutoInvite",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Used to Automatically Invite players into a group/raid based on what and where they say certain \"trigger\" keywords.\n\nTo open the interface, type /ai or /autoinvite",
     "id": "autoinvite",
@@ -402,6 +418,7 @@
   {
     "name": "AutomaticWeaponRemoval",
     "git": "https://github.com/SecretX33/AutomaticWeaponRemoval.git",
+    "source_type": "git",
     "branch": "main",
     "description": "This addon remove (swap) your weapons automatically if you are melee and get mind controlled by a variety of bosses, like Lady Deathwhisper, and a lot more, like removing Paladin's RF buff if you are not a tank.\n\nConfigs are done via interface or slash commands like **/awr**.",
     "id": "automaticweaponremoval",
@@ -426,6 +443,7 @@
   {
     "name": "AutoRepair",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Automaticaly repairs all items when a merchant window is opened.",
     "id": "autorepair",
@@ -450,6 +468,7 @@
   {
     "name": "Bagnon Backport with Search and Sort Functionality",
     "git": "https://github.com/RichSteini/Bagnon-3.3.5.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Bagnon is the most popular replacement of the bag interface, designed to help the player find items as quickly and easily as possible.",
     "id": "bagnon-backport-with-search-and-sort-functionality",
@@ -474,6 +493,7 @@
   {
     "name": "Bartender4",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Bartender4 is a full ActionBar replacement mod. It provides you with all the features needed to fully customization most aspects of your action and related bars.",
     "id": "bartender4",
@@ -498,6 +518,7 @@
   {
     "name": "BindPad",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "BindPad is an addon to make KeyBindings for spells, items, and macros.\nYou no longer need actionbar slots just to make Key bindings for your macros etc.\nBindPad addon provides many icon slots in its frame.  You can drag and drop\nanything into one of these slots, and click the slot to set KeyBindings.",
     "id": "bindpad",
@@ -522,6 +543,7 @@
   {
     "name": "BlizzMove",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "This addon makes the Blizzard windows movable.",
     "id": "blizzmove",
@@ -546,6 +568,7 @@
   {
     "name": "BLT",
     "git": "https://github.com/freix1/BLT_WotLK.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "BLT Raid Cooldowns tracks raid cooldowns (offensive and defensive), announces casts and availability, and provides a report on CD usage after boss fights. My version can show CDs of Trinkets like it was intendent, the Developer of the Addon isnt updating it anymore.",
     "id": "blt",
@@ -570,6 +593,7 @@
   {
     "name": "BNetToast",
     "git": "https://github.com/crumdidlyumshis/BNetToast.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "BattleNET style Online/Offline Indicator for your friend/guild mates.",
     "id": "bnettoast",
@@ -594,6 +618,7 @@
   {
     "name": "BugSack",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "BugSack eases the process of viewing bugs. It displays Lua errors that occurred during your play session, including the full debug stack.\n\nIt aims to be invaluable to developers, and a useful tool for players.",
     "id": "bugsack",
@@ -618,6 +643,7 @@
   {
     "name": "Carbonite (Maps - QuestHelper)",
     "git": "https://github.com/anzz1/Carbonite-3.3.5.git",
+    "source_type": "git",
     "branch": "master",
     "description": "Carbonite is a google style map replacement and Questhelper for the world of World of Warcraft.",
     "id": "carbonite-maps-questhelper",
@@ -642,6 +668,7 @@
   {
     "name": "Cartographer",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Cartographer is a modular, lightweight, and efficient framework for manipulation of the world map.",
     "id": "cartographer",
@@ -666,6 +693,7 @@
   {
     "name": "CartoMapper",
     "git": "https://github.com/Zendevve/CartoMapper.git",
+    "source_type": "git",
     "branch": "main",
     "description": "The Ultimate Map Enhancement Addon for Wrath of the Lich King 3.3.5a.",
     "id": "cartomapper",
@@ -690,6 +718,7 @@
   {
     "name": "ChatFilter (project abandoned)",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "simple addon just for myself to make Icecrown's /global chat more readable. It turned out quite good and helpful for me, so i decided to share it with community.\n\nIf you are tired of being recruited to Persian guilds, get frustrated from endless /y Il No'throma N O O O O L N Zaga maza'rotha Nogah mog NO o A spam.\n\nThis addon allows you completely skip messages, containing words from the blacklist. You can edit this list right in the game. Filters are applyed on /y, /s and global channels.",
     "id": "chatfilter-project-abandoned",
@@ -714,6 +743,7 @@
   {
     "name": "Chatter",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Chatter is a comprehensive, lightweight, mega-configurable chat enhancement addon. It supports a whole bunch of stuff including.",
     "id": "chatter",
@@ -738,6 +768,7 @@
   {
     "name": "Cheese",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Cheese simulates the display of procs introduced with Cataclysm.",
     "id": "cheese",
@@ -762,6 +793,7 @@
   {
     "name": "ClassLoot",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "This addon is an in-game representation of Class Loot Lists as tooltip. Kaliban's Class Loot List provides ratings for all raid loot with respect to it's suitability for different class/spec combinations.",
     "id": "classloot",
@@ -786,6 +818,7 @@
   {
     "name": "CleanerChat",
     "git": "https://github.com/migwynkriid/CleanerChat-WotLK.git",
+    "source_type": "git",
     "branch": "master",
     "description": "A World of Warcraft 3.3.5a addon that filters chat message clutter and replaces the default chat frame with an immersive, modern chat UI.",
     "id": "cleanerchat",
@@ -810,6 +843,7 @@
   {
     "name": "CleanMinimap",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "A clean square or round minimap that replaces the default minimap.",
     "id": "cleanminimap",
@@ -835,6 +869,7 @@
   {
     "name": "Clique",
     "git": "https://gitlab.com/Tsoukie/clique-3.3.5.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Clique is a simple addon that enables powerful click-casting and hover-casting on your unit frames and in the 3D game world. You can bind virtually any mouse or keyboard combination to a spell or macro. In it's normal configuration this enables you to use the bindings over your unit frames in order to cast spells directly on that unit. This allows you to more quickly select both the spell to cast, and the target of the spell without requiring an extra click.",
     "id": "clique",
@@ -859,6 +894,7 @@
   {
     "name": "Collectinator",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Collectinator is a Addon to identify missing mini-pets and mounts, along with their locations for acquisition.\n\nOpen up your companion window (pets or mounts) and click the scan button.",
     "id": "collectinator",
@@ -883,6 +919,7 @@
   {
     "name": "Color Picker Advanced",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Color Picker Advanced for a better version of the WoW color picker that includes class color templates and a copy and paste function.",
     "id": "color-picker-advanced",
@@ -907,6 +944,7 @@
   {
     "name": "Cooldowns",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "A World of Warcraft add-on that displays numeric cooldown counters on all buttons that are 28 pixels or wider.",
     "id": "cooldowns",
@@ -931,6 +969,7 @@
   {
     "name": "Critline",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Critline is an addon that will remember your highest hits and crits (including heals and pet attacks), and display them in a fairly simple tooltip. It sports many features by default, including advanced filtering, a standalone frame, splash on new record and more.",
     "id": "critline",
@@ -955,6 +994,7 @@
   {
     "name": "Cromulent",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Displays ZoneInfo on the world map in a perfectly cromulent manner, à la Cartographer.",
     "id": "cromulent",
@@ -979,6 +1019,7 @@
   {
     "name": "DalaranAH",
     "git": "https://github.com/NoM0Re/DalaranAH.git",
+    "source_type": "git",
     "branch": "main",
     "description": "DalaranAH is a lightweight World of Warcraft addon that simplifies interactions with the Auctionhouse NPC in Dalaran by providing a customizable button on your screen, allowing you to target, set focus and mark the AH-Bot.\nAlso it opens the Auctionhouse instant, instead of clicking manually on the Gossip.",
     "id": "dalaranah",
@@ -1004,6 +1045,7 @@
   {
     "name": "DBM Deadly Boss Mods Warmane",
     "git": "https://github.com/Zidras/DBM-Warmane.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Deadly Boss Mods (DBM) is a popular addon that assists players in tracking and reacting to the many boss mechanics one might encounter during a dungeon or raid.",
     "id": "dbm-deadly-boss-mods-warmane",
@@ -1032,6 +1074,7 @@
   {
     "name": "Decursive",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Decursive is a cleansing mod intended to make affliction removal easy, effective and fun for all the classes having this ability.",
     "id": "decursive",
@@ -1056,6 +1099,7 @@
   {
     "name": "DialogUI",
     "git": "https://github.com/ghbset/DialogUI-WotLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "An immersive quest / gossip / book dialog UI for World of Warcraft 3.3.5a.",
     "id": "dialogui",
@@ -1082,6 +1126,7 @@
   {
     "name": "DocsCorporeality(IMO better than HalionHelper)",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Assistant for Phase 3 of Halion in the Ruby Sanctum.",
     "id": "docscorporeality-imo-better-than-halionhelper",
@@ -1106,6 +1151,7 @@
   {
     "name": "Dominos",
     "git": "https://github.com/bkader/Dominos.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Dominos is an addon that replaces your main bar with movable parts that offer additional customization. Dominos is used primarily for its action bars.",
     "id": "dominos",
@@ -1130,6 +1176,7 @@
   {
     "name": "DragonUI",
     "git": "https://github.com/NeticSoul/DragonUI.git",
+    "source_type": "git",
     "branch": "main",
     "description": "DragonUI is a modular, retail-inspired UI addon for World of Warcraft 3.3.5a. It includes customizable action bars, unit frames, castbars, XP and reputation bars, chat enhancements, a retail-style minimap, bag sorting, layout presets, editor mode, and profile support.",
     "id": "dragonui",
@@ -1154,6 +1201,7 @@
   {
     "name": "DrDamage",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "DrDamage displays the calculated damage or healing of abilities with talents, gear and buffs included on your actionbar buttons. The addon also adds various statistics to the tooltips in your spellbook and on the actionbar.",
     "id": "drdamage",
@@ -1178,6 +1226,7 @@
   {
     "name": "DressMe",
     "git": "https://github.com/GetLocalPlayer/DressMe.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "DressMe is an add-on that allows to preview items appearance, create and save your character looks.",
     "id": "dressme",
@@ -1202,6 +1251,7 @@
   {
     "name": "EclipseBar",
     "git": "https://github.com/bkader/EclipseBar-WotLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Backported Druid EclipseBar but instead of showing power bar, the marker moves with the eclipse's remaining time.",
     "id": "eclipsebar",
@@ -1226,6 +1276,7 @@
   {
     "name": "ElvUI",
     "git": "https://github.com/ElvUI-WotLK/ElvUI.git",
+    "source_type": "git",
     "branch": "master",
     "description": "ElvUI is a complete Blizzard ui replacements. This means that they already have Blizzard frames skinned, unitframes and actionbars premade, etc.",
     "id": "elvui",
@@ -1258,6 +1309,7 @@
   {
     "name": "Emblem of Gold",
     "git": "https://github.com/Stradios/Emblem-of-Gold.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Emblem of Gold is a simple World of Warcraft addon that shows your gold and emblem counts (Heroism, Valor, Conquest, Triumph, Frost) when you open a vendor.",
     "id": "emblem-of-gold",
@@ -1282,6 +1334,7 @@
   {
     "name": "EndsidiaFails",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Report raid player fails",
     "id": "endsidiafails",
@@ -1306,6 +1359,7 @@
   {
     "name": "Equipence",
     "git": "https://github.com/s0h2x/Equipence.git",
+    "source_type": "git",
     "branch": "master",
     "description": "Displays gems, enchants, item levels, and quality borders directly in the character and inspection UI. See full gear status at a glance without extra steps. All visual elements can be toggled or adjusted in the options.",
     "id": "equipence",
@@ -1330,6 +1384,7 @@
   {
     "name": "EventHorizon",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "EventHorizon displays all of your class/spec's rotational abilities on a common time scale.\nThis means that instead of seeing a regular percentage-based timer bar, EH shows you exactly what is happening in relation to everything else.\nIf that sounds complicated at all, just look at the screenshots.",
     "id": "eventhorizon",
@@ -1354,6 +1409,7 @@
   {
     "name": "EveryQuest",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "EveryQuest is a Quest History tracker and quest list window.",
     "id": "everyquest",
@@ -1378,6 +1434,7 @@
   {
     "name": "ForteXorcist",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "ForteXorcist is a Powerful AddOn for Cross-Dotting u keep track of every Dot u applied. It has many more Features for Warlock and Priests.",
     "id": "fortexorcist",
@@ -1402,6 +1459,7 @@
   {
     "name": "Friend & Ignore Share",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Share friends and ignore list account-wide.",
     "id": "friend-ignore-share",
@@ -1426,6 +1484,7 @@
   {
     "name": "Gatherer+",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "The addon does not track like a tracking ability does, rather it \"remembers\" where you have found various items in the past.\n\nIt does this whenever you gather (perform herbalism, mining or opening) on an item, and records the specific map location in its history.\n\nUsage: **/gather**",
     "id": "gatherer",
@@ -1450,6 +1509,7 @@
   {
     "name": "GearScore",
     "git": "https://github.com/Arcitec/GearScoreLite_Reborn.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Allows you to easily see the calculated Gearscore of yourself and other players.\n\nIt adds a weighted value for each item a player has equipped based on Item Level.\n\n**GearScoreLite: Reborn**\nGearScoreLite: Reborn is the newest version of the Addon and is based on the final official version of GearScoreLite from CurseForge.\n\nIt doesn't have a database has a improved GearScore algorithm, includes several bug fixes, new features, and supports all unit frame addons.",
     "id": "gearscore",
@@ -1482,6 +1542,7 @@
   {
     "name": "GladiusEx",
     "git": "https://github.com/ManneN1/GladiusEx-WotLK.git",
+    "source_type": "git",
     "branch": "master",
     "description": "The famous (and imo, far superior) arena frame AddOn GladiusEx. Gladius adds enemy unit frames to arenas for easier targeting and focusing. It is highly configurable and you can disable most features of this addon.",
     "id": "gladiusex",
@@ -1506,6 +1567,7 @@
   {
     "name": "Grid2",
     "git": "https://github.com/bkader/Grid2-WoTLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Grid2 is a party/raid unit frame addon.",
     "id": "grid2",
@@ -1530,6 +1592,7 @@
   {
     "name": "GroupBulletinBoard",
     "git": "https://github.com/fondlez/GroupBulletinBoard.git",
+    "source_type": "git",
     "branch": "main",
     "description": "GroupBulletinBoard (GBB) provides a clear overview of the endless requests in chat channels. It detects all instance requests, sorts them, and presents them in an organized way, with numerous filters to help you find exactly the dungeons you are interested in; sound and chat notifications alert you to new requests. `/gbb` or click the minimap icon",
     "id": "groupbulletinboard",
@@ -1554,6 +1617,7 @@
   {
     "name": "GTFO: Stop standing in fire!",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "GTFO provides an audible alert when you're standing in something you're not supposed to be standing in. In some cases, you'll be warned before you start taking damage.\n\nThis mod improves your situational awareness and is recommended for dungeon divers and raiders of all skill levels as even the most seasoned veteran sometimes needs a reminder to GTFO.",
     "id": "gtfo-stop-standing-in-fire",
@@ -1578,6 +1642,7 @@
   {
     "name": "HalionHelper",
     "git": "https://github.com/bkader/HalionHelper-WoTLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Provides a clearer visual display of the Corporeality buff during phase 3 of the Halion encounter in Ruby Sanctum. Similar to the PVP capture frame, this lets you easily see if you should be DPSing more, less, or the same.",
     "id": "halionhelper",
@@ -1602,6 +1667,7 @@
   {
     "name": "Healbot",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "A supportive addon for healers, as it can do numerous amounts of helpful little tricks.",
     "id": "healbot",
@@ -1626,6 +1692,7 @@
   {
     "name": "IgnoreMore",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "IgnoreMore will let you ignore more than 49 players, share the same ignore list, see when someone was ignored, reason for why the person is ignored",
     "id": "ignoremore",
@@ -1650,6 +1717,7 @@
   {
     "name": "Immersion",
     "git": "https://github.com/s0h2x/Immersion-WotLK.git",
+    "source_type": "git",
     "branch": "master",
     "description": "Immersion is a replacement for the dated quest & gossip frames.",
     "id": "immersion",
@@ -1674,6 +1742,7 @@
   {
     "name": "Improved Profession Capper",
     "git": "https://github.com/DarkChimu/Improved-Profession-Capper.git",
+    "source_type": "git",
     "branch": "master",
     "description": "Profession Capper is a addon that will show you how to level up your trade skills.\n\nWhen you open your Profession frame, the Profession Capper frame will be opened too, telling you which recipe you'd better to craft next in order to reach next level of that profession.",
     "id": "improved-profession-capper",
@@ -1698,6 +1767,7 @@
   {
     "name": "InspectEquip",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "InspectEquip attaches a panel to the inspect window that shows a list of the character's equipment sorted by source (i.e. Raid, Vendor, Crafted...).\n\nThis gives you a quick overview of a character's equipment.",
     "id": "inspectequip",
@@ -1722,6 +1792,7 @@
   {
     "name": "InterruptBar",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "A addon that tracks enemy interrupt abilities on a neat little bar.",
     "id": "interruptbar",
@@ -1746,6 +1817,7 @@
   {
     "name": "iTargetingFrames",
     "git": "https://github.com/CH33T4/iTargetingFrames.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Displays nameplate units in a clickable grid.\nRequires a patched client with AwesomeWotlk (https://github.com/FrostAtom/awesome_wotlk).\nIf units are shown more than once, you need the modified DLL-file with fixed nameplate units from this repository.\n**Does not work on servers that do not support AwesomeWotLK features (e.g. Warmane).**\nDoes not work on servers that do not support AwesomeWotLK features (e.g. Warmane).",
     "id": "itargetingframes",
@@ -1770,6 +1842,7 @@
   {
     "name": "Key Bind Profiles",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "This addon allows you to save keybind settings into different profiles, these profiles can be loaded and used again later. Each profile can be assigned to a specialization such that it automatically loads upon switching specs. Accessable through /kbp help",
     "id": "key-bind-profiles",
@@ -1794,6 +1867,7 @@
   {
     "name": "KRT: Kader Raid Tools",
     "git": "https://github.com/bkader/KRT.git",
+    "source_type": "git",
     "branch": "main",
     "description": "It was mainly made for raid leaders and it offers a lot of useful features to really make raid leading as easy as possible.",
     "id": "krt-kader-raid-tools",
@@ -1822,6 +1896,7 @@
   {
     "name": "KRU - Kader's Raid Utilities",
     "git": "https://github.com/bkader/KPack.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "This addon was part of [KPack](https://github.com/bkader/KPack), it was extracted and made as a standalone addon after few requests, contains 8 very useful modules.",
     "id": "kru-kader-s-raid-utilities",
@@ -1854,6 +1929,7 @@
   {
     "name": "LoseControl",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "LoseControl makes it easy to see the duration of crowd control spells by displaying them in a dedicated icon onscreen.",
     "id": "losecontrol",
@@ -1878,6 +1954,7 @@
   {
     "name": "Ludwig",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Ludwig is an World of Warcraft item database addon that allows you to search for any item ingame.\n\nIt presents all ingame items sorted by their proprieties, and allows you to filter them as well.",
     "id": "ludwig",
@@ -1902,6 +1979,7 @@
   {
     "name": "MacroBank",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "MacroBank is an addon that allows you to easily create, organize, and save macros for future use without needing to first create them in the game's default macro window. It offers features like categorizing macros, editing text and icons, loading and replacing macros, and even sending macros to other MacroBank users.",
     "id": "macrobank",
@@ -1926,6 +2004,7 @@
   {
     "name": "Mage Nuggets",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Mage Nuggets is a utility with many useful nuggets to make the lives of mages easier.",
     "id": "mage-nuggets",
@@ -1950,6 +2029,7 @@
   {
     "name": "Mapster",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Mapster is a very simple world map enhacement addon, which was designed to work in conjunction with all other map addons out there.",
     "id": "mapster",
@@ -1974,6 +2054,7 @@
   {
     "name": "Method Raid Tools (MRT)",
     "git": "https://github.com/ExoJdi/Method-Raid-Tools-3.3.5a.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Helpful addon for raiders, especially for raid leaders and officers. Modules: Raid Cooldowns, Notes, Reminders, Visual Notes, Battle Resurrection icon, Fight/combat log, Raid Inspect Viewer, Raid Check, Invite Tools, Timers, Raid Attendance, Encounters Statistics, Saving log (autologging), Marks Bar, Permanent Marks, Loot to chat, Who pulled, WeakAuras checker, Raid Groups Saver",
     "id": "method-raid-tools-mrt",
@@ -1998,6 +2079,7 @@
   {
     "name": "MikScrollingBattleText(MSBT)",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "MSBT is designed to be an extremely lightweight, efficient, and highly configurable mod that makes it easier to see combat information by scrolling the information on the screen in separate, dynamically creatable scroll areas. It is a replacement for Blizzard's Floating Combat Text and Damage output.",
     "id": "mikscrollingbattletext-msbt",
@@ -2022,6 +2104,7 @@
   {
     "name": "ModernMapMarkers-WotLK",
     "git": "https://github.com/Drakensangs/ModernMapMarkers-WotLK.git",
+    "source_type": "git",
     "branch": "master",
     "description": "World of Warcraft Wrath of the Lich King 3.3.5a addon that places markers on the world map to show the locations of dungeons, raids, world bosses, boats, zeppelins, trams & portals.",
     "id": "modernmapmarkers-wotlk",
@@ -2042,6 +2125,7 @@
   {
     "name": "MogIt",
     "git": "https://github.com/Skrylas/MogIt-WotLK.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "MogIt is an in-game catalogue of items with the aim of helping players build their own sets for transmogrification purposes.",
     "id": "mogit",
@@ -2066,6 +2150,7 @@
   {
     "name": "Molinari",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Molinari allows the player to easily \"salvage\" items directly from the inventory by holding down the Alt key and clicking on the item in their bags, instead of dealing with the tradeskill UI, spellbook, macros or actions.",
     "id": "molinari",
@@ -2090,6 +2175,7 @@
   {
     "name": "MoP Item Tooltips",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "MoP Item Tooltips is an add-on to modifiy item tooltips so they look like they do in later expansions.",
     "id": "mop-item-tooltips",
@@ -2116,6 +2202,7 @@
   {
     "name": "MoveAnything",
     "git": "https://github.com/sirus-addons/MoveAnything.git",
+    "source_type": "git",
     "branch": "master",
     "description": "MoveAnything enables you to move, scale, hide and adjust transparency of just about any screen element in WoW, offering tools to help you customize your UI.",
     "id": "moveanything",
@@ -2140,6 +2227,7 @@
   {
     "name": "NeedToKnow",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "NeedToKnow lets you monitor specific buffs, debuffs, cooldowns, and totems as timer bars that always appear in a consistent place on your screen.",
     "id": "needtoknow",
@@ -2164,6 +2252,7 @@
   {
     "name": "NotPlater",
     "git": "https://github.com/RichSteini/NotPlater.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Feature rich nameplate addon for that was designed based on the modern Plater addon.\n\nThe main purpose is to provide extensive threat information on nameplates with fully configurable options.\n\nYou can either access them over the minimap button or with the slash commands /np or /notplater.",
     "id": "notplater",
@@ -2189,6 +2278,7 @@
   {
     "name": "Omen Thread Meter",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Omen is a threat meter. Basically, enemies in WoW decide who to attack by deciding who is the most threatening based on the abilities you use.",
     "id": "omen-thread-meter",
@@ -2213,6 +2303,7 @@
   {
     "name": "OmniCC",
     "git": "https://github.com/NoM0Re/OmniCC-WotLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Adds numeric cooldown timers to spells, abilities, and items, turning the default analog cooldown swirl into clear digital countdown text. Works with the default UI and most addons. Use /omnicc or /occ to open the options.",
     "id": "omnicc",
@@ -2237,6 +2328,7 @@
   {
     "name": "OPie",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "OPie is a radial action-binding addon for World of Warcraft. It lets you group actions into rings, which appear when you hold down a keyboard or mouse binding.\nWhen you release the binding, OPie will perform an action based on where your mouse cursor is.",
     "id": "opie",
@@ -2261,6 +2353,7 @@
   {
     "name": "Outfitter",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Lets you switch between equipment sets easily, works with DBM weaponswitch.",
     "id": "outfitter",
@@ -2285,6 +2378,7 @@
   {
     "name": "Overachiever",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Overachiever provides tools and tweaks to make the lives of players seeking achievements a little bit easier.",
     "id": "overachiever",
@@ -2311,6 +2405,7 @@
   {
     "name": "PallyPower Improved",
     "git": "https://github.com/NoM0Re/PallyPower-Improved-3.3.5.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Pally Power the must have for a Paladin, provides an interactive and easy to use interface that allows you to set your own blessings (Righteous Fury, Aura, Seal and Blessings) and automatically checks for missing buffs with an easy to read indicator.",
     "id": "pallypower-improved",
@@ -2335,6 +2430,7 @@
   {
     "name": "pfQuest-Reforged",
     "git": "https://github.com/stevemcqueenz/pfQuest-Reforged.git",
+    "source_type": "git",
     "branch": "main",
     "description": "pfQuest for WotLK 3.3.5a — quest helper and database browser with a complete Wrath database and modernized UI. Companion to GW2 UI WotLK Reforged.",
     "id": "pfquest-reforged",
@@ -2355,6 +2451,7 @@
   {
     "name": "PhoenixStyle",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "PhoenixStyle is a famous WoW addon that tracks many fails, and other useful and interesting information on boss fights and has some interesting thing for raid leaders",
     "id": "phoenixstyle",
@@ -2379,6 +2476,7 @@
   {
     "name": "PlateBuffs",
     "git": "https://github.com/KhalGH/PlateBuffs-WoTLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "PlateBuffs displays people's buffs above their nameplates.",
     "id": "platebuffs",
@@ -2403,6 +2501,7 @@
   {
     "name": "pMinimap",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "pMinimap is a very lightweight and streamlined Minimap addon.",
     "id": "pminimap",
@@ -2427,6 +2526,7 @@
   {
     "name": "Postal+",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Postal offers enhanced mailbox support by providing allot of features.\n\nEnhanced by BlueAo adding new features.",
     "id": "postal",
@@ -2451,6 +2551,7 @@
   {
     "name": "pretty_minimap",
     "git": "https://github.com/s0h2x/pretty_minimap.git",
+    "source_type": "git",
     "branch": "master",
     "description": "Lightweight Minimap addon like Dragonflight style.",
     "id": "pretty-minimap",
@@ -2475,6 +2576,7 @@
   {
     "name": "Puppeteer-Wrath",
     "git": "https://github.com/mhaslinsky/Puppeteer-Wrath.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Unit-frames addon for healers — port of OldManAlpha/Puppeteer to WotLK 3.3.5a / Project Ascension",
     "id": "puppeteer-wrath",
@@ -2495,6 +2597,7 @@
   {
     "name": "Quartz",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Quartz is a modular approach to a casting bar addon.",
     "id": "quartz",
@@ -2519,6 +2622,7 @@
   {
     "name": "Questhelper",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Questhelper tells you how to finish your quests in the easiest, fastest manner. It includes a database of quests, monsters, and items, telling you the exact location of that dang Perfect Satyr Horn you can't find. It also computes the fastest path to complete all your quests - and gain experience - as quickly as possible.",
     "id": "questhelper",
@@ -2543,6 +2647,7 @@
   {
     "name": "Questie",
     "git": "https://github.com/Aldori15/Questie.git",
+    "source_type": "git",
     "branch": "335",
     "description": "Questie is a popular World of Warcraft addon that enhances the questing experience for players. It provides an intuitive and user-friendly interface for tracking quests, displaying quest objectives on the map, and offering helpful tooltips for quest-related NPCs and items. Questie streamlines the questing process by reducing the need for players to constantly consult external guides or references, making it easier to navigate the expansive world of Azeroth and complete quests efficiently. Whether you're a seasoned veteran or a newcomer to WoW, Questie is a valuable tool for enhancing your gameplay experience and maximizing your questing efficiency.",
     "id": "questie",
@@ -2567,6 +2672,7 @@
   {
     "name": "Raeli's Unit Frames",
     "git": "https://github.com/bkader/RUF-WoTLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "RUF is a configurable Unit Frame addon using oUF. It isn't as fully featured as some unit frames",
     "id": "raeli-s-unit-frames",
@@ -2591,6 +2697,7 @@
   {
     "name": "Raelis Spell Announcer",
     "git": "https://github.com/alchem1ster/WotLK-RSA.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "RSA is an addon that can announce spell casts to various chat channels. There is a large selection of abilities for each class that RSA can announce, such as interrupts, defensive cooldowns, and utility spells e.g Soulstone.",
     "id": "raelis-spell-announcer",
@@ -2615,6 +2722,7 @@
   {
     "name": "Raid Roll",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Raid Roll is an addon that can be used to perform a raid roll. A raid roll lists all players with an ID beside their name. Then it performs a roll and announces who the winner is (based on the ID). You can also track rolls made by players on any loot that drops.",
     "id": "raid-roll",
@@ -2639,6 +2747,7 @@
   {
     "name": "RaidBrowser for Warmane",
     "git": "https://github.com/Ostoic/RaidBrowser.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Bringing LFR to Wotlk. This addon replaces the unused (in 3.3.5a) LFR tab in the social menu with a working raid finder. Use **/rb** to open.",
     "id": "raidbrowser-for-warmane",
@@ -2663,6 +2772,7 @@
   {
     "name": "RaidBuffStatus",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "RBS reports on a configurable dashboard or to group chat on consumables, buffs, AFK, mana and many many others but in an intelligent automagic way. RBS is the last nail in the coffin of all slacking level max-level raiders.",
     "id": "raidbuffstatus",
@@ -2687,6 +2797,7 @@
   {
     "name": "RaidComp",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Raid composition is an important aspect of WoW PvE. RC also helps raid leaders by giving an overview of the different buff and debuff categories. It won't do all the thinking for you, raid optimization is complex, however it should be able to do most of the grunt work and highlight some of the categories and abilities you need to look closer at.",
     "id": "raidcomp",
@@ -2711,6 +2822,7 @@
   {
     "name": "RaidSlackCheck",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "RSC is a separate stand-alone addon of PhoenixStyle. Shows who uses potions in a raid and who doesn't, shows who has no flask or food buff, check buffs in combat after rebirth.",
     "id": "raidslackcheck",
@@ -2735,6 +2847,7 @@
   {
     "name": "RatingBuster",
     "git": "https://github.com/Einherjarn/RatingBuster-3.3.5.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "This addon is an in-game representation of Class Loot Lists as tooltip. Kaliban's Class Loot List provides ratings for all raid loot with respect to it's suitability for different class/spec combinations.",
     "id": "ratingbuster",
@@ -2759,6 +2872,7 @@
   {
     "name": "Redeemer",
     "git": "https://github.com/Lightball-TFK/Redeemer-3.3.5a.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "This AddOn makes you say humorous messages whenever you cast a resurrection spell and serves purely to entertain you and annoy others.",
     "id": "redeemer",
@@ -2783,6 +2897,7 @@
   {
     "name": "SexyCooldown",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "SexyCooldown is a single consolidated timer bar for all your spell, pet's spell, item, and proc cooldowns, as well as buffs, debuffs, and totem timers. It's very flexible, and can be customized to fit into your UI as best you see fit.",
     "id": "sexycooldown",
@@ -2807,6 +2922,7 @@
   {
     "name": "SexyMap",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "SexyMap completely redesigns your mini-map to give it a more “sexy” look. You can choose from a couple of pre-defined styles.",
     "id": "sexymap",
@@ -2831,6 +2947,7 @@
   {
     "name": "Shadowed Unit Frames",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "SFU offers you a modified interface that can show you, for example, which players are currently out of range or which of them have negative (or positive) auras.\n\nAdditionally, it allows you to move the individual character windows to where it works best for you.",
     "id": "shadowed-unit-frames",
@@ -2856,6 +2973,7 @@
   {
     "name": "SharedMedia AddOns",
     "git": "https://github.com/bkader/SharedMedia.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Inserts media(fonts, bars, borders, etc) into LibSharedMedia's storage. They can then be selected by any addon that supports LibSharedMedia.\n**bKader Shared Media** for more bar, textures, fonts, sounds(popular version), with alot custom stuff added.\n\n**SharedMedia Retail** for more bar textures, fonts (retail version).\n\n**SharedMediaAdditionalFonts** for more fonts.\n\n**MerfinPlus** adds predefined tts, sounds, statusbar, fonts and more.",
     "id": "sharedmedia-addons",
@@ -2888,6 +3006,7 @@
   {
     "name": "Skada vs. Details!",
     "git": "https://github.com/bkader/Skada-WoTLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Skada and Details! are both popular damage meters in World of Warcraft, showcasing distinctive features.\n\nSkada boasts a modular design, is more efficient and has more additional modules than Details!.\n\nDetails! Damage Meter stands out with its user-friendly interface and a comprehensive set of tracking modules and graphs, enhancing combat data analysis for players.\n\n**Skada** is way to go for better performance.\n\n**Please use only one damage meter.**",
     "id": "skada-vs-details",
@@ -2916,6 +3035,7 @@
   {
     "name": "Skada-WotLK-Netic",
     "git": "https://github.com/NeticSoul/Skada-WotLK-Netic.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Skada fork for WoW 3.3.5a, based on v1.8.88. Includes bug fixes and additional UI themes.",
     "id": "skada-wotlk-netic",
@@ -2936,6 +3056,7 @@
   {
     "name": "SmartTrack",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Smart automatic tracking for hunters only with Improved tracking talent. Whenever you enter combat this addon will check your target's type (if any) and automatically change your tracking accordingly. If you change the target during combat your tracking will change too (if your new target is of different type and you can track it).",
     "id": "smarttrack",
@@ -2960,6 +3081,7 @@
   {
     "name": "SnowfallKeyPress",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "This addon accelerates key bindings so that they are activated by key press rather than key release.\n\n**Do not use it with ElvUI!**",
     "id": "snowfallkeypress",
@@ -2984,6 +3106,7 @@
   {
     "name": "SoundAlerter",
     "git": "https://github.com/Cortes-Jeremy/SoundAlerter.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "SoundAlerter for WoW 3.3.5a - The addon announces via sound when the enemy uses important CDs, abilities, controls, defs, trinkets. In general, all important actions of yours are used in PvP",
     "id": "soundalerter",
@@ -3008,6 +3131,7 @@
   {
     "name": "SpellID",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Adds IDs to the ingame tooltips.",
     "id": "spellid",
@@ -3032,6 +3156,7 @@
   {
     "name": "SpellReplay",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "SpellReplay is a AddOn that was originally made for Sbkzor in order to backport a retail addon widely used by streamers called TrufiGCD.\nThe AddOn scrolls smoothly and speeds up when multiple spells are used at the same time, making it easier to highlight good plays.",
     "id": "spellreplay",
@@ -3056,6 +3181,7 @@
   {
     "name": "Spy",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "The Spy addon scans the combat log for actions performed by enemy players and announces their presence when they are detected. By warning you about nearby enemy players you can prepare for possible PvP combat. If an enemy player is detected Spy will attempt to determine their class, race and level based on the ability that was used. It will then sound an alert and add the enemy player to the Nearby List.",
     "id": "spy",
@@ -3080,6 +3206,7 @@
   {
     "name": "STFU: Shut the fuck up, thanks.",
     "git": "https://github.com/Arcitec/STFU_Chat_Filter.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Efficiently blocks all opposite-faction chat spam in neutral cities (Dalaran, Shattrath, etc) and other neutral areas.\n\nStill shows their messages if you are outside of neutral zones, to preserve situational awareness of nearby enemies.",
     "id": "stfu-shut-the-fuck-up-thanks",
@@ -3104,6 +3231,7 @@
   {
     "name": "Storyline",
     "git": "https://github.com/shadovvs/WotLK-Storyline.git",
+    "source_type": "git",
     "branch": "main",
     "description": "This addon aims to enhance the readability and immersion when questing in World of Warcraft. It adds a brand new quest frame, with animated 3D models and fancy effects.",
     "id": "storyline",
@@ -3128,6 +3256,7 @@
   {
     "name": "Talented",
     "git": "https://github.com/bkader/Talented_WoTLK.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "Talented is a replacement to the default Talent UI, with a lot of added features.",
     "id": "talented",
@@ -3152,6 +3281,7 @@
   {
     "name": "TellMeWhen",
     "git": "https://github.com/bkader/TellMeWhen_3.3.5.git",
+    "source_type": "git",
     "branch": "main",
     "description": "TellMeWhen is a WoW addon that provides visual, auditory, and textual notifications about cooldowns, buffs, and pretty much every other element of combat.",
     "id": "tellmewhen",
@@ -3176,6 +3306,7 @@
   {
     "name": "Tidy Plates",
     "git": "https://github.com/bkader/TidyPlates_WoTLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Tidy Plates enhances World of Warcraft's nameplates. See Aggro, Life in%, and more on the Nameplates.",
     "id": "tidy-plates",
@@ -3200,6 +3331,7 @@
   {
     "name": "TipTac",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "TipTac is a tooltip enchancement addon, it allows you to configure various aspects of the tooltip, such as moving where it's shown, the font, the scale of tips, plus a lot more.",
     "id": "tiptac",
@@ -3225,6 +3357,7 @@
   {
     "name": "TradeSkillMaster v2.8.3",
     "git": "https://github.com/andrew6180/TradeSkillMaster.git",
+    "source_type": "git",
     "branch": "master",
     "description": "TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making processes. TSM's features include everything from improving the native crafting and auctioning experiences to helping you gather needed materials and sniping that low-hanging auction house fruit!",
     "id": "tradeskillmaster-v2-8-3",
@@ -3249,6 +3382,7 @@
   {
     "name": "TrufiGCD",
     "git": "https://github.com/BannZay/TrufiGCD.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "TrufiGCD a small addon, that shows the last used abilities of party or arena members. Can be also used for streaming to show the lastest used Spell used from you.",
     "id": "trufigcd",
@@ -3273,6 +3407,7 @@
   {
     "name": "TurnIn",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "An add-on that automates the clicking of Quests and NPC Gossip dialogues. Automatically turns in repeatable or regular quests, accepts quests, and selects the appropriate options from NPCs. Never have to talk to an NPC again!\n\nTo bring up the Options window, type **/ti window**.",
     "id": "turnin",
@@ -3297,6 +3432,7 @@
   {
     "name": "Unified Profile Manager",
     "git": "https://github.com/NoM0Re/UnifiedProfileManager-WotLK.git",
+    "source_type": "git",
     "branch": "master",
     "description": "Manage all your AceDB-based addon profiles from one single interface.\nOpen it with /profiles or /upm to view, switch, copy, and clean up profiles across addons and characters, all in one compact list.",
     "id": "unified-profile-manager",
@@ -3321,6 +3457,7 @@
   {
     "name": "Vd-skip",
     "git": "https://github.com/Stradios/Vd-skip.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Vd-skip is a lightweight addon that streamlines NPC interactions by automatically skipping unnecessary dialogue with vendors and flight masters.",
     "id": "vd-skip",
@@ -3345,6 +3482,7 @@
   {
     "name": "VuhDo",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
+    "source_type": "direct",
     "branch": "main",
     "description": "VuhDo is a raid monitor built-in raid frames. Basically this is about displaying the health of raid members in form of clearly arranged bars.",
     "id": "vuhdo",
@@ -3369,6 +3507,7 @@
   {
     "name": "WeakAuras",
     "git": "https://github.com/NoM0Re/WeakAuras-WotLK.git",
+    "source_type": "git",
     "branch": "master",
     "description": "WeakAuras is a powerful and flexible framework that allows the display of highly customizable graphics on World of Warcraft's user interface to indicate buffs, debuffs, and other relevant information. This addon was created to be a lightweight replacement for Power Auras but has since introduced more functionalities while remaining efficient and easy to use.",
     "id": "weakauras",
@@ -3400,12 +3539,12 @@
   },
   {
     "name": "WIM (WoW Instant Messenger)",
-    "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
-    "branch": "main",
+    "git": "https://github.com/Legacy-of-Sylvanaar/wow-instant-messenger.git",
+    "source_type": "git",
     "description": "WIM (WoW Instant Messenger) is a World of Warcraft addon which brings an instant messenger feel to communication in game.",
     "id": "wim-wow-instant-messenger",
-    "owner": "NoM0Re",
-    "wotlk_primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/raw/main/src/Addons/WIM.zip",
+    "owner": "Legacy-of-Sylvanaar",
+    "wotlk_primary_download": "https://github.com/Legacy-of-Sylvanaar/wow-instant-messenger/archive/refs/heads/master.zip",
     "wotlk_primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/WIM.jpg",
     "wotlk_image_urls": [
       "https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/src/Pictures/WIM.jpg"
@@ -3425,6 +3564,7 @@
   {
     "name": "xCT+",
     "git": "https://github.com/hypopheria2k/xCT_Plus_wotlk.git",
+    "source_type": "git",
     "branch": "master",
     "description": "xCT+ is a combat text replacement (like MSBT).\nBackported from retail Pandaria, this version compared to other backports offers control over settings in-game and is more minimalistic and anti-spammy than MSBT",
     "id": "xct",
@@ -3449,6 +3589,7 @@
   {
     "name": "Zygor Guides",
     "git": "https://github.com/ErebusAres/ZygorGuidesRemaster-3.3.5a_WOTLK.git",
+    "source_type": "git",
     "branch": "main",
     "description": "Zygor Guides Viewer Remaster is a modernized version of the classic Zygor Guides Viewer, built specifically for World of Warcraft: Wrath of the Lich King (3.3.5a / build 12340) private servers.\nIt preserves the original 3.3.5a guide engine, step system, and waypoint workflow while introducing a cleaner, retail-inspired UI, an improved Guide Manager, updated arrow and objective styling, accessibility options (including colorblind presets), and ongoing compatibility support for WotLK 3.3.5a environments.\nThe addon includes step-by-step leveling guidance, waypoint navigation, structured quest flow, and an integrated Talent Advisor - all packaged in a remastered, streamlined viewer designed for long play sessions.",
     "id": "zygor-guides",
