@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 *.tmp
+# Local scratch: gathered addon clones + generated reports.
+context/addons/
+context/toc-layout.json
