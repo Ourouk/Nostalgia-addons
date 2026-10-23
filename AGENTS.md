@@ -24,7 +24,8 @@ trailing newline. Never wrap entries in an object key.
   catalog still loads with only a log line. **Always run the check in
   §5 after editing.**
 - `id` values must be plain slugs: non-empty after stripping, not
-  `.`/`..`, no `/` or `\`, no NUL. Same rule for addon `name`.
+  `.`/`..`, no `/` or `\`, no NUL. Same rule for addon `folder`.
+  Never rename an `id` — renames break `depends` referrers.
 - File paths (`register_dll`, `installed_files`, `executable`,
   `extract_map` values) must be client-relative: no drive letters, no
   leading `/`, no `..` segments.
@@ -32,15 +33,22 @@ trailing newline. Never wrap entries in an object key.
   hostname. Addon `git` hosts are further restricted to github.com,
   raw.githubusercontent.com, gitlab.com, gitea.com, codeberg.org —
   anything else is rejected.
-- No duplicate `id` (mods) or `name` (addons) within one file.
-- Keep arrays sorted by `id` (mods) / `name` (addons),
-  case-insensitive, so diffs stay reviewable.
+- No duplicate `id` within one file (mods AND addons) — `id` is the
+  identity key for both.
+- Duplicate addon `folder` is allowed and declares a variant group:
+  same install slot, mutually exclusive, install = replace with user
+  confirm. Duplicate `name` (display label) is allowed with no
+  constraint.
+- Keep arrays sorted by `id`, case-insensitive, so diffs stay
+  reviewable.
 
 ## Addon entries (`*_addons.json`)
 
 | Key | Required | Notes |
 |---|---|---|
-| `name` | yes | **Exact in-game folder name** (`Interface/AddOns/<name>`), including `!` prefixes (e.g. `!LuaBoost`). The installer looks for `<folder>/<folder>.toc` in the repo archive; a mismatch installs nothing and the row sits in AVAILABLE forever. Multi-folder repos install every discovered folder. |
+| `id` | yes | Stable unique slug. Selection key and `depends: addon:<id>` target. Never rename (breaks referrers); rename `name`/`folder` instead. |
+| `folder` | yes | **Exact in-game folder name** (`Interface/AddOns/<folder>`), including `!` prefixes (e.g. `!LuaBoost`). The installer looks for `<folder>/<folder>.toc` in the repo archive; a mismatch installs nothing and the row sits in AVAILABLE forever. Entries sharing a `folder` are variants — only one can be installed at a time. Multi-folder repos install every discovered folder. |
+| `name` | no | Human-readable display label for the ADDONS tab. Falls back to `folder` if absent. Differentiate variants here (e.g. "pfQuest" vs "pfQuest (ClassicAPI)"). |
 | `git` | yes | Repo clone URL (allowlisted hosts only, see above). |
 | `branch` | no | Omit to track the repo's default branch; set only when the addon lives off-branch. |
 | `ref` | no | Pin a tag/commit instead of branch tip. Prefer `branch` for living addons. |
@@ -48,7 +56,8 @@ trailing newline. Never wrap entries in an object key.
 | `toc` | no | `{"Title": ..., "Notes": ..., "Interface": "..."}` — display metadata only. `Interface` is `"11200"` for Vanilla, `"30300"` for WotLK. |
 | `recommended` | no | `true` = star badge + one-shot auto-install prompt. Use sparingly. |
 | `blocked` | no | `true` = hidden from the updater even while catalogued. For broken or banned addons. |
-| `id`, `owner`, images, source links | no | Website-only metadata; the launcher ignores them. Safe to add, never required. |
+| `depends` | no | Install prerequisites, namespaced: `mod:<id>` (client mod/DLL from `*_mods.json`), `addon:<id>` (another addon entry in the same catalog, resolved against its `id`), `file:<path>` (client-relative file already on disk). Currently advisory — the launcher does not enforce it yet. Always write the namespaced form; bare strings are legacy. |
+| `owner`, images, source links | no | Website-only metadata; the launcher ignores them. Safe to add, never required. |
 
 ## Mod entries (`*_mods.json`)
 
@@ -88,7 +97,11 @@ trailing newline. Never wrap entries in an object key.
    `gh api repos/<owner>/<repo>/releases/latest --jq '[.assets[] | .name]'`,
    and list the archive's top-level names before writing `extract_map`
    — never guess either.
-2. Insert in sorted position, run the §5 check, commit, push.
+2. For a variant of an existing addon (same folder, different source):
+   copy the entry, keep `folder` identical, assign a NEW unique `id`
+   (e.g. `<base>-classicapi`), differentiate `name`/`description`
+   for the user.
+3. Insert in `id`-sorted position, run the §5 check, commit, push.
 
 ### Remove
 
@@ -108,7 +121,7 @@ Delete the whole `{...}` object. Two consequences to handle:
   migration path, not a bug.
 - Flipping `installation` to `"required"` auto-installs for everyone
   not explicitly opted out. Announce it; don't sneak it.
-- A user's custom entry with the same id/name overrides catalog fields
+- A user's custom entry with the same `id` overrides catalog fields
   — catalog edits can't force values past a custom override.
 
 ## Validation (stdlib only — run from this repo root)
@@ -128,13 +141,22 @@ def https(v):
     except ValueError: return False
     return isinstance(v,str) and p.scheme == 'https' and bool(p.hostname)
 
-def check_addon(e, i):
-    assert slug(e.get('name')), f'[{i}] bad name'
+def check_addon(e, i, ids=None):
+    assert slug(e.get('id')), f'[{i}] bad id'
+    assert slug(e.get('folder')), f'[{i}] bad folder'
+    n = e.get('name')
+    assert n is None or (isinstance(n,str) and n.strip()), f'[{i}] bad name'
     assert https(e.get('git')), f'[{i}] bad git url'
     if urlsplit(e['git']).hostname not in GIT_HOSTS: print(f'WARN [{i}] off-allowlist git host; needs addon_git_hosts in the server config')
     for k in ('branch','ref'):
         v = e.get(k)
         assert v is None or (isinstance(v,str) and v.strip() and '..' not in v and not any(c.isspace() for c in v)), f'[{i}] bad {k}'
+    if (deps := e.get('depends')) is not None:
+        assert isinstance(deps,list) and deps and all(isinstance(d,str) and d.split(':',1)[0] in ('mod','addon','file') and len(d.split(':',1)) == 2 and d.split(':',1)[1] for d in deps), f'[{i}] bad depends'
+        if ids is not None:
+            for d in deps:
+                kind, target = d.split(':',1)
+                if kind == 'addon' and target.lower() not in ids: print(f'WARN [{i}] dangling addon dep {d!r}')
 
 def check_mod(e, i):
     assert slug(e.get('id')), f'[{i}] bad id'
@@ -149,13 +171,22 @@ def check_mod(e, i):
 kinds = {'addons': check_addon, 'mods': check_mod}
 for path in sys.argv[1:]:
     data = json.load(open(path)); assert isinstance(data,list), path
-    key = 'name' if 'addons' in path else 'id'
+    is_addon = 'addons' in path
+    ids = {(e.get('id') or '').lower() for e in data} if is_addon else None
     seen = set()
     for i, e in enumerate(data):
-        kinds['addons' if 'addons' in path else 'mods'](e, i)
-        k = (e.get(key) or '').lower(); assert k and k not in seen, f'{path}[{i}] duplicate {k!r}'; seen.add(k)
+        (kinds['addons'](e, i, ids) if is_addon else kinds['mods'](e, i))
+        k = (e.get('id') or '').lower(); assert k and k not in seen, f'{path}[{i}] duplicate {k!r}'; seen.add(k)
     order = sorted(seen)
-    assert [ (e.get(key) or '').lower() for e in data] == order, f'{path} not sorted'
+    assert [ (e.get('id') or '').lower() for e in data] == order, f'{path} not sorted'
+    if is_addon:
+        from collections import Counter
+        folders = Counter((e.get('folder') or '').lower() for e in data)
+        for folder, n in folders.items():
+            if n > 1:
+                gits = {(e.get('git') or '') for e in data if (e.get('folder') or '').lower() == folder}
+                if len(gits) < 2: print(f'WARN {path}: folder {folder!r} shared by {n} entries with same git (pure duplicate?)')
+                else: print(f'INFO {path}: folder {folder!r} shared by {n} entries (variant group)')
     print(f'OK {path} ({len(data)} entries)')
 "
 ```
@@ -174,7 +205,7 @@ disagree, the launcher wins — check the launcher repo's
   "No matching asset" install error — glob defensively.
 - `type: "external-launcher"` is inert until its `executable` exists on
   disk; verify the filename against the actual archive listing.
-- Addon `name` mismatch = silent no-install (no `<folder>/<folder>.toc`
+- Addon `folder` mismatch = silent no-install (no `<folder>/<folder>.toc`
   found in the archive).
 - `wotlk_mods.json` is new: the website publisher (`conciliate.py` in
   the launcher repo) does not emit a `repo-wotlk-mods.json` for it yet.

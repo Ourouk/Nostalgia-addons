@@ -2,9 +2,10 @@
 
 Vanilla 1.12 / WotLK 3.3.5 addon catalogs + Vanilla mods for [Nostalgia Launcher](https://github.com/Ourouk/nostalgia-launcher).
 
-- `vanilla_addons.json` — 94 addons (Vanilla 1.12)
-- `wotlk_addons.json` — 137 addons (WotLK 3.3.5)
+- `vanilla_addons.json` — 95 addons (Vanilla 1.12)
+- `wotlk_addons.json` — 146 addons (WotLK 3.3.5)
 - `vanilla_mods.json` — 12 mods
+- `wotlk_mods.json` — 1 mod
 - `*.dead.json` — dead-link reports, one per catalog (see below)
 
 ## Dead links — help fix them
@@ -46,8 +47,8 @@ Paste in launcher via `addons_registry_url` / `mods_registry_url` or fetch direc
 
 ## Format
 
-Each file is a JSON array of objects with at least `id` and `name`:
-- addons: `id`, `name`, `git`, `branch`, `description`, plus optional `toc`, `depends`, `wotlk_*` fields
+Each file is a JSON array of objects with at least `id` (+ `name` for display):
+- addons: `id` (unique identity / selection key), `folder` (install slot — entries sharing a `folder` are mutually exclusive variants), `name` (display label), `git`, `branch`, `description`, plus optional `toc`, `depends`, `wotlk_*` fields
 - mods: `id`, `type`, `installation`, `name`, `description`, `source`, `installed_files`, etc.
 
 Edit JSON → commit → raw URL updates immediately.
@@ -55,13 +56,14 @@ Edit JSON → commit → raw URL updates immediately.
 ## Dependencies (`depends`)
 
 Entries may declare install prerequisites in `depends` (currently advisory —
-the launcher does not enforce it yet). Each value is namespaced so the kind
+launcher enforcement is tracked separately). Each value is namespaced so the kind
 is explicit:
 
 - `mod:<id>` — requires a client mod/DLL from `*_mods.json`
   (e.g. `"mod:ClassicAPI"` — the ClassicAPI DLL, *not* an addon).
-- `addon:<id>` — requires another addon entry in the same catalog
-  (e.g. `"addon:pfui"`).
+- `addon:<id>` — requires another addon entry in the same catalog,
+  resolved against its unique `id`
+  (e.g. `"addon:pfquest-wotlk"`).
 - `file:<path>` — requires a client-relative file already on disk
   (e.g. `"file:Interface/AddOns/SomeLib"`).
 
