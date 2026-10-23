@@ -3,7 +3,7 @@
 Vanilla 1.12 / WotLK 3.3.5 addon catalogs + Vanilla mods for [Nostalgia Launcher](https://github.com/Ourouk/nostalgia-launcher).
 
 - `vanilla_addons.json` — 95 addons (Vanilla 1.12)
-- `wotlk_addons.json` — 146 addons (WotLK 3.3.5)
+- `wotlk_addons.json` — 203 addons (WotLK 3.3.5)
 - `vanilla_mods.json` — 12 mods
 - `wotlk_mods.json` — 1 mod
 - `*.dead.json` — dead-link reports, one per catalog (see below)

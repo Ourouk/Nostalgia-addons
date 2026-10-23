@@ -1,5 +1,27 @@
 [
   {
+    "name": "Accountant Classic",
+    "folder": "Accountant_Classic",
+    "git": "https://github.com/darhanger/Accountant_Classic.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "Tracks money incoming and outgoing.",
+    "id": "accountant-classic",
+    "owner": "darhanger",
+    "wotlk_primary_download": "https://github.com/darhanger/Accountant_Classic/archive/refs/heads/master.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/darhanger/Accountant_Classic"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Accountant_Classic",
+      "Notes": "Tracks money incoming and outgoing."
+    }
+  },
+  {
     "name": "Ackis Recipe List",
     "folder": "Ackis Recipe List",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -126,6 +148,28 @@
       "Interface": "30300",
       "Title": "Addon Control Panel",
       "Notes": "Stop logging out of the game just to change your addons! ACP adds the \"Addons\" button to the game's main menu to disable"
+    }
+  },
+  {
+    "name": "AddonList",
+    "folder": "AddonList",
+    "git": "https://github.com/thierbig/AddonList.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "In-game addon manager: view, enable, disable and inspect addons.",
+    "id": "addonlist",
+    "owner": "thierbig",
+    "wotlk_primary_download": "https://github.com/thierbig/AddonList/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/thierbig/AddonList"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AddonList",
+      "Notes": "In-game addon manager: view, enable, disable and inspect addons."
     }
   },
   {
@@ -285,6 +329,28 @@
     }
   },
   {
+    "name": "Atlas [Epoch]",
+    "folder": "Atlas",
+    "git": "https://github.com/Raynbock/Atlas-Project-Epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Atlas maps for Project Epoch dungeons, battlegrounds and outdoor raids.",
+    "id": "atlas-epoch",
+    "owner": "Raynbock",
+    "wotlk_primary_download": "https://github.com/Raynbock/Atlas-Project-Epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Raynbock/Atlas-Project-Epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Atlas",
+      "Notes": "Atlas maps for Project Epoch dungeons, battlegrounds and outdoor raids."
+    }
+  },
+  {
     "name": "AtlasLoot Enhanced",
     "folder": "AtlasLoot Enhanced",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -311,6 +377,28 @@
     }
   },
   {
+    "name": "AtlasLoot [Epoch]",
+    "folder": "AtlasLoot",
+    "git": "https://github.com/Raynbock/AtlaslootProjectEpoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "AtlasLoot loot tables for Project Epoch content.",
+    "id": "atlasloot-epoch",
+    "owner": "Raynbock",
+    "wotlk_primary_download": "https://github.com/Raynbock/AtlaslootProjectEpoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Raynbock/AtlaslootProjectEpoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AtlasLoot",
+      "Notes": "AtlasLoot loot tables for Project Epoch content."
+    }
+  },
+  {
     "name": "AtlasLoot 3.3.5a",
     "folder": "AtlasLoot 3.3.5a",
     "git": "https://github.com/Gescht/AtlasLoot3.3.5a.git",
@@ -331,6 +419,31 @@
       "Title": "AtlasLoot 3.3.5a",
       "Notes": "Atlas Loot for WoW 3.3.5a"
     }
+  },
+  {
+    "name": "AtlasQuest [Epoch]",
+    "folder": "AtlasQuest",
+    "git": "https://github.com/Rofos2011/AtlasQuest.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "AtlasQuest quest log for Epoch dungeons. Requires Atlas.",
+    "id": "atlasquest-epoch",
+    "owner": "Rofos2011",
+    "wotlk_primary_download": "https://github.com/Rofos2011/AtlasQuest/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Rofos2011/AtlasQuest"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AtlasQuest",
+      "Notes": "AtlasQuest quest log for Epoch dungeons. Requires Atlas."
+    },
+    "depends": [
+      "addon:atlas-epoch"
+    ]
   },
   {
     "name": "Auctionator",
@@ -463,6 +576,50 @@
     }
   },
   {
+    "name": "Aux [Epoch]",
+    "folder": "aux-addon",
+    "git": "https://github.com/Deiwulf/Aux-addon-Ascension.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Aux auction-house replacement, Epoch-compatible standalone extract.",
+    "id": "aux-epoch",
+    "owner": "Deiwulf",
+    "wotlk_primary_download": "https://github.com/Deiwulf/Aux-addon-Ascension/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Deiwulf/Aux-addon-Ascension"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "aux-addon",
+      "Notes": "Aux auction-house replacement, Epoch-compatible standalone extract."
+    }
+  },
+  {
+    "name": "AwesomeEpoch [Epoch]",
+    "folder": "AwesomeEpochManager",
+    "git": "https://github.com/thierbig/AwesomeEpoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Nameplates API, interact keybind and WeakAuras support pack. Ban risk on Ascension servers: use at your own risk.",
+    "id": "awesomeepoch",
+    "owner": "thierbig",
+    "wotlk_primary_download": "https://github.com/thierbig/AwesomeEpoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/thierbig/AwesomeEpoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "AwesomeEpochManager",
+      "Notes": "Nameplates API, interact keybind and WeakAuras support pack. Ban risk on Ascension servers: use at y"
+    }
+  },
+  {
     "name": "Bagnon Backport with Search and Sort Functionality",
     "folder": "Bagnon Backport with Search and Sort Functionality",
     "git": "https://github.com/RichSteini/Bagnon-3.3.5.git",
@@ -512,6 +669,50 @@
       "Interface": "30300",
       "Title": "Bartender4",
       "Notes": "Bartender4 is a full ActionBar replacement mod. It provides you with all the features needed to fully customization most"
+    }
+  },
+  {
+    "name": "BattlegroundTargets [Epoch]",
+    "folder": "BattlegroundTargets",
+    "git": "https://github.com/MCribari/BGT-Epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "BattlegroundTargets for Project Epoch.",
+    "id": "battlegroundtargets-epoch",
+    "owner": "MCribari",
+    "wotlk_primary_download": "https://github.com/MCribari/BGT-Epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/MCribari/BGT-Epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "BattlegroundTargets",
+      "Notes": "BattlegroundTargets for Project Epoch."
+    }
+  },
+  {
+    "name": "BigDebuffs",
+    "folder": "BigDebuffs",
+    "git": "https://gitlab.com/Tsoukie/bigDebuffs-3.3.5.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Shows crowd control and important effects on raid and unit frames.",
+    "id": "bigdebuffs",
+    "owner": "Tsoukie",
+    "wotlk_primary_download": "https://gitlab.com/Tsoukie/bigDebuffs-3.3.5/-/archive/main/bigDebuffs-3.3.5-main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitLab",
+        "url": "https://gitlab.com/Tsoukie/bigDebuffs-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "BigDebuffs",
+      "Notes": "Shows crowd control and important effects on raid and unit frames."
     }
   },
   {
@@ -723,6 +924,28 @@
     }
   },
   {
+    "name": "ChatFilter [Epoch]",
+    "folder": "ChatFilter",
+    "git": "https://github.com/sousou63/ChatFilter.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Lightweight chat filter for WotLK.",
+    "id": "chatfilter",
+    "owner": "sousou63",
+    "wotlk_primary_download": "https://github.com/sousou63/ChatFilter/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/sousou63/ChatFilter"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ChatFilter",
+      "Notes": "Lightweight chat filter for WotLK."
+    }
+  },
+  {
     "name": "ChatFilter (project abandoned)",
     "folder": "ChatFilter (project abandoned)",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -798,6 +1021,50 @@
       "Interface": "30300",
       "Title": "Cheese",
       "Notes": "Cheese simulates the display of procs introduced with Cataclysm."
+    }
+  },
+  {
+    "name": "CircadianRhythm [Epoch]",
+    "folder": "CircadianRhythm",
+    "git": "https://github.com/Bennylavaa/CircadianRhythm.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Shows in-game time of day, built for ElvUI and other UIs.",
+    "id": "circadianrhythm",
+    "owner": "Bennylavaa",
+    "wotlk_primary_download": "https://github.com/Bennylavaa/CircadianRhythm/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Bennylavaa/CircadianRhythm"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "CircadianRhythm",
+      "Notes": "Shows in-game time of day, built for ElvUI and other UIs."
+    }
+  },
+  {
+    "name": "ClassicNameplates [Epoch]",
+    "folder": "ClassicNameplates",
+    "git": "https://github.com/jvanmourik/ClassicNameplates.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Enhances default nameplates to Classic style with UI-scale matching.",
+    "id": "classicnameplates",
+    "owner": "jvanmourik",
+    "wotlk_primary_download": "https://github.com/jvanmourik/ClassicNameplates/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jvanmourik/ClassicNameplates"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ClassicNameplates",
+      "Notes": "Enhances default nameplates to Classic style with UI-scale matching."
     }
   },
   {
@@ -955,6 +1222,94 @@
       "Interface": "30300",
       "Title": "Color Picker Advanced",
       "Notes": "Color Picker Advanced for a better version of the WoW color picker that includes class color templates and a copy and pa"
+    }
+  },
+  {
+    "name": "CombatLogFix",
+    "folder": "CombatLogFix",
+    "git": "https://github.com/KhalGH/CombatLogFix-WotLK.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Fixes known combat-log bugs in 3.3.5a.",
+    "id": "combatlogfix",
+    "owner": "KhalGH",
+    "wotlk_primary_download": "https://github.com/KhalGH/CombatLogFix-WotLK/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/KhalGH/CombatLogFix-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "CombatLogFix",
+      "Notes": "Fixes known combat-log bugs in 3.3.5a."
+    }
+  },
+  {
+    "name": "CompactNameplates [Epoch]",
+    "folder": "CompactNameplates",
+    "git": "https://github.com/jvanmourik/CompactNameplates.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Custom nameplates inspired by CompactRaidFrames.",
+    "id": "compactnameplates",
+    "owner": "jvanmourik",
+    "wotlk_primary_download": "https://github.com/jvanmourik/CompactNameplates/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jvanmourik/CompactNameplates"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "CompactNameplates",
+      "Notes": "Custom nameplates inspired by CompactRaidFrames."
+    }
+  },
+  {
+    "name": "CompactRaidFrame",
+    "folder": "CompactRaidFrame",
+    "git": "https://gitlab.com/Tsoukie/compactraidframe-3.3.5.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Classic-style raid frames for the 3.3.5a client.",
+    "id": "compactraidframe",
+    "owner": "Tsoukie",
+    "wotlk_primary_download": "https://gitlab.com/Tsoukie/compactraidframe-3.3.5/-/archive/main/compactraidframe-3.3.5-main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitLab",
+        "url": "https://gitlab.com/Tsoukie/compactraidframe-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "CompactRaidFrame",
+      "Notes": "Classic-style raid frames for the 3.3.5a client."
+    }
+  },
+  {
+    "name": "ConsolePort",
+    "folder": "ConsolePort",
+    "git": "https://github.com/leoaviana/ConsolePortLK.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "Play WotLK with a game controller.",
+    "id": "consoleport",
+    "owner": "leoaviana",
+    "wotlk_primary_download": "https://github.com/leoaviana/ConsolePortLK/archive/refs/heads/master.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/leoaviana/ConsolePortLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ConsolePort",
+      "Notes": "Play WotLK with a game controller."
     }
   },
   {
@@ -1119,6 +1474,50 @@
     }
   },
   {
+    "name": "Details",
+    "folder": "Details",
+    "git": "https://github.com/Bunny67/Details-WotLK.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "Details damage and healing meter for WotLK.",
+    "id": "details-wotlk",
+    "owner": "Bunny67",
+    "wotlk_primary_download": "https://github.com/Bunny67/Details-WotLK/archive/refs/heads/master.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Bunny67/Details-WotLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Details",
+      "Notes": "Details damage and healing meter for WotLK."
+    }
+  },
+  {
+    "name": "DialogKeyWrath [Epoch]",
+    "folder": "DialogKeyWrath",
+    "git": "https://github.com/ZythDr/DialogKeyWrath.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Keyboard dialog navigation (DialogKey port).",
+    "id": "dialogkeywrath",
+    "owner": "ZythDr",
+    "wotlk_primary_download": "https://github.com/ZythDr/DialogKeyWrath/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ZythDr/DialogKeyWrath"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DialogKeyWrath",
+      "Notes": "Keyboard dialog navigation (DialogKey port)."
+    }
+  },
+  {
     "name": "DialogUI",
     "folder": "DialogUI",
     "git": "https://github.com/ghbset/DialogUI-WotLK.git",
@@ -1277,6 +1676,28 @@
     }
   },
   {
+    "name": "DRTracker [Epoch]",
+    "folder": "DRTracker",
+    "git": "https://github.com/RetroUnreal/DRTracker.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Tracks diminishing returns on target and focus in separate frames.",
+    "id": "drtracker-epoch",
+    "owner": "RetroUnreal",
+    "wotlk_primary_download": "https://github.com/RetroUnreal/DRTracker/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/RetroUnreal/DRTracker"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DRTracker",
+      "Notes": "Tracks diminishing returns on target and focus in separate frames."
+    }
+  },
+  {
     "name": "EclipseBar",
     "folder": "EclipseBar",
     "git": "https://github.com/bkader/EclipseBar-WotLK.git",
@@ -1337,6 +1758,28 @@
     }
   },
   {
+    "name": "ElvUI [Epoch]",
+    "folder": "ElvUI",
+    "git": "https://github.com/Bennylavaa/ElvUI-Epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "ElvUI full UI replacement tuned for Project Epoch.",
+    "id": "elvui-epoch",
+    "owner": "Bennylavaa",
+    "wotlk_primary_download": "https://github.com/Bennylavaa/ElvUI-Epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Bennylavaa/ElvUI-Epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ElvUI",
+      "Notes": "ElvUI full UI replacement tuned for Project Epoch."
+    }
+  },
+  {
     "name": "Emblem of Gold",
     "folder": "Emblem of Gold",
     "git": "https://github.com/Stradios/Emblem-of-Gold.git",
@@ -1386,6 +1829,50 @@
       "Interface": "30300",
       "Title": "EndsidiaFails",
       "Notes": "Report raid player fails"
+    }
+  },
+  {
+    "name": "Epoch Drops [Epoch]",
+    "folder": "Epoch_Drops",
+    "git": "https://github.com/sebastianpiresmolin/epoch-drops.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Database collection tool for epoch-drops.com.",
+    "id": "epoch-drops",
+    "owner": "sebastianpiresmolin",
+    "wotlk_primary_download": "https://github.com/sebastianpiresmolin/epoch-drops/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/sebastianpiresmolin/epoch-drops"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Epoch_Drops",
+      "Notes": "Database collection tool for epoch-drops.com."
+    }
+  },
+  {
+    "name": "EpochAddonManager [Epoch]",
+    "folder": "EpochAddonManager",
+    "git": "https://github.com/SuppliedGM-Create/EpochAddonManager.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "In-game addon control panel for Epoch.",
+    "id": "epochaddonmanager",
+    "owner": "SuppliedGM-Create",
+    "wotlk_primary_download": "https://github.com/SuppliedGM-Create/EpochAddonManager/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/SuppliedGM-Create/EpochAddonManager"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "EpochAddonManager",
+      "Notes": "In-game addon control panel for Epoch."
     }
   },
   {
@@ -1516,6 +2003,28 @@
       "Interface": "30300",
       "Title": "Friend & Ignore Share",
       "Notes": "Share friends and ignore list account-wide."
+    }
+  },
+  {
+    "name": "FSRTracker [Epoch]",
+    "folder": "FSRTracker",
+    "git": "https://github.com/RetroUnreal/FSRTracker.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Five-second-rule mana tracker for drinking.",
+    "id": "fsrtracker-epoch",
+    "owner": "RetroUnreal",
+    "wotlk_primary_download": "https://github.com/RetroUnreal/FSRTracker/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/RetroUnreal/FSRTracker"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "FSRTracker",
+      "Notes": "Five-second-rule mana tracker for drinking."
     }
   },
   {
@@ -1657,6 +2166,28 @@
     }
   },
   {
+    "name": "GroupBulletinBoard [Epoch]",
+    "folder": "GroupBulletinBoard",
+    "git": "https://github.com/eVen-gits/GroupBulletinBoard.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "LFG bulletin-board tool parsing chat for LFG and LFM.",
+    "id": "groupbulletinboard-epoch",
+    "owner": "eVen-gits",
+    "wotlk_primary_download": "https://github.com/eVen-gits/GroupBulletinBoard/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/eVen-gits/GroupBulletinBoard"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "GroupBulletinBoard",
+      "Notes": "LFG bulletin-board tool parsing chat for LFG and LFM."
+    }
+  },
+  {
     "name": "GTFO: Stop standing in fire!",
     "folder": "GTFO: Stop standing in fire!",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -1709,6 +2240,28 @@
     }
   },
   {
+    "name": "HCDeaths [Epoch]",
+    "folder": "HCDeaths",
+    "git": "https://github.com/TVBrowntown/HCDeaths.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Announces hardcore deaths, Epoch edition.",
+    "id": "hcdeaths",
+    "owner": "TVBrowntown",
+    "wotlk_primary_download": "https://github.com/TVBrowntown/HCDeaths/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/TVBrowntown/HCDeaths"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "HCDeaths",
+      "Notes": "Announces hardcore deaths, Epoch edition."
+    }
+  },
+  {
     "name": "Healbot",
     "folder": "Healbot",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -1732,6 +2285,28 @@
       "Interface": "30300",
       "Title": "Healbot",
       "Notes": "A supportive addon for healers, as it can do numerous amounts of helpful little tricks."
+    }
+  },
+  {
+    "name": "IdTip [Epoch]",
+    "folder": "IdTip",
+    "git": "https://github.com/TyThompson/IdTip.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Adds spell, item and NPC IDs to tooltips.",
+    "id": "idtip",
+    "owner": "TyThompson",
+    "wotlk_primary_download": "https://github.com/TyThompson/IdTip/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/TyThompson/IdTip"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "IdTip",
+      "Notes": "Adds spell, item and NPC IDs to tooltips."
     }
   },
   {
@@ -1865,6 +2440,28 @@
     }
   },
   {
+    "name": "InterruptBar (wotlk-addons)",
+    "folder": "InterruptBar",
+    "git": "https://github.com/wotlk-addons/InterruptBar.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "Shows enemy cooldowns and interrupts.",
+    "id": "interruptbar-wotlkaddons",
+    "owner": "wotlk-addons",
+    "wotlk_primary_download": "https://github.com/wotlk-addons/InterruptBar/archive/refs/heads/master.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/wotlk-addons/InterruptBar"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "InterruptBar",
+      "Notes": "Shows enemy cooldowns and interrupts."
+    }
+  },
+  {
     "name": "iTargetingFrames",
     "folder": "iTargetingFrames",
     "git": "https://github.com/CH33T4/iTargetingFrames.git",
@@ -1981,6 +2578,72 @@
     }
   },
   {
+    "name": "Kui Nameplates",
+    "folder": "Kui_Nameplates",
+    "git": "https://github.com/bkader/KuiNameplates-WoTLK.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Kui nameplates for WotLK.",
+    "id": "kuinameplates",
+    "owner": "bkader",
+    "wotlk_primary_download": "https://github.com/bkader/KuiNameplates-WoTLK/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/bkader/KuiNameplates-WoTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Kui_Nameplates",
+      "Notes": "Kui nameplates for WotLK."
+    }
+  },
+  {
+    "name": "Leatrix Plus",
+    "folder": "Leatrix_Plus",
+    "git": "https://github.com/Sattva-108/Leatrix_Plus.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Quality-of-life improvements for WotLK (Leatrix Plus backport).",
+    "id": "leatrix-plus",
+    "owner": "Sattva-108",
+    "wotlk_primary_download": "https://github.com/Sattva-108/Leatrix_Plus/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Sattva-108/Leatrix_Plus"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Leatrix_Plus",
+      "Notes": "Quality-of-life improvements for WotLK (Leatrix Plus backport)."
+    }
+  },
+  {
+    "name": "LFG [Epoch]",
+    "folder": "LFG",
+    "git": "https://github.com/thezephyrsong/LFG.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Automated LFG tool for Project Epoch.",
+    "id": "lfg-epoch",
+    "owner": "thezephyrsong",
+    "wotlk_primary_download": "https://github.com/thezephyrsong/LFG/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/thezephyrsong/LFG"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "LFG",
+      "Notes": "Automated LFG tool for Project Epoch."
+    }
+  },
+  {
     "name": "LoseControl",
     "folder": "LoseControl",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -2004,6 +2667,28 @@
       "Interface": "30300",
       "Title": "LoseControl",
       "Notes": "LoseControl makes it easy to see the duration of crowd control spells by displaying them in a dedicated icon onscreen."
+    }
+  },
+  {
+    "name": "LossOfControlSmart [Epoch]",
+    "folder": "LossOfControlSmart",
+    "git": "https://github.com/thierbig/LossOfControlSmart-3.3.5.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Retail-style loss-of-control alerts backported to 3.3.5a.",
+    "id": "lossofcontrolsmart",
+    "owner": "thierbig",
+    "wotlk_primary_download": "https://github.com/thierbig/LossOfControlSmart-3.3.5/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/thierbig/LossOfControlSmart-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "LossOfControlSmart",
+      "Notes": "Retail-style loss-of-control alerts backported to 3.3.5a."
     }
   },
   {
@@ -2107,6 +2792,28 @@
     }
   },
   {
+    "name": "Magnify",
+    "folder": "Magnify-WotLK",
+    "git": "https://github.com/rissole/Magnify-WoTLK.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Zoom the world map in and out.",
+    "id": "magnify",
+    "owner": "rissole",
+    "wotlk_primary_download": "https://github.com/rissole/Magnify-WoTLK/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/rissole/Magnify-WoTLK"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Magnify-WotLK",
+      "Notes": "Zoom the world map in and out."
+    }
+  },
+  {
     "name": "Mapster",
     "folder": "Mapster",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -2130,6 +2837,28 @@
       "Interface": "30300",
       "Title": "Mapster",
       "Notes": "Mapster is a very simple world map enhacement addon, which was designed to work in conjunction with all other map addons"
+    }
+  },
+  {
+    "name": "Mapster (Sattva)",
+    "folder": "Mapster",
+    "git": "https://github.com/Sattva-108/Mapster.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "Simple world-map enhancement with built-in zoom.",
+    "id": "mapster-sattva",
+    "owner": "Sattva-108",
+    "wotlk_primary_download": "https://github.com/Sattva-108/Mapster/archive/refs/heads/master.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Sattva-108/Mapster"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Mapster",
+      "Notes": "Simple world-map enhancement with built-in zoom."
     }
   },
   {
@@ -2182,6 +2911,28 @@
       "Interface": "30300",
       "Title": "MikScrollingBattleText(MSBT)",
       "Notes": "MSBT is designed to be an extremely lightweight, efficient, and highly configurable mod that makes it easier to see comb"
+    }
+  },
+  {
+    "name": "Mob Counter [Epoch]",
+    "folder": "DWD_MobCount",
+    "git": "https://github.com/dellmas/WoW-Epoch-Mob-Counter.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Kill counter shown in mob tooltips.",
+    "id": "mobcounter-epoch",
+    "owner": "dellmas",
+    "wotlk_primary_download": "https://github.com/dellmas/WoW-Epoch-Mob-Counter/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/dellmas/WoW-Epoch-Mob-Counter"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "DWD_MobCount",
+      "Notes": "Kill counter shown in mob tooltips."
     }
   },
   {
@@ -2256,6 +3007,28 @@
       "Interface": "30300",
       "Title": "Molinari",
       "Notes": "Molinari allows the player to easily \"salvage\" items directly from the inventory by holding down the Alt key and clickin"
+    }
+  },
+  {
+    "name": "Molinari [Epoch]",
+    "folder": "Molinari",
+    "git": "https://github.com/TyThompson/Molinari.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "One-click lockpicking, milling, prospecting and disenchanting.",
+    "id": "molinari-epoch",
+    "owner": "TyThompson",
+    "wotlk_primary_download": "https://github.com/TyThompson/Molinari/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/TyThompson/Molinari"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Molinari",
+      "Notes": "One-click lockpicking, milling, prospecting and disenchanting."
     }
   },
   {
@@ -2366,6 +3139,50 @@
     }
   },
   {
+    "name": "NovaInstanceTracker",
+    "folder": "NovaInstanceTracker",
+    "git": "https://github.com/elliotmendiola/NovaInstanceTracker.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Tracks instances entered (lockout helper).",
+    "id": "novainstancetracker",
+    "owner": "elliotmendiola",
+    "wotlk_primary_download": "https://github.com/elliotmendiola/NovaInstanceTracker/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/elliotmendiola/NovaInstanceTracker"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "NovaInstanceTracker",
+      "Notes": "Tracks instances entered (lockout helper)."
+    }
+  },
+  {
+    "name": "NugEnergy [Epoch]",
+    "folder": "NugEnergy",
+    "git": "https://github.com/MCribari/NugEnergy-Epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Energy and rage tracker.",
+    "id": "nugenergy-epoch",
+    "owner": "MCribari",
+    "wotlk_primary_download": "https://github.com/MCribari/NugEnergy-Epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/MCribari/NugEnergy-Epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "NugEnergy",
+      "Notes": "Energy and rage tracker."
+    }
+  },
+  {
     "name": "Omen Thread Meter",
     "folder": "Omen Thread Meter",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -2389,6 +3206,28 @@
       "Interface": "30300",
       "Title": "Omen Thread Meter",
       "Notes": "Omen is a threat meter. Basically, enemies in WoW decide who to attack by deciding who is the most threatening based on "
+    }
+  },
+  {
+    "name": "OmniBar",
+    "folder": "OmniBar",
+    "git": "https://gitlab.com/Tsoukie/omnibar-3.3.5.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Lightweight enemy-cooldown tracker.",
+    "id": "omnibar",
+    "owner": "Tsoukie",
+    "wotlk_primary_download": "https://gitlab.com/Tsoukie/omnibar-3.3.5/-/archive/main/omnibar-3.3.5-main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitLab",
+        "url": "https://gitlab.com/Tsoukie/omnibar-3.3.5"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "OmniBar",
+      "Notes": "Lightweight enemy-cooldown tracker."
     }
   },
   {
@@ -2498,6 +3337,28 @@
     }
   },
   {
+    "name": "PallyPower [Epoch]",
+    "folder": "PallyPower",
+    "git": "https://github.com/yeagerca/PallyPower-TBC-Backport-for-Epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Paladin buff helper (TBC-spell backport for Epoch).",
+    "id": "pallypower-epoch",
+    "owner": "yeagerca",
+    "wotlk_primary_download": "https://github.com/yeagerca/PallyPower-TBC-Backport-for-Epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/yeagerca/PallyPower-TBC-Backport-for-Epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "PallyPower",
+      "Notes": "Paladin buff helper (TBC-spell backport for Epoch)."
+    }
+  },
+  {
     "name": "PallyPower Improved",
     "folder": "PallyPower Improved",
     "git": "https://github.com/NoM0Re/PallyPower-Improved-3.3.5.git",
@@ -2521,6 +3382,28 @@
       "Interface": "30300",
       "Title": "PallyPower Improved",
       "Notes": "Pally Power the must have for a Paladin, provides an interactive and easy to use interface that allows you to set your o"
+    }
+  },
+  {
+    "name": "Peddler [Epoch]",
+    "folder": "Peddler",
+    "git": "https://github.com/ZythDr/Peddler.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Smart quiet vendor helper with auto-sell.",
+    "id": "peddler",
+    "owner": "ZythDr",
+    "wotlk_primary_download": "https://github.com/ZythDr/Peddler/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ZythDr/Peddler"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Peddler",
+      "Notes": "Smart quiet vendor helper with auto-sell."
     }
   },
   {
@@ -2771,6 +3654,28 @@
     }
   },
   {
+    "name": "Quartz (gareth-charles)",
+    "folder": "Quartz",
+    "git": "https://github.com/gareth-charles/Quartz.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Modular castbar with swing-timer support.",
+    "id": "quartz-gareth",
+    "owner": "gareth-charles",
+    "wotlk_primary_download": "https://github.com/gareth-charles/Quartz/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/gareth-charles/Quartz"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Quartz",
+      "Notes": "Modular castbar with swing-timer support."
+    }
+  },
+  {
     "name": "Questhelper",
     "folder": "Questhelper",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -2842,6 +3747,28 @@
       "Interface": "30300",
       "Title": "Questie-335-Epoch",
       "Notes": "A standalone Classic QuestHelper"
+    }
+  },
+  {
+    "name": "Questie [Epoch]",
+    "folder": "Questie",
+    "git": "https://github.com/trav346/Questie-Epoch.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "Questie quest helper for Project Epoch.",
+    "id": "questie-epoch",
+    "owner": "trav346",
+    "wotlk_primary_download": "https://github.com/trav346/Questie-Epoch/archive/refs/heads/master.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/trav346/Questie-Epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Questie",
+      "Notes": "Questie quest helper for Project Epoch."
     }
   },
   {
@@ -3105,6 +4032,28 @@
     }
   },
   {
+    "name": "SexyLoot [Epoch]",
+    "folder": "SexyLoot",
+    "git": "https://github.com/mastersuleman/sexy_loot.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Loot alert addon.",
+    "id": "sexyloot",
+    "owner": "mastersuleman",
+    "wotlk_primary_download": "https://github.com/mastersuleman/sexy_loot/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mastersuleman/sexy_loot"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SexyLoot",
+      "Notes": "Loot alert addon."
+    }
+  },
+  {
     "name": "SexyMap",
     "folder": "SexyMap",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -3155,6 +4104,28 @@
       "Interface": "30300",
       "Title": "Shadowed Unit Frames",
       "Notes": "SFU offers you a modified interface that can show you, for example, which players are currently out of range or which of"
+    }
+  },
+  {
+    "name": "ShadowedUnitFrames",
+    "folder": "ShadowedUnitFrames",
+    "git": "https://github.com/nuiva/ShadowedUnitFrames.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "Simple, easy-to-configure unit frames.",
+    "id": "shadoweduf",
+    "owner": "nuiva",
+    "wotlk_primary_download": "https://github.com/nuiva/ShadowedUnitFrames/archive/refs/heads/master.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/nuiva/ShadowedUnitFrames"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ShadowedUnitFrames",
+      "Notes": "Simple, easy-to-configure unit frames."
     }
   },
   {
@@ -3244,6 +4215,28 @@
     }
   },
   {
+    "name": "SmartDelete [Epoch]",
+    "folder": "SmartDelete",
+    "git": "https://github.com/shlummutz/SmartDelete.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Tries to delete the lowest-value item; confirms above grey quality.",
+    "id": "smartdelete",
+    "owner": "shlummutz",
+    "wotlk_primary_download": "https://github.com/shlummutz/SmartDelete/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/shlummutz/SmartDelete"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SmartDelete",
+      "Notes": "Tries to delete the lowest-value item; confirms above grey quality."
+    }
+  },
+  {
     "name": "SmartTrack",
     "folder": "SmartTrack",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
@@ -3267,6 +4260,28 @@
       "Interface": "30300",
       "Title": "SmartTrack",
       "Notes": "Smart automatic tracking for hunters only with Improved tracking talent. Whenever you enter combat this addon will check"
+    }
+  },
+  {
+    "name": "SmartTrainers [Epoch]",
+    "folder": "SmartTrainers",
+    "git": "https://github.com/TyThompson/SmartTrainers.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Shows which weapon trainers can teach your missing skills.",
+    "id": "smarttrainers",
+    "owner": "TyThompson",
+    "wotlk_primary_download": "https://github.com/TyThompson/SmartTrainers/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/TyThompson/SmartTrainers"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SmartTrainers",
+      "Notes": "Shows which weapon trainers can teach your missing skills."
     }
   },
   {
@@ -3400,6 +4415,28 @@
     }
   },
   {
+    "name": "SSPVP [Epoch]",
+    "folder": "SSPVP3",
+    "git": "https://github.com/MCribari/SSPVP-Epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "PvP improvement addon (SSPVP backport).",
+    "id": "sspvp-epoch",
+    "owner": "MCribari",
+    "wotlk_primary_download": "https://github.com/MCribari/SSPVP-Epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/MCribari/SSPVP-Epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SSPVP3",
+      "Notes": "PvP improvement addon (SSPVP backport)."
+    }
+  },
+  {
     "name": "STFU: Shut the fuck up, thanks.",
     "folder": "STFU: Shut the fuck up, thanks.",
     "git": "https://github.com/Arcitec/STFU_Chat_Filter.git",
@@ -3449,6 +4486,28 @@
       "Interface": "30300",
       "Title": "Storyline",
       "Notes": "This addon aims to enhance the readability and immersion when questing in World of Warcraft. It adds a brand new quest f"
+    }
+  },
+  {
+    "name": "SwiftSki",
+    "folder": "SwiftSki",
+    "git": "https://github.com/ShaunSki/SwiftSki.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Item lock, vendor auto-sell, faster questing and misc QoL.",
+    "id": "swiftski",
+    "owner": "ShaunSki",
+    "wotlk_primary_download": "https://github.com/ShaunSki/SwiftSki/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ShaunSki/SwiftSki"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "SwiftSki",
+      "Notes": "Item lock, vendor auto-sell, faster questing and misc QoL."
     }
   },
   {
@@ -3557,6 +4616,50 @@
     }
   },
   {
+    "name": "TradeLogger [Epoch]",
+    "folder": "TradeLogger",
+    "git": "https://github.com/mastersuleman/WoW-Tradelogger.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Simple trade logging.",
+    "id": "tradelogger",
+    "owner": "mastersuleman",
+    "wotlk_primary_download": "https://github.com/mastersuleman/WoW-Tradelogger/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mastersuleman/WoW-Tradelogger"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "TradeLogger",
+      "Notes": "Simple trade logging."
+    }
+  },
+  {
+    "name": "TradeSkillMaster (eyougo)",
+    "folder": "TradeSkillMaster",
+    "git": "https://github.com/eyougo/TradeSkillMaster.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "TradeSkillMaster 2.8 backport (auction, crafting, mailing).",
+    "id": "tradeskillmaster-eyougo",
+    "owner": "eyougo",
+    "wotlk_primary_download": "https://github.com/eyougo/TradeSkillMaster/archive/refs/heads/master.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/eyougo/TradeSkillMaster"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "TradeSkillMaster",
+      "Notes": "TradeSkillMaster 2.8 backport (auction, crafting, mailing)."
+    }
+  },
+  {
     "name": "TradeSkillMaster v2.8.3",
     "folder": "TradeSkillMaster v2.8.3",
     "git": "https://github.com/andrew6180/TradeSkillMaster.git",
@@ -3580,6 +4683,28 @@
       "Interface": "30300",
       "Title": "TradeSkillMaster v2.8.3",
       "Notes": "TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making pro"
+    }
+  },
+  {
+    "name": "TrinketMenu [Epoch]",
+    "folder": "TrinketMenu",
+    "git": "https://github.com/MCribari/TrinketMenu-Epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Trinket swap helper.",
+    "id": "trinketmenu-epoch",
+    "owner": "MCribari",
+    "wotlk_primary_download": "https://github.com/MCribari/TrinketMenu-Epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/MCribari/TrinketMenu-Epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "TrinketMenu",
+      "Notes": "Trinket swap helper."
     }
   },
   {
@@ -3635,6 +4760,28 @@
     }
   },
   {
+    "name": "TwitchEmotes [Epoch]",
+    "folder": "TwitchEmotes",
+    "git": "https://github.com/sogladev/TwitchEmotes-335.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Twitch emotes in chat.",
+    "id": "twitchemotes",
+    "owner": "sogladev",
+    "wotlk_primary_download": "https://github.com/sogladev/TwitchEmotes-335/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/sogladev/TwitchEmotes-335"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "TwitchEmotes",
+      "Notes": "Twitch emotes in chat."
+    }
+  },
+  {
     "name": "Unified Profile Manager",
     "folder": "Unified Profile Manager",
     "git": "https://github.com/NoM0Re/UnifiedProfileManager-WotLK.git",
@@ -3658,6 +4805,28 @@
       "Interface": "30300",
       "Title": "Unified Profile Manager",
       "Notes": "Manage all your AceDB-based addon profiles from one single interface.\nOpen it with /profiles or /upm to view, switch, co"
+    }
+  },
+  {
+    "name": "VanillaGraphicBoost [Epoch]",
+    "folder": "VanillaGraphicBoost",
+    "git": "https://github.com/fleekx/VanillaGraphicBoost.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Auto-applies graphic-boost macros on login.",
+    "id": "vanillagraphicboost",
+    "owner": "fleekx",
+    "wotlk_primary_download": "https://github.com/fleekx/VanillaGraphicBoost/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/fleekx/VanillaGraphicBoost"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "VanillaGraphicBoost",
+      "Notes": "Auto-applies graphic-boost macros on login."
     }
   },
   {
@@ -3747,6 +4916,28 @@
     }
   },
   {
+    "name": "What's Training [Epoch]",
+    "folder": "Whats-Training-Epoch",
+    "git": "https://github.com/ZythDr/Whats-Training-Epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Lists trainable spells per class in the spellbook.",
+    "id": "whats-training-epoch",
+    "owner": "ZythDr",
+    "wotlk_primary_download": "https://github.com/ZythDr/Whats-Training-Epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ZythDr/Whats-Training-Epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Whats-Training-Epoch",
+      "Notes": "Lists trainable spells per class in the spellbook."
+    }
+  },
+  {
     "name": "WIM",
     "folder": "WIM",
     "git": "https://github.com/Legacy-of-Sylvanaar/wow-instant-messenger.git",
@@ -3798,6 +4989,50 @@
     }
   },
   {
+    "name": "xCT+ (Barsoomx)",
+    "folder": "xCT+",
+    "git": "https://github.com/Barsoomx/xCT_Plus_wotlk.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "Combat-text replacement (xCT+ backport).",
+    "id": "xct-barsoomx",
+    "owner": "Barsoomx",
+    "wotlk_primary_download": "https://github.com/Barsoomx/xCT_Plus_wotlk/archive/refs/heads/master.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Barsoomx/xCT_Plus_wotlk"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "xCT+",
+      "Notes": "Combat-text replacement (xCT+ backport)."
+    }
+  },
+  {
+    "name": "ZenBags",
+    "folder": "OmniInventory",
+    "git": "https://github.com/Zendevve/ZenBags.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Fast inventory manager with smart categorization.",
+    "id": "zenbags",
+    "owner": "Zendevve",
+    "wotlk_primary_download": "https://github.com/Zendevve/ZenBags/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Zendevve/ZenBags"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "OmniInventory",
+      "Notes": "Fast inventory manager with smart categorization."
+    }
+  },
+  {
     "name": "Zygor Guides",
     "folder": "Zygor Guides",
     "git": "https://github.com/ErebusAres/ZygorGuidesRemaster-3.3.5a_WOTLK.git",
@@ -3821,6 +5056,28 @@
       "Interface": "30300",
       "Title": "Zygor Guides",
       "Notes": "Zygor Guides Viewer Remaster is a modernized version of the classic Zygor Guides Viewer, built specifically for World of"
+    }
+  },
+  {
+    "name": "ZygorGuidesViewer [Epoch]",
+    "folder": "ZygorGuidesViewer",
+    "git": "https://github.com/SimonGaufreteau/ZygorGuidesViewer.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Zygor leveling guides ported to Epoch (1-60).",
+    "id": "zygorguides-epoch",
+    "owner": "SimonGaufreteau",
+    "wotlk_primary_download": "https://github.com/SimonGaufreteau/ZygorGuidesViewer/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/SimonGaufreteau/ZygorGuidesViewer"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "ZygorGuidesViewer",
+      "Notes": "Zygor leveling guides ported to Epoch (1-60)."
     }
   }
 ]
