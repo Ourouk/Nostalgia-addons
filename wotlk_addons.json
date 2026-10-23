@@ -2434,6 +2434,9 @@
     "branch": "main",
     "description": "A Project Epoch DB extension for pfQuest",
     "id": "pfquest-epoch",
+    "depends": [
+      "addon:pfquest-wotlk"
+    ],
     "owner": "Bennylavaa",
     "wotlk_primary_download": "https://github.com/Bennylavaa/pfQuest-epoch/archive/refs/heads/main.zip",
     "wotlk_sources": [
@@ -2467,6 +2470,27 @@
       "Interface": "30300",
       "Title": "pfQuest Reforged",
       "Notes": "A Questhelper and Database -- Reforged UX edition"
+    }
+  },
+  {
+    "name": "pfQuest-wotlk",
+    "git": "https://github.com/shagu/pfQuest.git",
+    "source_type": "git",
+    "branch": "master",
+    "description": "A Questhelper and Database for WotLK 3.3.5a (beta). Required base addon for pfQuest-epoch.",
+    "id": "pfquest-wotlk",
+    "owner": "shagu",
+    "wotlk_primary_download": "https://github.com/shagu/pfQuest/releases/download/7.0.1/pfQuest-enUS-wotlk.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/shagu/pfQuest"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "|cff33ffccpf|cffffffffQuest |cffff5555[BETA]",
+      "Notes": "A Questhelper and Database"
     }
   },
   {
@@ -2688,6 +2712,27 @@
       "Interface": "30300",
       "Title": "Questie",
       "Notes": "Questie is a popular World of Warcraft addon that enhances the questing experience for players. It provides an intuitive"
+    }
+  },
+  {
+    "name": "Questie-335-Epoch",
+    "git": "https://github.com/NeticSoul/questie-335-epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Questie fork for Project Epoch (WotLK 3.3.5a) — merges Questie-335 with the pfQuest-epoch database at load time. Experimental.",
+    "id": "questie-335-epoch",
+    "owner": "NeticSoul",
+    "wotlk_primary_download": "https://github.com/NeticSoul/questie-335-epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/NeticSoul/questie-335-epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "Questie-335-Epoch",
+      "Notes": "A standalone Classic QuestHelper"
     }
   },
   {
