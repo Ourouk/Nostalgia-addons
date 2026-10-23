@@ -3538,7 +3538,7 @@
     }
   },
   {
-    "name": "WIM (WoW Instant Messenger)",
+    "name": "WIM",
     "git": "https://github.com/Legacy-of-Sylvanaar/wow-instant-messenger.git",
     "source_type": "git",
     "description": "WIM (WoW Instant Messenger) is a World of Warcraft addon which brings an instant messenger feel to communication in game.",
@@ -3557,7 +3557,7 @@
     ],
     "toc": {
       "Interface": "30300",
-      "Title": "WIM (WoW Instant Messenger)",
+      "Title": "WIM",
       "Notes": "WIM (WoW Instant Messenger) is a World of Warcraft addon which brings an instant messenger feel to communication in game"
     }
   },
