@@ -1,6 +1,7 @@
 [
   {
     "name": "Aegis-Courier",
+    "folder": "Aegis-Courier",
     "git": "https://github.com/Torchlite-bit/Aegis_Courier.git",
     "source_type": "git",
     "branch": "main",
@@ -12,6 +13,7 @@
   },
   {
     "name": "Aegis-Exchange",
+    "folder": "Aegis-Exchange",
     "git": "https://github.com/Torchlite-bit/Aegis_Exchange.git",
     "source_type": "git",
     "branch": "main",
@@ -23,6 +25,7 @@
   },
   {
     "name": "Aegis-RallyPower",
+    "folder": "Aegis-RallyPower",
     "git": "https://github.com/Torchlite-bit/Aegis_RallyPower.git",
     "source_type": "git",
     "branch": "main",
@@ -34,6 +37,7 @@
   },
   {
     "name": "Aegis-SingleButtonRotation",
+    "folder": "Aegis-SingleButtonRotation",
     "git": "https://github.com/Torchlite-bit/Aegis_SBR.git",
     "source_type": "git",
     "branch": "main",
@@ -45,6 +49,7 @@
   },
   {
     "name": "AI_VoiceOver",
+    "folder": "AI_VoiceOver",
     "owner": "Alukarho",
     "git": "https://github.com/Alukarho/AI_VoiceOver.git",
     "source_type": "git",
@@ -64,6 +69,7 @@
   },
   {
     "name": "ArcHUD2",
+    "folder": "ArcHUD2",
     "owner": "McPewPew",
     "git": "https://github.com/McPewPew/ArcHUD2.git",
     "source_type": "git",
@@ -90,6 +96,7 @@
   },
   {
     "name": "Atlas-CFM",
+    "folder": "Atlas-CFM",
     "owner": "byCFM2",
     "git": "https://github.com/byCFM2/Atlas-TW.git",
     "source_type": "git",
@@ -111,6 +118,7 @@
   },
   {
     "name": "AtlasLoot",
+    "folder": "AtlasLoot",
     "owner": "shaga",
     "git": "https://octowow.st/git/shaga/AtlasLoot.git",
     "source_type": "git",
@@ -130,6 +138,7 @@
   },
   {
     "name": "AttackBar",
+    "folder": "AttackBar",
     "owner": "Siventt",
     "git": "https://github.com/Siventt/AttackBar.git",
     "source_type": "git",
@@ -148,6 +157,7 @@
   },
   {
     "name": "AuldLangSyne",
+    "folder": "AuldLangSyne",
     "owner": "Road-block",
     "git": "https://github.com/Road-block/AuldLangSyne.git",
     "source_type": "git",
@@ -172,6 +182,7 @@
   },
   {
     "name": "AutoLFM",
+    "folder": "AutoLFM",
     "owner": "FSuhas",
     "git": "https://github.com/FSuhas/AutoLFM.git",
     "source_type": "git",
@@ -192,6 +203,7 @@
   },
   {
     "name": "aux-addon",
+    "folder": "aux-addon",
     "owner": "shirsig",
     "git": "https://github.com/shirsig/aux-addon-vanilla.git",
     "source_type": "git",
@@ -211,6 +223,7 @@
   },
   {
     "name": "Bagshui",
+    "folder": "Bagshui",
     "owner": "absir",
     "git": "https://github.com/absir/Bagshui.git",
     "source_type": "git",
@@ -231,6 +244,7 @@
   },
   {
     "name": "BetterCharacterStats",
+    "folder": "BetterCharacterStats",
     "owner": "pepopo978",
     "git": "https://github.com/pepopo978/BetterCharacterStats.git",
     "source_type": "git",
@@ -250,6 +264,7 @@
   },
   {
     "name": "BigWigs",
+    "folder": "BigWigs",
     "owner": "pepopo978",
     "git": "https://github.com/pepopo978/BigWigs.git",
     "source_type": "git",
@@ -280,6 +295,7 @@
   },
   {
     "name": "BitesCookBook",
+    "folder": "BitesCookBook",
     "owner": "DBFBlackbull",
     "git": "https://github.com/DBFBlackbull/BitesCookBook.git",
     "source_type": "git",
@@ -300,6 +316,7 @@
   },
   {
     "name": "BlizzPlates",
+    "folder": "BlizzPlates",
     "owner": "brotalnia",
     "git": "https://github.com/brotalnia/BlizzPlates.git",
     "source_type": "git",
@@ -319,6 +336,7 @@
   },
   {
     "name": "CallOfElements",
+    "folder": "CallOfElements",
     "owner": "MDGitHubRepo",
     "git": "https://github.com/MDGitHubRepo/CallOfElements.git",
     "source_type": "git",
@@ -339,6 +357,7 @@
   },
   {
     "name": "ClassicAPI",
+    "folder": "ClassicAPI",
     "git": "https://github.com/brues-code/ClassicAPI.git",
     "source_type": "git",
     "branch": "main",
@@ -350,6 +369,7 @@
   },
   {
     "name": "CleveRoidMacros",
+    "folder": "CleveRoidMacros",
     "git": "https://github.com/brues-code/SuperCleveRoidMacros.git",
     "source_type": "git",
     "branch": "main",
@@ -361,6 +381,7 @@
   },
   {
     "name": "ConsumesManager",
+    "folder": "ConsumesManager",
     "owner": "Cinecom",
     "git": "https://github.com/Cinecom/ConsumesManager.git",
     "source_type": "git",
@@ -380,6 +401,7 @@
   },
   {
     "name": "Cursive-Raid",
+    "folder": "Cursive-Raid",
     "owner": "Kirchlive",
     "git": "https://github.com/Kirchlive/cursive-raid.git",
     "source_type": "git",
@@ -401,6 +423,7 @@
   },
   {
     "name": "Decursive",
+    "folder": "Decursive",
     "owner": "Zerf",
     "git": "https://github.com/Zerf/Decursive.git",
     "source_type": "git",
@@ -422,6 +445,7 @@
   },
   {
     "name": "DifficultBulletinBoard",
+    "folder": "DifficultBulletinBoard",
     "owner": "DeterminedPanda",
     "git": "https://github.com/DeterminedPanda/DifficultBulletinBoard.git",
     "source_type": "git",
@@ -441,6 +465,7 @@
   },
   {
     "name": "DoiteAuras",
+    "folder": "DoiteAuras",
     "owner": "Player-Doite",
     "git": "https://github.com/Player-Doite/DoiteAuras.git",
     "source_type": "git",
@@ -460,6 +485,7 @@
   },
   {
     "name": "DragonflightUI-Reforged",
+    "folder": "DragonflightUI-Reforged",
     "owner": "Hippoom",
     "git": "https://github.com/Hippoom/DragonflightUI-Reforged.git",
     "source_type": "git",
@@ -479,6 +505,7 @@
   },
   {
     "name": "ExtraResourceBars",
+    "folder": "ExtraResourceBars",
     "owner": "Fiurs-Hearth",
     "git": "https://github.com/Fiurs-Hearth/ExtraResourceBars.git",
     "source_type": "git",
@@ -498,6 +525,7 @@
   },
   {
     "name": "FishingBuddy",
+    "folder": "FishingBuddy",
     "owner": "SeVeN7000",
     "git": "https://github.com/SeVeN7000/FishingBuddy.git",
     "source_type": "git",
@@ -519,6 +547,7 @@
   },
   {
     "name": "FlightTracker",
+    "folder": "FlightTracker",
     "owner": "tilare",
     "git": "https://github.com/tilare/FlightTracker.git",
     "source_type": "git",
@@ -538,6 +567,7 @@
   },
   {
     "name": "Flyout",
+    "folder": "Flyout",
     "owner": "lookino",
     "git": "https://github.com/lookino/Flyout.git",
     "source_type": "git",
@@ -558,6 +588,7 @@
   },
   {
     "name": "GetHead",
+    "folder": "GetHead",
     "owner": "trumpetx",
     "git": "https://github.com/trumpetx/GetHead.git",
     "source_type": "git",
@@ -577,6 +608,7 @@
   },
   {
     "name": "GNS",
+    "folder": "GNS",
     "owner": "zanthor",
     "git": "https://github.com/zanthor/GNS.git",
     "source_type": "git",
@@ -596,6 +628,7 @@
   },
   {
     "name": "GreedMeter",
+    "folder": "GreedMeter",
     "git": "https://github.com/iGreed1993/GreedMeter.git",
     "source_type": "git",
     "branch": "main",
@@ -604,6 +637,7 @@
   },
   {
     "name": "Guda",
+    "folder": "Guda",
     "owner": "vatichild",
     "git": "https://github.com/vatichild/guda.git",
     "source_type": "git",
@@ -624,6 +658,7 @@
   },
   {
     "name": "GudaPlates",
+    "folder": "GudaPlates",
     "owner": "vatichild",
     "git": "https://github.com/vatichild/GudaPlates.git",
     "source_type": "git",
@@ -642,6 +677,7 @@
   },
   {
     "name": "HCDeaths",
+    "folder": "HCDeaths",
     "owner": "andresuarezschou",
     "git": "https://github.com/andresuarezschou/HCDeaths.git",
     "source_type": "git",
@@ -661,6 +697,7 @@
   },
   {
     "name": "InstanceJournal",
+    "folder": "InstanceJournal",
     "owner": "Arthur-Helias",
     "git": "https://github.com/Arthur-Helias/InstanceJournal.git",
     "source_type": "git",
@@ -681,6 +718,7 @@
   },
   {
     "name": "ItemRack",
+    "folder": "ItemRack",
     "owner": "Einherjarn",
     "git": "https://github.com/Einherjarn/ItemRack.git",
     "source_type": "git",
@@ -699,6 +737,7 @@
   },
   {
     "name": "_LazyPig",
+    "folder": "_LazyPig",
     "owner": "CosminPOP",
     "git": "https://github.com/CosminPOP/_LazyPig.git",
     "source_type": "git",
@@ -718,6 +757,7 @@
   },
   {
     "name": "LevelRange-Turtle",
+    "folder": "LevelRange-Turtle",
     "owner": "Spartelfant",
     "git": "https://github.com/Spartelfant/LevelRange-Turtle.git",
     "source_type": "git",
@@ -739,6 +779,7 @@
   },
   {
     "name": "LifeSafer_LowHealthWarning",
+    "folder": "LifeSafer_LowHealthWarning",
     "owner": "shaga",
     "git": "https://octowow.st/git/shaga/LifeSafer_LowHealthWarning.git",
     "source_type": "git",
@@ -758,6 +799,7 @@
   },
   {
     "name": "MessageBox",
+    "folder": "MessageBox",
     "owner": "tilare",
     "git": "https://github.com/tilare/MessageBox.git",
     "source_type": "git",
@@ -777,6 +819,7 @@
   },
   {
     "name": "MikScrollingBattleText",
+    "folder": "MikScrollingBattleText",
     "owner": "brues-code",
     "git": "https://github.com/brues-code/Vanilla_MikScrollingBattleText.git",
     "source_type": "git",
@@ -786,6 +829,7 @@
   },
   {
     "name": "ModernMapMarkers",
+    "folder": "ModernMapMarkers",
     "owner": "tilare",
     "git": "https://github.com/tilare/ModernMapMarkers.git",
     "source_type": "git",
@@ -806,6 +850,7 @@
   },
   {
     "name": "ModernSpellBook",
+    "folder": "ModernSpellBook",
     "owner": "vegeta1k95",
     "git": "https://github.com/vegeta1k95/ModernSpellBook.git",
     "source_type": "git",
@@ -825,6 +870,7 @@
   },
   {
     "name": "ModifiedPowerAuras",
+    "folder": "ModifiedPowerAuras",
     "owner": "tdymel",
     "git": "https://github.com/tdymel/ModifiedPowerAuras.git",
     "source_type": "git",
@@ -845,6 +891,7 @@
   },
   {
     "name": "MovementTracker",
+    "folder": "MovementTracker",
     "owner": "tilare",
     "git": "https://github.com/tilare/MovementTracker.git",
     "source_type": "git",
@@ -864,6 +911,7 @@
   },
   {
     "name": "NampowerSettings",
+    "folder": "NampowerSettings",
     "owner": "brues-code",
     "git": "https://github.com/brues-code/NampowerSettings.git",
     "source_type": "git",
@@ -882,6 +930,7 @@
   },
   {
     "name": "Necrosis",
+    "folder": "Necrosis",
     "owner": "BlackHobbiT",
     "git": "https://github.com/BlackHobbiT/necrosis-twow.git",
     "source_type": "git",
@@ -903,6 +952,7 @@
   },
   {
     "name": "notgrid",
+    "folder": "notgrid",
     "owner": "gnwl",
     "git": "https://github.com/gnwl/NotGrid.git",
     "source_type": "git",
@@ -920,6 +970,7 @@
   },
   {
     "name": "OctoCVars",
+    "folder": "OctoCVars",
     "git": "https://github.com/roby-brok/OctoCVars.git",
     "source_type": "git",
     "branch": "main",
@@ -931,6 +982,7 @@
   },
   {
     "name": "OctoItemMacroIcons",
+    "folder": "OctoItemMacroIcons",
     "git": "https://github.com/brues-code/OctoItemMacroIcons.git",
     "source_type": "git",
     "branch": "main",
@@ -942,6 +994,7 @@
   },
   {
     "name": "OG-RaidHelper",
+    "folder": "OG-RaidHelper",
     "owner": "zanthor",
     "git": "https://github.com/zanthor/OG-RaidHelper.git",
     "source_type": "git",
@@ -971,6 +1024,7 @@
   },
   {
     "name": "Outfitter",
+    "folder": "Outfitter",
     "owner": "sica42",
     "git": "https://github.com/sica42/Outfitter.git",
     "source_type": "git",
@@ -991,6 +1045,7 @@
   },
   {
     "name": "PallyPower",
+    "folder": "PallyPower",
     "owner": "CosminPOP",
     "git": "https://github.com/CosminPOP/PallyPower.git",
     "source_type": "git",
@@ -1010,15 +1065,8 @@
     "id": "pallypower"
   },
   {
-    "name": "Puppeteer",
-    "git": "https://github.com/OldManAlpha/Puppeteer",
-    "source_type": "git",
-    "branch": "main",
-    "description": "Healer-oriented unit frames addon for WoW Vanilla 1.12 (formerly HealersMate) with mouse/key bindings, incoming healing, role assignment and raid frames.",
-    "id": "puppeteer"
-  },
-  {
     "name": "pfExtend",
+    "folder": "pfExtend",
     "owner": "Cliencer",
     "git": "https://github.com/Cliencer/pfExtend.git",
     "source_type": "git",
@@ -1040,6 +1088,7 @@
   },
   {
     "name": "pfQuest",
+    "folder": "pfQuest",
     "owner": "shagu",
     "git": "https://github.com/shagu/pfQuest.git",
     "source_type": "git",
@@ -1061,6 +1110,7 @@
   },
   {
     "name": "pfQuest",
+    "folder": "pfQuest",
     "owner": "brues-code",
     "git": "https://github.com/brues-code/pfQuest.git",
     "source_type": "git",
@@ -1073,6 +1123,7 @@
   },
   {
     "name": "pfQuest-turtle",
+    "folder": "pfQuest-turtle",
     "owner": "shagu",
     "git": "https://github.com/shagu/pfQuest-turtle.git",
     "source_type": "git",
@@ -1094,6 +1145,7 @@
   },
   {
     "name": "pfUI",
+    "folder": "pfUI",
     "owner": "shagu",
     "git": "https://github.com/shagu/pfUI.git",
     "source_type": "git",
@@ -1114,6 +1166,7 @@
   },
   {
     "name": "pfUI-addonskinner",
+    "folder": "pfUI-addonskinner",
     "owner": "jrc13245",
     "git": "https://github.com/jrc13245/pfUI-addonskinner.git",
     "source_type": "git",
@@ -1134,6 +1187,7 @@
   },
   {
     "name": "pfUI-addonskinner",
+    "folder": "pfUI-addonskinner",
     "git": "https://github.com/roby-brok/pfUI-addonskinner.git",
     "source_type": "git",
     "branch": "main",
@@ -1142,6 +1196,7 @@
   },
   {
     "name": "pfUI-bettertotems",
+    "folder": "pfUI-bettertotems",
     "owner": "Bombg",
     "git": "https://github.com/Bombg/pfUI-bettertotems.git",
     "source_type": "git",
@@ -1161,6 +1216,7 @@
   },
   {
     "name": "pfUI-bettertotems",
+    "folder": "pfUI-bettertotems",
     "git": "https://github.com/roby-brok/pfUI-bettertotems.git",
     "source_type": "git",
     "branch": "main",
@@ -1169,6 +1225,7 @@
   },
   {
     "name": "pfUI",
+    "folder": "pfUI",
     "owner": "brues-code",
     "git": "https://github.com/brues-code/pfUI.git",
     "source_type": "git",
@@ -1181,6 +1238,7 @@
   },
   {
     "name": "pfUI-locplus",
+    "folder": "pfUI-locplus",
     "owner": "Arthur-Helias",
     "git": "https://github.com/Arthur-Helias/pfUI-LocationPlus.git",
     "source_type": "git",
@@ -1201,6 +1259,7 @@
   },
   {
     "name": "PizzaWorldBuffs",
+    "folder": "PizzaWorldBuffs",
     "owner": "acid9000",
     "git": "https://github.com/acid9000/PizzaWorldBuffs.git",
     "source_type": "git",
@@ -1220,6 +1279,7 @@
   },
   {
     "name": "ProcDoc",
+    "folder": "ProcDoc",
     "owner": "npfs666",
     "git": "https://github.com/npfs666/ProcDoc.git",
     "source_type": "git",
@@ -1238,7 +1298,17 @@
     "id": "procdoc"
   },
   {
+    "name": "Puppeteer",
+    "folder": "Puppeteer",
+    "git": "https://github.com/OldManAlpha/Puppeteer",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Healer-oriented unit frames addon for WoW Vanilla 1.12 (formerly HealersMate) with mouse/key bindings, incoming healing, role assignment and raid frames.",
+    "id": "puppeteer"
+  },
+  {
     "name": "Quiver",
+    "folder": "Quiver",
     "owner": "SabineWren",
     "git": "https://github.com/SabineWren/Quiver.git",
     "source_type": "git",
@@ -1258,6 +1328,7 @@
   },
   {
     "name": "Rested",
+    "folder": "Rested",
     "owner": "hazlema",
     "git": "https://github.com/hazlema/Rested.git",
     "source_type": "git",
@@ -1276,6 +1347,7 @@
   },
   {
     "name": "Rinse",
+    "folder": "Rinse",
     "owner": "Otari98",
     "git": "https://github.com/Otari98/Rinse.git",
     "source_type": "git",
@@ -1296,6 +1368,7 @@
   },
   {
     "name": "SellValue",
+    "folder": "SellValue",
     "owner": "anzz1",
     "git": "https://github.com/anzz1/SellValue.git",
     "source_type": "git",
@@ -1315,6 +1388,7 @@
   },
   {
     "name": "ShaguDPS",
+    "folder": "ShaguDPS",
     "owner": "shagu",
     "git": "https://github.com/shagu/ShaguDPS.git",
     "source_type": "git",
@@ -1335,6 +1409,7 @@
   },
   {
     "name": "ShaguPlates",
+    "folder": "ShaguPlates",
     "owner": "shagu",
     "git": "https://github.com/shagu/ShaguPlates.git",
     "source_type": "git",
@@ -1355,6 +1430,7 @@
   },
   {
     "name": "ShaguTweaks",
+    "folder": "ShaguTweaks",
     "owner": "shagu",
     "git": "https://github.com/shagu/ShaguTweaks.git",
     "source_type": "git",
@@ -1374,6 +1450,7 @@
   },
   {
     "name": "ShaguTweaks-extras",
+    "folder": "ShaguTweaks-extras",
     "owner": "shagu",
     "git": "https://github.com/shagu/ShaguTweaks-extras.git",
     "source_type": "git",
@@ -1391,6 +1468,7 @@
   },
   {
     "name": "SimpleActionSets",
+    "folder": "SimpleActionSets",
     "owner": "pepopo978",
     "git": "https://github.com/pepopo978/SimpleActionSets.git",
     "source_type": "git",
@@ -1407,6 +1485,7 @@
   },
   {
     "name": "SuperAPI",
+    "folder": "SuperAPI",
     "owner": "balakethelock",
     "git": "https://github.com/balakethelock/SuperAPI.git",
     "source_type": "git",
@@ -1424,6 +1503,7 @@
   },
   {
     "name": "SuperCleveRoidMacros",
+    "folder": "SuperCleveRoidMacros",
     "git": "https://github.com/brues-code/SuperCleveRoidMacros.git",
     "source_type": "git",
     "branch": "main",
@@ -1435,6 +1515,7 @@
   },
   {
     "name": "SuperMacro",
+    "folder": "SuperMacro",
     "owner": "jrc13245",
     "git": "https://github.com/jrc13245/SuperMacro-turtle-SuperWoW.git",
     "source_type": "git",
@@ -1453,6 +1534,7 @@
   },
   {
     "name": "T-RestedXP",
+    "folder": "T-RestedXP",
     "owner": "whtmst",
     "git": "https://github.com/whtmst/T-RestedXP.git",
     "source_type": "git",
@@ -1469,6 +1551,7 @@
   },
   {
     "name": "Tactica",
+    "folder": "Tactica",
     "owner": "Player-Doite",
     "git": "https://github.com/Player-Doite/Tactica.git",
     "source_type": "git",
@@ -1486,6 +1569,7 @@
   },
   {
     "name": "Tmog",
+    "folder": "Tmog",
     "owner": "Otari98",
     "git": "https://github.com/Otari98/Tmog.git",
     "source_type": "git",
@@ -1503,6 +1587,7 @@
   },
   {
     "name": "TurtleCalendar",
+    "folder": "TurtleCalendar",
     "owner": "sica42",
     "git": "https://github.com/sica42/TurtleCalendar.git",
     "source_type": "git",
@@ -1520,16 +1605,18 @@
   },
   {
     "name": "TurtleGuide",
+    "folder": "TurtleGuide",
     "git": "https://github.com/brues-code/VanillaGuide-Plus.git",
     "source_type": "git",
     "description": "Hybrid leveling guide with race-based routing and TomTom/pfQuest navigation; requires ClassicAPI DLL",
     "id": "turtleguide",
     "depends": [
-      "ClassicAPI"
+      "mod:ClassicAPI"
     ]
   },
   {
     "name": "TurtleMail",
+    "folder": "TurtleMail",
     "owner": "sica42",
     "git": "https://github.com/sica42/TurtleMail.git",
     "source_type": "git",
@@ -1548,6 +1635,7 @@
   },
   {
     "name": "TurtleRP",
+    "folder": "TurtleRP",
     "owner": "tempranova",
     "git": "https://github.com/tempranova/turtlerp.git",
     "source_type": "git",
@@ -1565,6 +1653,7 @@
   },
   {
     "name": "TWThreat",
+    "folder": "TWThreat",
     "owner": "CosminPOP",
     "git": "https://github.com/CosminPOP/TWThreat.git",
     "source_type": "git",
@@ -1581,6 +1670,7 @@
   },
   {
     "name": "unitscan-turtle-hc",
+    "folder": "unitscan-turtle-hc",
     "owner": "RetroCro",
     "git": "https://github.com/RetroCro/unitscan-turtle-hc.git",
     "source_type": "git",
@@ -1598,6 +1688,7 @@
   },
   {
     "name": "UnitXP_SP3_Addon",
+    "folder": "UnitXP_SP3_Addon",
     "owner": "Fostercare5988",
     "git": "https://github.com/Fostercare5988/UnitXP_SP3_Addon.git",
     "source_type": "git",
@@ -1616,6 +1707,7 @@
   },
   {
     "name": "VCB",
+    "folder": "VCB",
     "owner": "tdymel",
     "git": "https://github.com/tdymel/VCB.git",
     "source_type": "git",
@@ -1634,6 +1726,7 @@
   },
   {
     "name": "WIIIUI",
+    "folder": "WIIIUI",
     "owner": "Fiurs-Hearth",
     "git": "https://github.com/Fiurs-Hearth/WIIIUI.git",
     "source_type": "git",
@@ -1652,6 +1745,7 @@
   },
   {
     "name": "WIM",
+    "folder": "WIM",
     "owner": "refaim",
     "git": "https://github.com/refaim/WIM.git",
     "source_type": "git",
@@ -1671,6 +1765,7 @@
   },
   {
     "name": "ZonesLevel",
+    "folder": "ZonesLevel",
     "owner": "Arthur-Helias",
     "git": "https://github.com/Arthur-Helias/ZonesLevel.git",
     "source_type": "git",

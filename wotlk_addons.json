@@ -1,27 +1,7 @@
 [
   {
-    "name": "!LuaBoost",
-    "git": "https://github.com/suprepupre/LuaBoost.git",
-    "source_type": "git",
-    "branch": "main",
-    "description": "Lua-side companion for WoW 3.3.5a: garbage collection control, loading-screen event suppression, and shared APIs for addon authors. Works standalone or alongside wow_optimize.",
-    "id": "luaboost",
-    "owner": "suprepupre",
-    "wotlk_primary_download": "https://github.com/suprepupre/LuaBoost/archive/refs/heads/main.zip",
-    "wotlk_sources": [
-      {
-        "label": "GitHub",
-        "url": "https://github.com/suprepupre/LuaBoost"
-      }
-    ],
-    "toc": {
-      "Interface": "30300",
-      "Title": "|cff00ccffLuaBoost|r",
-      "Notes": "Lua runtime optimizer + smart GC manager + SpeedyLoad + UI Thrashing Protection for WoW 3.3.5a."
-    }
-  },
-  {
     "name": "Ackis Recipe List",
+    "folder": "Ackis Recipe List",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -47,6 +27,7 @@
   },
   {
     "name": "Action Bar Saver 2",
+    "folder": "Action Bar Saver 2",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -72,6 +53,7 @@
   },
   {
     "name": "AddEmote",
+    "folder": "AddEmote",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -97,6 +79,7 @@
   },
   {
     "name": "AddFriend",
+    "folder": "AddFriend",
     "git": "https://github.com/NoM0Re/AddFriend-3.3.5a.git",
     "source_type": "git",
     "branch": "main",
@@ -122,6 +105,7 @@
   },
   {
     "name": "Addon Control Panel",
+    "folder": "Addon Control Panel",
     "git": "https://github.com/Legacy-of-Sylvanaar/addon-control-panel.git",
     "source_type": "git",
     "description": "Stop logging out of the game just to change your addons! ACP adds the \"Addons\" button to the game's main menu to disable/enable Addons.",
@@ -146,6 +130,7 @@
   },
   {
     "name": "AdiBags",
+    "folder": "AdiBags",
     "git": "https://github.com/Sattva-108/AdiBags-WoTLK-3.3.5.git",
     "source_type": "direct",
     "branch": "main",
@@ -171,6 +156,7 @@
   },
   {
     "name": "Afflicted",
+    "folder": "Afflicted",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -196,6 +182,7 @@
   },
   {
     "name": "AllStats",
+    "folder": "AllStats",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -221,6 +208,7 @@
   },
   {
     "name": "Altoholic",
+    "folder": "Altoholic",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -246,6 +234,7 @@
   },
   {
     "name": "AmILockedOut",
+    "folder": "AmILockedOut",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -271,6 +260,7 @@
   },
   {
     "name": "Atlas",
+    "folder": "Atlas",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -296,6 +286,7 @@
   },
   {
     "name": "AtlasLoot Enhanced",
+    "folder": "AtlasLoot Enhanced",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -321,6 +312,7 @@
   },
   {
     "name": "AtlasLoot 3.3.5a",
+    "folder": "AtlasLoot 3.3.5a",
     "git": "https://github.com/Gescht/AtlasLoot3.3.5a.git",
     "source_type": "git",
     "branch": "main",
@@ -342,6 +334,7 @@
   },
   {
     "name": "Auctionator",
+    "folder": "Auctionator",
     "git": "https://github.com/alchem1ster/WotLK-Auctionator.git",
     "source_type": "git",
     "branch": "main",
@@ -367,6 +360,7 @@
   },
   {
     "name": "AutoFlood",
+    "folder": "AutoFlood",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -392,6 +386,7 @@
   },
   {
     "name": "AutoInvite",
+    "folder": "AutoInvite",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -417,6 +412,7 @@
   },
   {
     "name": "AutomaticWeaponRemoval",
+    "folder": "AutomaticWeaponRemoval",
     "git": "https://github.com/SecretX33/AutomaticWeaponRemoval.git",
     "source_type": "git",
     "branch": "main",
@@ -442,6 +438,7 @@
   },
   {
     "name": "AutoRepair",
+    "folder": "AutoRepair",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -467,6 +464,7 @@
   },
   {
     "name": "Bagnon Backport with Search and Sort Functionality",
+    "folder": "Bagnon Backport with Search and Sort Functionality",
     "git": "https://github.com/RichSteini/Bagnon-3.3.5.git",
     "source_type": "git",
     "branch": "main",
@@ -492,6 +490,7 @@
   },
   {
     "name": "Bartender4",
+    "folder": "Bartender4",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -517,6 +516,7 @@
   },
   {
     "name": "BindPad",
+    "folder": "BindPad",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -542,6 +542,7 @@
   },
   {
     "name": "BlizzMove",
+    "folder": "BlizzMove",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -567,6 +568,7 @@
   },
   {
     "name": "BLT",
+    "folder": "BLT",
     "git": "https://github.com/freix1/BLT_WotLK.git",
     "source_type": "direct",
     "branch": "main",
@@ -592,6 +594,7 @@
   },
   {
     "name": "BNetToast",
+    "folder": "BNetToast",
     "git": "https://github.com/crumdidlyumshis/BNetToast.git",
     "source_type": "direct",
     "branch": "main",
@@ -617,6 +620,7 @@
   },
   {
     "name": "BugSack",
+    "folder": "BugSack",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -642,6 +646,7 @@
   },
   {
     "name": "Carbonite (Maps - QuestHelper)",
+    "folder": "Carbonite (Maps - QuestHelper)",
     "git": "https://github.com/anzz1/Carbonite-3.3.5.git",
     "source_type": "git",
     "branch": "master",
@@ -667,6 +672,7 @@
   },
   {
     "name": "Cartographer",
+    "folder": "Cartographer",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -692,6 +698,7 @@
   },
   {
     "name": "CartoMapper",
+    "folder": "CartoMapper",
     "git": "https://github.com/Zendevve/CartoMapper.git",
     "source_type": "git",
     "branch": "main",
@@ -717,6 +724,7 @@
   },
   {
     "name": "ChatFilter (project abandoned)",
+    "folder": "ChatFilter (project abandoned)",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -742,6 +750,7 @@
   },
   {
     "name": "Chatter",
+    "folder": "Chatter",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -767,6 +776,7 @@
   },
   {
     "name": "Cheese",
+    "folder": "Cheese",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -792,6 +802,7 @@
   },
   {
     "name": "ClassLoot",
+    "folder": "ClassLoot",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -817,6 +828,7 @@
   },
   {
     "name": "CleanerChat",
+    "folder": "CleanerChat",
     "git": "https://github.com/migwynkriid/CleanerChat-WotLK.git",
     "source_type": "git",
     "branch": "master",
@@ -842,6 +854,7 @@
   },
   {
     "name": "CleanMinimap",
+    "folder": "CleanMinimap",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -868,6 +881,7 @@
   },
   {
     "name": "Clique",
+    "folder": "Clique",
     "git": "https://gitlab.com/Tsoukie/clique-3.3.5.git",
     "source_type": "git",
     "branch": "main",
@@ -893,6 +907,7 @@
   },
   {
     "name": "Collectinator",
+    "folder": "Collectinator",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -918,6 +933,7 @@
   },
   {
     "name": "Color Picker Advanced",
+    "folder": "Color Picker Advanced",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -943,6 +959,7 @@
   },
   {
     "name": "Cooldowns",
+    "folder": "Cooldowns",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -968,6 +985,7 @@
   },
   {
     "name": "Critline",
+    "folder": "Critline",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -993,6 +1011,7 @@
   },
   {
     "name": "Cromulent",
+    "folder": "Cromulent",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1018,6 +1037,7 @@
   },
   {
     "name": "DalaranAH",
+    "folder": "DalaranAH",
     "git": "https://github.com/NoM0Re/DalaranAH.git",
     "source_type": "git",
     "branch": "main",
@@ -1044,6 +1064,7 @@
   },
   {
     "name": "DBM Deadly Boss Mods Warmane",
+    "folder": "DBM Deadly Boss Mods Warmane",
     "git": "https://github.com/Zidras/DBM-Warmane.git",
     "source_type": "git",
     "branch": "main",
@@ -1073,6 +1094,7 @@
   },
   {
     "name": "Decursive",
+    "folder": "Decursive",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1098,6 +1120,7 @@
   },
   {
     "name": "DialogUI",
+    "folder": "DialogUI",
     "git": "https://github.com/ghbset/DialogUI-WotLK.git",
     "source_type": "git",
     "branch": "main",
@@ -1125,6 +1148,7 @@
   },
   {
     "name": "DocsCorporeality(IMO better than HalionHelper)",
+    "folder": "DocsCorporeality(IMO better than HalionHelper)",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1150,6 +1174,7 @@
   },
   {
     "name": "Dominos",
+    "folder": "Dominos",
     "git": "https://github.com/bkader/Dominos.git",
     "source_type": "git",
     "branch": "main",
@@ -1175,6 +1200,7 @@
   },
   {
     "name": "DragonUI",
+    "folder": "DragonUI",
     "git": "https://github.com/NeticSoul/DragonUI.git",
     "source_type": "git",
     "branch": "main",
@@ -1200,6 +1226,7 @@
   },
   {
     "name": "DrDamage",
+    "folder": "DrDamage",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1225,6 +1252,7 @@
   },
   {
     "name": "DressMe",
+    "folder": "DressMe",
     "git": "https://github.com/GetLocalPlayer/DressMe.git",
     "source_type": "direct",
     "branch": "main",
@@ -1250,6 +1278,7 @@
   },
   {
     "name": "EclipseBar",
+    "folder": "EclipseBar",
     "git": "https://github.com/bkader/EclipseBar-WotLK.git",
     "source_type": "git",
     "branch": "main",
@@ -1275,6 +1304,7 @@
   },
   {
     "name": "ElvUI",
+    "folder": "ElvUI",
     "git": "https://github.com/ElvUI-WotLK/ElvUI.git",
     "source_type": "git",
     "branch": "master",
@@ -1308,6 +1338,7 @@
   },
   {
     "name": "Emblem of Gold",
+    "folder": "Emblem of Gold",
     "git": "https://github.com/Stradios/Emblem-of-Gold.git",
     "source_type": "git",
     "branch": "main",
@@ -1333,6 +1364,7 @@
   },
   {
     "name": "EndsidiaFails",
+    "folder": "EndsidiaFails",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1358,6 +1390,7 @@
   },
   {
     "name": "Equipence",
+    "folder": "Equipence",
     "git": "https://github.com/s0h2x/Equipence.git",
     "source_type": "git",
     "branch": "master",
@@ -1383,6 +1416,7 @@
   },
   {
     "name": "EventHorizon",
+    "folder": "EventHorizon",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1408,6 +1442,7 @@
   },
   {
     "name": "EveryQuest",
+    "folder": "EveryQuest",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1433,6 +1468,7 @@
   },
   {
     "name": "ForteXorcist",
+    "folder": "ForteXorcist",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1458,6 +1494,7 @@
   },
   {
     "name": "Friend & Ignore Share",
+    "folder": "Friend & Ignore Share",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1483,6 +1520,7 @@
   },
   {
     "name": "Gatherer+",
+    "folder": "Gatherer+",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1508,6 +1546,7 @@
   },
   {
     "name": "GearScore",
+    "folder": "GearScore",
     "git": "https://github.com/Arcitec/GearScoreLite_Reborn.git",
     "source_type": "git",
     "branch": "main",
@@ -1541,6 +1580,7 @@
   },
   {
     "name": "GladiusEx",
+    "folder": "GladiusEx",
     "git": "https://github.com/ManneN1/GladiusEx-WotLK.git",
     "source_type": "git",
     "branch": "master",
@@ -1566,6 +1606,7 @@
   },
   {
     "name": "Grid2",
+    "folder": "Grid2",
     "git": "https://github.com/bkader/Grid2-WoTLK.git",
     "source_type": "git",
     "branch": "main",
@@ -1591,6 +1632,7 @@
   },
   {
     "name": "GroupBulletinBoard",
+    "folder": "GroupBulletinBoard",
     "git": "https://github.com/fondlez/GroupBulletinBoard.git",
     "source_type": "git",
     "branch": "main",
@@ -1616,6 +1658,7 @@
   },
   {
     "name": "GTFO: Stop standing in fire!",
+    "folder": "GTFO: Stop standing in fire!",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1641,6 +1684,7 @@
   },
   {
     "name": "HalionHelper",
+    "folder": "HalionHelper",
     "git": "https://github.com/bkader/HalionHelper-WoTLK.git",
     "source_type": "git",
     "branch": "main",
@@ -1666,6 +1710,7 @@
   },
   {
     "name": "Healbot",
+    "folder": "Healbot",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1691,6 +1736,7 @@
   },
   {
     "name": "IgnoreMore",
+    "folder": "IgnoreMore",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1716,6 +1762,7 @@
   },
   {
     "name": "Immersion",
+    "folder": "Immersion",
     "git": "https://github.com/s0h2x/Immersion-WotLK.git",
     "source_type": "git",
     "branch": "master",
@@ -1741,6 +1788,7 @@
   },
   {
     "name": "Improved Profession Capper",
+    "folder": "Improved Profession Capper",
     "git": "https://github.com/DarkChimu/Improved-Profession-Capper.git",
     "source_type": "git",
     "branch": "master",
@@ -1766,6 +1814,7 @@
   },
   {
     "name": "InspectEquip",
+    "folder": "InspectEquip",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1791,6 +1840,7 @@
   },
   {
     "name": "InterruptBar",
+    "folder": "InterruptBar",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1816,6 +1866,7 @@
   },
   {
     "name": "iTargetingFrames",
+    "folder": "iTargetingFrames",
     "git": "https://github.com/CH33T4/iTargetingFrames.git",
     "source_type": "git",
     "branch": "main",
@@ -1841,6 +1892,7 @@
   },
   {
     "name": "Key Bind Profiles",
+    "folder": "Key Bind Profiles",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1866,6 +1918,7 @@
   },
   {
     "name": "KRT: Kader Raid Tools",
+    "folder": "KRT: Kader Raid Tools",
     "git": "https://github.com/bkader/KRT.git",
     "source_type": "git",
     "branch": "main",
@@ -1895,6 +1948,7 @@
   },
   {
     "name": "KRU - Kader's Raid Utilities",
+    "folder": "KRU - Kader's Raid Utilities",
     "git": "https://github.com/bkader/KPack.git",
     "source_type": "direct",
     "branch": "main",
@@ -1928,6 +1982,7 @@
   },
   {
     "name": "LoseControl",
+    "folder": "LoseControl",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1952,7 +2007,30 @@
     }
   },
   {
+    "name": "!LuaBoost",
+    "folder": "!LuaBoost",
+    "git": "https://github.com/suprepupre/LuaBoost.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "Lua-side companion for WoW 3.3.5a: garbage collection control, loading-screen event suppression, and shared APIs for addon authors. Works standalone or alongside wow_optimize.",
+    "id": "luaboost",
+    "owner": "suprepupre",
+    "wotlk_primary_download": "https://github.com/suprepupre/LuaBoost/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/suprepupre/LuaBoost"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "|cff00ccffLuaBoost|r",
+      "Notes": "Lua runtime optimizer + smart GC manager + SpeedyLoad + UI Thrashing Protection for WoW 3.3.5a."
+    }
+  },
+  {
     "name": "Ludwig",
+    "folder": "Ludwig",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -1978,6 +2056,7 @@
   },
   {
     "name": "MacroBank",
+    "folder": "MacroBank",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2003,6 +2082,7 @@
   },
   {
     "name": "Mage Nuggets",
+    "folder": "Mage Nuggets",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2028,6 +2108,7 @@
   },
   {
     "name": "Mapster",
+    "folder": "Mapster",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2053,6 +2134,7 @@
   },
   {
     "name": "Method Raid Tools (MRT)",
+    "folder": "Method Raid Tools (MRT)",
     "git": "https://github.com/ExoJdi/Method-Raid-Tools-3.3.5a.git",
     "source_type": "git",
     "branch": "main",
@@ -2078,6 +2160,7 @@
   },
   {
     "name": "MikScrollingBattleText(MSBT)",
+    "folder": "MikScrollingBattleText(MSBT)",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2103,6 +2186,7 @@
   },
   {
     "name": "ModernMapMarkers-WotLK",
+    "folder": "ModernMapMarkers-WotLK",
     "git": "https://github.com/Drakensangs/ModernMapMarkers-WotLK.git",
     "source_type": "git",
     "branch": "master",
@@ -2124,6 +2208,7 @@
   },
   {
     "name": "MogIt",
+    "folder": "MogIt",
     "git": "https://github.com/Skrylas/MogIt-WotLK.git",
     "source_type": "direct",
     "branch": "main",
@@ -2149,6 +2234,7 @@
   },
   {
     "name": "Molinari",
+    "folder": "Molinari",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2174,6 +2260,7 @@
   },
   {
     "name": "MoP Item Tooltips",
+    "folder": "MoP Item Tooltips",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2201,6 +2288,7 @@
   },
   {
     "name": "MoveAnything",
+    "folder": "MoveAnything",
     "git": "https://github.com/sirus-addons/MoveAnything.git",
     "source_type": "git",
     "branch": "master",
@@ -2226,6 +2314,7 @@
   },
   {
     "name": "NeedToKnow",
+    "folder": "NeedToKnow",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2251,6 +2340,7 @@
   },
   {
     "name": "NotPlater",
+    "folder": "NotPlater",
     "git": "https://github.com/RichSteini/NotPlater.git",
     "source_type": "direct",
     "branch": "main",
@@ -2277,6 +2367,7 @@
   },
   {
     "name": "Omen Thread Meter",
+    "folder": "Omen Thread Meter",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2302,6 +2393,7 @@
   },
   {
     "name": "OmniCC",
+    "folder": "OmniCC",
     "git": "https://github.com/NoM0Re/OmniCC-WotLK.git",
     "source_type": "git",
     "branch": "main",
@@ -2327,6 +2419,7 @@
   },
   {
     "name": "OPie",
+    "folder": "OPie",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2352,6 +2445,7 @@
   },
   {
     "name": "Outfitter",
+    "folder": "Outfitter",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2377,6 +2471,7 @@
   },
   {
     "name": "Overachiever",
+    "folder": "Overachiever",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2404,6 +2499,7 @@
   },
   {
     "name": "PallyPower Improved",
+    "folder": "PallyPower Improved",
     "git": "https://github.com/NoM0Re/PallyPower-Improved-3.3.5.git",
     "source_type": "git",
     "branch": "main",
@@ -2429,6 +2525,7 @@
   },
   {
     "name": "pfQuest-epoch",
+    "folder": "pfQuest-epoch",
     "git": "https://github.com/Bennylavaa/pfQuest-epoch.git",
     "source_type": "git",
     "branch": "main",
@@ -2453,6 +2550,7 @@
   },
   {
     "name": "pfQuest-Reforged",
+    "folder": "pfQuest-Reforged",
     "git": "https://github.com/stevemcqueenz/pfQuest-Reforged.git",
     "source_type": "git",
     "branch": "main",
@@ -2474,6 +2572,7 @@
   },
   {
     "name": "pfQuest-wotlk",
+    "folder": "pfQuest-wotlk",
     "git": "https://github.com/shagu/pfQuest.git",
     "source_type": "git",
     "branch": "master",
@@ -2495,6 +2594,7 @@
   },
   {
     "name": "PhoenixStyle",
+    "folder": "PhoenixStyle",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2520,6 +2620,7 @@
   },
   {
     "name": "PlateBuffs",
+    "folder": "PlateBuffs",
     "git": "https://github.com/KhalGH/PlateBuffs-WoTLK.git",
     "source_type": "git",
     "branch": "main",
@@ -2545,6 +2646,7 @@
   },
   {
     "name": "pMinimap",
+    "folder": "pMinimap",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2570,6 +2672,7 @@
   },
   {
     "name": "Postal+",
+    "folder": "Postal+",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2595,6 +2698,7 @@
   },
   {
     "name": "pretty_minimap",
+    "folder": "pretty_minimap",
     "git": "https://github.com/s0h2x/pretty_minimap.git",
     "source_type": "git",
     "branch": "master",
@@ -2620,6 +2724,7 @@
   },
   {
     "name": "Puppeteer-Wrath",
+    "folder": "Puppeteer-Wrath",
     "git": "https://github.com/mhaslinsky/Puppeteer-Wrath.git",
     "source_type": "git",
     "branch": "main",
@@ -2641,6 +2746,7 @@
   },
   {
     "name": "Quartz",
+    "folder": "Quartz",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2666,6 +2772,7 @@
   },
   {
     "name": "Questhelper",
+    "folder": "Questhelper",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2691,6 +2798,7 @@
   },
   {
     "name": "Questie",
+    "folder": "Questie",
     "git": "https://github.com/Aldori15/Questie.git",
     "source_type": "git",
     "branch": "335",
@@ -2716,6 +2824,7 @@
   },
   {
     "name": "Questie-335-Epoch",
+    "folder": "Questie-335-Epoch",
     "git": "https://github.com/NeticSoul/questie-335-epoch.git",
     "source_type": "git",
     "branch": "main",
@@ -2737,6 +2846,7 @@
   },
   {
     "name": "Raeli's Unit Frames",
+    "folder": "Raeli's Unit Frames",
     "git": "https://github.com/bkader/RUF-WoTLK.git",
     "source_type": "git",
     "branch": "main",
@@ -2762,6 +2872,7 @@
   },
   {
     "name": "Raelis Spell Announcer",
+    "folder": "Raelis Spell Announcer",
     "git": "https://github.com/alchem1ster/WotLK-RSA.git",
     "source_type": "direct",
     "branch": "main",
@@ -2787,6 +2898,7 @@
   },
   {
     "name": "Raid Roll",
+    "folder": "Raid Roll",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2812,6 +2924,7 @@
   },
   {
     "name": "RaidBrowser for Warmane",
+    "folder": "RaidBrowser for Warmane",
     "git": "https://github.com/Ostoic/RaidBrowser.git",
     "source_type": "direct",
     "branch": "main",
@@ -2837,6 +2950,7 @@
   },
   {
     "name": "RaidBuffStatus",
+    "folder": "RaidBuffStatus",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2862,6 +2976,7 @@
   },
   {
     "name": "RaidComp",
+    "folder": "RaidComp",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2887,6 +3002,7 @@
   },
   {
     "name": "RaidSlackCheck",
+    "folder": "RaidSlackCheck",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2912,6 +3028,7 @@
   },
   {
     "name": "RatingBuster",
+    "folder": "RatingBuster",
     "git": "https://github.com/Einherjarn/RatingBuster-3.3.5.git",
     "source_type": "direct",
     "branch": "main",
@@ -2937,6 +3054,7 @@
   },
   {
     "name": "Redeemer",
+    "folder": "Redeemer",
     "git": "https://github.com/Lightball-TFK/Redeemer-3.3.5a.git",
     "source_type": "direct",
     "branch": "main",
@@ -2962,6 +3080,7 @@
   },
   {
     "name": "SexyCooldown",
+    "folder": "SexyCooldown",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -2987,6 +3106,7 @@
   },
   {
     "name": "SexyMap",
+    "folder": "SexyMap",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3012,6 +3132,7 @@
   },
   {
     "name": "Shadowed Unit Frames",
+    "folder": "Shadowed Unit Frames",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3038,6 +3159,7 @@
   },
   {
     "name": "SharedMedia AddOns",
+    "folder": "SharedMedia AddOns",
     "git": "https://github.com/bkader/SharedMedia.git",
     "source_type": "git",
     "branch": "main",
@@ -3071,6 +3193,7 @@
   },
   {
     "name": "Skada vs. Details!",
+    "folder": "Skada vs. Details!",
     "git": "https://github.com/bkader/Skada-WoTLK.git",
     "source_type": "git",
     "branch": "main",
@@ -3100,6 +3223,7 @@
   },
   {
     "name": "Skada-WotLK-Netic",
+    "folder": "Skada-WotLK-Netic",
     "git": "https://github.com/NeticSoul/Skada-WotLK-Netic.git",
     "source_type": "git",
     "branch": "main",
@@ -3121,6 +3245,7 @@
   },
   {
     "name": "SmartTrack",
+    "folder": "SmartTrack",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3146,6 +3271,7 @@
   },
   {
     "name": "SnowfallKeyPress",
+    "folder": "SnowfallKeyPress",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3171,6 +3297,7 @@
   },
   {
     "name": "SoundAlerter",
+    "folder": "SoundAlerter",
     "git": "https://github.com/Cortes-Jeremy/SoundAlerter.git",
     "source_type": "direct",
     "branch": "main",
@@ -3196,6 +3323,7 @@
   },
   {
     "name": "SpellID",
+    "folder": "SpellID",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3221,6 +3349,7 @@
   },
   {
     "name": "SpellReplay",
+    "folder": "SpellReplay",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3246,6 +3375,7 @@
   },
   {
     "name": "Spy",
+    "folder": "Spy",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3271,6 +3401,7 @@
   },
   {
     "name": "STFU: Shut the fuck up, thanks.",
+    "folder": "STFU: Shut the fuck up, thanks.",
     "git": "https://github.com/Arcitec/STFU_Chat_Filter.git",
     "source_type": "git",
     "branch": "main",
@@ -3296,6 +3427,7 @@
   },
   {
     "name": "Storyline",
+    "folder": "Storyline",
     "git": "https://github.com/shadovvs/WotLK-Storyline.git",
     "source_type": "git",
     "branch": "main",
@@ -3321,6 +3453,7 @@
   },
   {
     "name": "Talented",
+    "folder": "Talented",
     "git": "https://github.com/bkader/Talented_WoTLK.git",
     "source_type": "direct",
     "branch": "main",
@@ -3346,6 +3479,7 @@
   },
   {
     "name": "TellMeWhen",
+    "folder": "TellMeWhen",
     "git": "https://github.com/bkader/TellMeWhen_3.3.5.git",
     "source_type": "git",
     "branch": "main",
@@ -3371,6 +3505,7 @@
   },
   {
     "name": "Tidy Plates",
+    "folder": "Tidy Plates",
     "git": "https://github.com/bkader/TidyPlates_WoTLK.git",
     "source_type": "git",
     "branch": "main",
@@ -3396,6 +3531,7 @@
   },
   {
     "name": "TipTac",
+    "folder": "TipTac",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3422,6 +3558,7 @@
   },
   {
     "name": "TradeSkillMaster v2.8.3",
+    "folder": "TradeSkillMaster v2.8.3",
     "git": "https://github.com/andrew6180/TradeSkillMaster.git",
     "source_type": "git",
     "branch": "master",
@@ -3447,6 +3584,7 @@
   },
   {
     "name": "TrufiGCD",
+    "folder": "TrufiGCD",
     "git": "https://github.com/BannZay/TrufiGCD.git",
     "source_type": "direct",
     "branch": "main",
@@ -3472,6 +3610,7 @@
   },
   {
     "name": "TurnIn",
+    "folder": "TurnIn",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3497,6 +3636,7 @@
   },
   {
     "name": "Unified Profile Manager",
+    "folder": "Unified Profile Manager",
     "git": "https://github.com/NoM0Re/UnifiedProfileManager-WotLK.git",
     "source_type": "git",
     "branch": "master",
@@ -3522,6 +3662,7 @@
   },
   {
     "name": "Vd-skip",
+    "folder": "Vd-skip",
     "git": "https://github.com/Stradios/Vd-skip.git",
     "source_type": "git",
     "branch": "main",
@@ -3547,6 +3688,7 @@
   },
   {
     "name": "VuhDo",
+    "folder": "VuhDo",
     "git": "https://github.com/NoM0Re/WoW-3.3.5a-Addons.git",
     "source_type": "direct",
     "branch": "main",
@@ -3572,6 +3714,7 @@
   },
   {
     "name": "WeakAuras",
+    "folder": "WeakAuras",
     "git": "https://github.com/NoM0Re/WeakAuras-WotLK.git",
     "source_type": "git",
     "branch": "master",
@@ -3605,6 +3748,7 @@
   },
   {
     "name": "WIM",
+    "folder": "WIM",
     "git": "https://github.com/Legacy-of-Sylvanaar/wow-instant-messenger.git",
     "source_type": "git",
     "description": "WIM (WoW Instant Messenger) is a World of Warcraft addon which brings an instant messenger feel to communication in game.",
@@ -3629,6 +3773,7 @@
   },
   {
     "name": "xCT+",
+    "folder": "xCT+",
     "git": "https://github.com/hypopheria2k/xCT_Plus_wotlk.git",
     "source_type": "git",
     "branch": "master",
@@ -3654,6 +3799,7 @@
   },
   {
     "name": "Zygor Guides",
+    "folder": "Zygor Guides",
     "git": "https://github.com/ErebusAres/ZygorGuidesRemaster-3.3.5a_WOTLK.git",
     "source_type": "git",
     "branch": "main",
