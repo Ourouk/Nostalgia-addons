@@ -1201,10 +1201,6 @@
   {
     "name": "DragonUI",
     "folder": "DragonUI",
-    "folders": [
-      "DragonUI",
-      "DragonUI_Options"
-    ],
     "git": "https://github.com/NeticSoul/DragonUI.git",
     "source_type": "git",
     "branch": "main",

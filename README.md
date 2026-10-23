@@ -48,7 +48,7 @@ Paste in launcher via `addons_registry_url` / `mods_registry_url` or fetch direc
 ## Format
 
 Each file is a JSON array of objects with at least `id` (+ `name` for display):
-- addons: `id` (unique identity / selection key), `folder` (primary install slot), `folders[]` (optional ordered folder list, defaults to `[folder]` — entries sharing the full set are mutually exclusive variants), `name` (display label), `git`, `branch`, `description`, plus optional `toc`, `depends`, `wotlk_*` fields
+- addons: `id` (unique identity / selection key), `folder` (install slot — entries sharing a `folder` are mutually exclusive variants), `name` (display label), `git`, `branch`, `description`, plus optional `toc`, `depends`, `wotlk_*` fields
 - mods: `id`, `type`, `installation`, `name`, `description`, `source`, `installed_files`, etc.
 
 Edit JSON → commit → raw URL updates immediately.
@@ -73,15 +73,6 @@ in new entries.
 
 ## Scripts
 
-- `scripts/gather_addons.sh` — clone-or-update every unique catalog repo
-  into `context/addons/` (sparse + shallow, per-repo timeouts, idempotent).
-- `scripts/scan_addons_layout.sh` — classify top-level `.toc` layouts of the
-  gathered clones (`multi`/`single`/`none`), write `context/toc-layout.json`.
-  Disk only, no network.
-- `scripts/check_addons_layout.py` — audit the report against the catalogs
-  (`folder` on disk, `folders[]` completeness, `addon:` deps). Exit 0/1/2
-  like `check_urls.py`. Run all three in order:
-  `bash scripts/gather_addons.sh && bash scripts/scan_addons_layout.sh && python3 scripts/check_addons_layout.py`
 - `scripts/check_urls.py` — dead-link checker for all catalog URLs.
   Stdlib only, no install needed:
 

@@ -37,10 +37,7 @@ trailing newline. Never wrap entries in an object key.
   identity key for both.
 - Duplicate addon `folder` is allowed and declares a variant group:
   same install slot, mutually exclusive, install = replace with user
-  confirm. Variant groups are keyed by the **full folder set**
-  (`folders`, falling back to `[folder]`): same set + different `git`
-  = variants; different sets = independent entries even with overlapping
-  folders. Duplicate `name` (display label) is allowed with no
+  confirm. Duplicate `name` (display label) is allowed with no
   constraint.
 - Keep arrays sorted by `id`, case-insensitive, so diffs stay
   reviewable.
@@ -50,8 +47,7 @@ trailing newline. Never wrap entries in an object key.
 | Key | Required | Notes |
 |---|---|---|
 | `id` | yes | Stable unique slug. Selection key and `depends: addon:<id>` target. Never rename (breaks referrers); rename `name`/`folder` instead. |
-| `folder` | yes | **Primary in-game folder name** (`Interface/AddOns/<folder>`), including `!` prefixes (e.g. `!LuaBoost`). When `folders` is present, `folder` MUST equal `folders[0]` (backward-compat for readers that only know `folder`). |
-| `folders` | no | Ordered list of in-game folders installed by this entry. Defaults to [`folder`] when absent. The installer clones `git` once, then verifies `<f>/<f>.toc` for every `f` in the list. First hit supplies `toc` display metadata; list the primary folder first (the one other folders `Depend` on). Max sane size ~5 — beyond that, split the entry. `toc` block SHOULD match `folders[0]`'s `.toc`. |
+| `folder` | yes | **Exact in-game folder name** (`Interface/AddOns/<folder>`), including `!` prefixes (e.g. `!LuaBoost`). The installer looks for `<folder>/<folder>.toc` in the repo archive; a mismatch installs nothing and the row sits in AVAILABLE forever. Entries sharing a `folder` are variants — only one can be installed at a time. Multi-folder repos install every discovered folder. |
 | `name` | no | Human-readable display label for the ADDONS tab. Falls back to `folder` if absent. Differentiate variants here (e.g. "pfQuest" vs "pfQuest (ClassicAPI)"). |
 | `git` | yes | Repo clone URL (allowlisted hosts only, see above). |
 | `branch` | no | Omit to track the repo's default branch; set only when the addon lives off-branch. |
@@ -101,16 +97,11 @@ trailing newline. Never wrap entries in an object key.
    `gh api repos/<owner>/<repo>/releases/latest --jq '[.assets[] | .name]'`,
    and list the archive's top-level names before writing `extract_map`
    — never guess either.
-2. For a variant of an existing addon (same folder set, different source):
-   copy the entry, keep `folder`/`folders` identical, assign a NEW unique
-   `id` (e.g. `<base>-classicapi`), differentiate `name`/`description`
+2. For a variant of an existing addon (same folder, different source):
+   copy the entry, keep `folder` identical, assign a NEW unique `id`
+   (e.g. `<base>-classicapi`), differentiate `name`/`description`
    for the user.
-3. For a multi-folder repo: list the archive's top-level `<name>/<name>.toc`
-   pairs — never guess (`gh api repos/<owner>/<repo>/contents/` or unzip
-   the release asset and look). Write `folders` in load order (primary
-   first — the one other folders `Depend` on), keep `folder` = `folders[0]`
-   and verify each `<f>/<f>.toc` exists at the stated ref before committing.
-4. Insert in `id`-sorted position, run the §5 check, commit, push.
+3. Insert in `id`-sorted position, run the §5 check, commit, push.
 
 ### Remove
 
@@ -153,10 +144,6 @@ def https(v):
 def check_addon(e, i, ids=None):
     assert slug(e.get('id')), f'[{i}] bad id'
     assert slug(e.get('folder')), f'[{i}] bad folder'
-    if (fs := e.get('folders')) is not None:
-        assert isinstance(fs,list) and fs and all(slug(f) for f in fs), f'[{i}] bad folders'
-        assert len(set(f.lower() for f in fs)) == len(fs), f'[{i}] dup folders'
-        assert e.get('folder') == fs[0], f'[{i}] folder != folders[0]'
     n = e.get('name')
     assert n is None or (isinstance(n,str) and n.strip()), f'[{i}] bad name'
     assert https(e.get('git')), f'[{i}] bad git url'
@@ -194,18 +181,12 @@ for path in sys.argv[1:]:
     assert [ (e.get('id') or '').lower() for e in data] == order, f'{path} not sorted'
     if is_addon:
         from collections import Counter
-        sets = Counter(tuple((f or '').lower() for f in (e.get('folders') or [e.get('folder')])) for e in data)
-        for fset, n in sets.items():
+        folders = Counter((e.get('folder') or '').lower() for e in data)
+        for folder, n in folders.items():
             if n > 1:
-                gits = {(e.get('git') or '') for e in data if tuple((f or '').lower() for f in (e.get('folders') or [e.get('folder')])) == fset}
-                if len(gits) < 2: print(f'WARN {path}: folder set {fset} shared by {n} entries with same git (pure duplicate?)')
-                else: print(f'INFO {path}: folder set {fset} shared by {n} entries (variant group)')
-        if len(sets) > 1:
-            seen_f = set()
-            for fset in sets:
-                for other in seen_f:
-                    if set(fset) & set(other) and set(fset) != set(other): print(f'WARN {path}: overlapping folder sets {other} vs {fset} (split or merge?)')
-                seen_f.add(fset)
+                gits = {(e.get('git') or '') for e in data if (e.get('folder') or '').lower() == folder}
+                if len(gits) < 2: print(f'WARN {path}: folder {folder!r} shared by {n} entries with same git (pure duplicate?)')
+                else: print(f'INFO {path}: folder {folder!r} shared by {n} entries (variant group)')
     print(f'OK {path} ({len(data)} entries)')
 "
 ```
@@ -218,9 +199,6 @@ disagree, the launcher wins — check the launcher repo's
 
 ## Gotchas
 
-- For multi-folder verification run `bash scripts/gather_addons.sh`, then
-  `bash scripts/scan_addons_layout.sh`, then `python3 scripts/check_addons_layout.py`
-  (clone → classify → audit; report is gitignored scratch in `context/`).
 - Entry order in-file must be sorted; the website build re-sorts, but
   unsorted input makes review diffs noisy.
 - Release-asset renames upstream break `asset_pattern` matches with a
@@ -228,8 +206,6 @@ disagree, the launcher wins — check the launcher repo's
 - `type: "external-launcher"` is inert until its `executable` exists on
   disk; verify the filename against the actual archive listing.
 - Addon `folder` mismatch = silent no-install (no `<folder>/<folder>.toc`
-  found in the archive). Each entry in `folders` is checked the same way;
-  a missing secondary `.toc` warns (partial install) rather than failing
-  the row — warn-vs-fail at install time is the launcher's call.
+  found in the archive).
 - `wotlk_mods.json` is new: the website publisher (`conciliate.py` in
   the launcher repo) does not emit a `repo-wotlk-mods.json` for it yet.
