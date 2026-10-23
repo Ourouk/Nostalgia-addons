@@ -2428,6 +2428,27 @@
     }
   },
   {
+    "name": "pfQuest-epoch",
+    "git": "https://github.com/Bennylavaa/pfQuest-epoch.git",
+    "source_type": "git",
+    "branch": "main",
+    "description": "A Project Epoch DB extension for pfQuest",
+    "id": "pfquest-epoch",
+    "owner": "Bennylavaa",
+    "wotlk_primary_download": "https://github.com/Bennylavaa/pfQuest-epoch/archive/refs/heads/main.zip",
+    "wotlk_sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Bennylavaa/pfQuest-epoch"
+      }
+    ],
+    "toc": {
+      "Interface": "30300",
+      "Title": "|cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB]",
+      "Notes": "A Project Epoch DB extension for pfQuest"
+    }
+  },
+  {
     "name": "pfQuest-Reforged",
     "git": "https://github.com/stevemcqueenz/pfQuest-Reforged.git",
     "source_type": "git",
